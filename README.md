@@ -95,15 +95,15 @@ Foram usadas na construção do projeto as seguintes ferramentas, linguagens, bi
 
 ## :busts_in_silhouette: Equipe
 
-|     Função    |           Nome            |                            LinkedIn                            |                      GitHub                       |
-| :-----------: | :-----------------------: | :------------------------------------------------------------: | :-----------------------------------------------: |
-| Scrum Master  | Bruno Serpa P. Carvalho   | [LinkedIn](https://www.linkedin.com/in/brunoserpa/)            | [GitHub](https://github.com/BrunoSerpa)           |
-| Product Owner | Caique Péricles Silva     | [LinkedIn](https://www.linkedin.com/in/caiquepastelsilva)      | [GitHub](https://github.com/PasteldePaodeCoxinha) |
-| Dev Team      | Diego José da Conceição   | [LinkedIn](https://www.linkedin.com/in/diegando)               | [GitHub](https://github.com/diegojose94)          |
-| Dev Team      | João Gabriel Alves Silva  | [LinkedIn](https://www.linkedin.com/in/joaogabriel21)          | [GitHub](https://github.com/LuckySky2)            |
-| Dev Team      | Gabriel Lucena do Rosário | [LinkedIn](https://www.linkedin.com/in/lucena-gabriel)         | [GitHub](https://github.com/tGrimR34per)          |
-| Dev Team      | Nathalia Ellen Domingos   | [LinkedIn](https://www.linkedin.com/in/nathalia-domingos15)    | [GitHub](https://github.com/nathalia-domingos)    |
-| Dev Team      | Pedro Augusto N. Silva    | [LinkedIn](https://www.linkedin.com/in/pedroaugustonogueira)   | [GitHub](https://github.com/pedroansdev)          |
-| Dev Team      | Rafael Nunes de F. Silva  | [LinkedIn](https://www.linkedin.com/in/rafael-silva-467b3223a) | [GitHub](https://github.com/Rafael-Nunes-Silva)   |
+|  Foto  |     Função    |           Nome            |                            LinkedIn                            |                      GitHub                       |
+| :----: | :-----------: | :-----------------------: | :------------------------------------------------------------: | :-----------------------------------------------: |
+| <img src="https://avatars.githubusercontent.com/u/79608249?v=4" width="50px" style="border-radius:15px"> | Scrum Master  | Bruno Serpa P. Carvalho   | [LinkedIn](https://www.linkedin.com/in/brunoserpa/)            | [GitHub](https://github.com/BrunoSerpa)           |
+| <img src="https://avatars.githubusercontent.com/u/110677265?v=4" width="50px" style="border-radius:15px"> | Product Owner | Caique Péricles Silva     | [LinkedIn](https://www.linkedin.com/in/caiquepastelsilva)      | [GitHub](https://github.com/PasteldePaodeCoxinha) |
+| <img src="https://media.licdn.com/dms/image/C4D03AQGTd4W294Wf3g/profile-displayphoto-shrink_800_800/0/1661381335596?e=2147483647&v=beta&t=xcDaKz9mTYTgF-IgoNCEqbVd5C0mSHiEukTr1cr38ow" width="50px" style="border-radius:15px"> | Dev Team      | Diego José da Conceição   | [LinkedIn](https://www.linkedin.com/in/diegando)               | [GitHub](https://github.com/diegojose94)          |
+| <img src="https://avatars.githubusercontent.com/u/63701256?v=4" width="50px" style="border-radius:15px"> | Dev Team      | João Gabriel Alves Silva  | [LinkedIn](https://www.linkedin.com/in/joaogabriel21)          | [GitHub](https://github.com/LuckySky2)            |
+| <img src="https://avatars.githubusercontent.com/u/112097074?v=4" width="50px" style="border-radius:15px"> | Dev Team      | Gabriel Lucena do Rosário | [LinkedIn](https://www.linkedin.com/in/lucena-gabriel)         | [GitHub](https://github.com/tGrimR34per)          |
+| <img src="https://media.licdn.com/dms/image/C4E03AQG3vHYhNcpzIA/profile-displayphoto-shrink_800_800/0/1646336622562?e=2147483647&v=beta&t=405OpQsC16famcsLgG-XXL-W2CGE0h1j8RiVXw3ghzY" width="50px" style="border-radius:15px"> | Dev Team      | Nathalia Ellen Domingos   | [LinkedIn](https://www.linkedin.com/in/nathalia-domingos15)    | [GitHub](https://github.com/nathalia-domingos)    |
+| <img src="https://avatars.githubusercontent.com/u/126725401?v=4" width="50px" style="border-radius:15px"> | Dev Team      | Pedro Augusto N. Silva    | [LinkedIn](https://www.linkedin.com/in/pedroaugustonogueira)   | [GitHub](https://github.com/pedroansdev)          |
+| <img src="https://media.licdn.com/dms/image/D4D03AQFHR5QJD02GyA/profile-displayphoto-shrink_800_800/0/1675281996401?e=2147483647&v=beta&t=9KkSPiPVJsIyuIK5apuHYkGhIQ5oQqk1QBHeGDhoqXI" width="50px" style="border-radius:15px"> | Dev Team      | Rafael Nunes de F. Silva  | [LinkedIn](https://www.linkedin.com/in/rafael-silva-467b3223a) | [GitHub](https://github.com/Rafael-Nunes-Silva)   |
 
 → [Voltar ao topo](#topo)
