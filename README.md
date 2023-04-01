@@ -5,7 +5,8 @@
 <p style="text-align: center">
     <a href="#sobre">Sobre</a> |
     <a href="#sprints">Sprints</a> |
-    <a href="#tecnologias">Tecnologias</a> | 
+    <a href="#tecnologias">Tecnologias</a> |
+    <a href="#backLog">BackLog</a> | 
     <a href="#equipe">Equipe</a>
 </p>
 
@@ -30,6 +31,8 @@ Conforme a demanda do 1º API (Aprendizagem por Projetos Integrados) (Abordando 
 | Sprint 3                                           | 14/05/2023 | Pendente     |
 | Sprint 4                                           | 04/06/2023 | Pendente     |
 
+→ [Voltar ao topo](#topo)
+
 <span id="tecnologias">
 
 ## 🛠️ Tecnologias
@@ -39,6 +42,15 @@ Foram usadas na construção do projeto as seguintes ferramentas, linguagens, bi
 - [Figma](http://www.figma.com): Prototipagem
 - [GitHub](https://github.com/): Versionamento e documentação
 - [Jira](https://www.atlassian.com/software/jira): Organização de tarefas
+
+→ [Voltar ao topo](#topo)
+
+<span id="backLog">
+
+# :scroll:Backlog
+* [Backlog](/doc/sprints/BacklogCompleto.md) do projeto.
+* [Backlog](/doc/sprints/sprint1/Backlog_sprint1.md) da 1ª Sprint.
+
 
 → [Voltar ao topo](#topo)
 
