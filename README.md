@@ -24,14 +24,12 @@ Conforme a demanda do 1º API (Aprendizagem por Projetos Integrados) (Abordando 
 
 ## :hourglass_flowing_sand:	Entregas de Sprints
 
-| Sprint |    Tag   | Lançamento |    Status    |
-|:------:|:--------:|:----------:|:------------:|
-|   01   | Sprint 1 | 02/04/2023 | Em andamento |
-|   02   | Sprint 2 | 23/04/2023 | Pendente     |
-|   03   | Sprint 3 | 14/05/2023 | Pendente     |
-|   04   | Sprint 4 | 04/06/2023 | Pendente     |
-
-→ [Voltar ao topo](#topo)
+|                         Tag                        |   Entrega  |    Status    |
+|:--------------------------------------------------:|:----------:|:------------:|
+| [Sprint 1](/doc/sprints/sprint1/README_sprint1.md) | 02/04/2023 | Concluído    |
+| Sprint 2                                           | 23/04/2023 | Pendente     |
+| Sprint 3                                           | 14/05/2023 | Pendente     |
+| Sprint 4                                           | 04/06/2023 | Pendente     |
 
 <span id="user-stories">
 
