@@ -12,10 +12,10 @@
 
 <span id="sobre">
 
-## :bulb: Sobre o Projeto
-Conforme a demanda do 1º projeto integrado (Abordando as disciplinas: "Design Digital", "Desenvolvimento Web I" e "Engenharia de Software"), foi realizado um software que analisa dados do <a>Datasus</a>, com o objetivo de comprovar se existe ou não COVID longa.
-
-> _Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividade, Autonomia, Colaboração e Entrega de Resultados dos envolvidos_ <br><br>
+# :bulb: Sobre o Projeto
+    
+Conforme a demanda do 1º API (Aprendizagem por Projetos Integrados) (Abordando as disciplinas: "Design Digital", "Desenvolvimento Web I" e "Engenharia de Software"), foi realizado um aplicação web que demonstra dados do <a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/r"> TABNET (DATASUS)</a>, com o objetivo de comprovar se existe ou não COVID longa.
+> _API se trata de um projeto  submetido a metodologia de ensino em implantação na Fatec São José dos Campos, desde o Segundo Semestre de 2019, do qual os alunos formam equipes baseadas na metodologia SCRUM, tendo um aluno como master, Product Owner e os integrates restantes dev team._ <br><br>
 > **Status do Projeto: Em andamento :warning:** 
 
 → [Voltar ao topo](#topo)
