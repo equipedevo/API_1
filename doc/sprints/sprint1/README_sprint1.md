@@ -5,19 +5,16 @@
 [Ir para a tela de início](./../../../README.md)
 
 ## :mag_right: Índice
-<h4 aling="center">
 
 * [Descrição](#descrição)
-* [MVP](#🚩-minimum-viable-product-mvp)
+* [MVP](#MVP)
 * [Backlog](#backlog)
 * Wiframe: [Vídeo](#vídeo) | [Telas](#telas-wireframe)
-
-</h4>
 
 # Descrição
 Nesta primeira entrega foi priorizado o levantamento de requisitos (backlog), o protótipo (Wireframe) e o planejamento do projeto.
 
-
+<span id="MVP"></span>
 # :triangular_flag_on_post: Minimum Viable Product (MVP)
 
 * Protótipo
