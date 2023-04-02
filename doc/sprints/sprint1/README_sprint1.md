@@ -31,20 +31,10 @@ Nesta primeira entrega foi priorizado o levantamento de requisitos (backlog), o 
 Prótotipo do projeto.
 
 ![Protótipo_navegável](./../../prototipo/Prot%C3%B3tipo.gif)
-
-Tela Inicio:
 ![Tela_Ajuda](./../../prototipo/TelaIn%C3%ADcio.png)
-
-Tela Sobre:
 ![Tela_Sobre](./../../prototipo/TelaSobre.png)
-
-Tela Fontes:
 ![Tela_Fontes](./../../prototipo/TelaFontes.png)
-
-Tela Ajuda:
 ![Tela_Ajuda](./../../prototipo/TelaAjuda.png)
-
-Tela Consulta:
 ![Tela_Consulta](./../../prototipo/TelaConsulta.png)
 
 → [Voltar ao topo](#topo)
