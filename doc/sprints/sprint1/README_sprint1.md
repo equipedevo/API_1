@@ -2,7 +2,7 @@
 
 # 1ª Sprint
 
-[Ir para a tela de início](./../../../README.md)
+## [Ir para a tela de início](./../../../README.md)
 
 ## :mag_right: Índice
 
@@ -39,4 +39,4 @@ Prótotipo do projeto.
 
 → [Voltar ao topo](#topo)
 
-[Ir para a tela de início](./../../../README.md)
+## [Ir para a tela de início](./../../../README.md)
