@@ -37,7 +37,7 @@ Conforme a demanda do 1º API (Aprendizagem por Projetos Integrados) (Abordando 
 
 ## 🛠️ Tecnologias
 
-Foram usadas na construção do projeto as seguintes ferramentas, linguagens, bibliotecas e tecnologias:
+Foram usadas na construção do projeto as seguintes ferramentas:
 
 - [Figma](http://www.figma.com): Prototipagem
 - [GitHub](https://github.com/): Versionamento e documentação
@@ -48,8 +48,9 @@ Foram usadas na construção do projeto as seguintes ferramentas, linguagens, bi
 <span id="backLog">
 
 # :scroll:Backlog
-* [Backlog](/doc/sprints/BacklogCompleto.md) do projeto.
-* [Backlog](/doc/sprints/sprint1/Backlog_sprint1.md) da 1ª Sprint.
+[Backlog do projeto.](/doc/sprints/BacklogCompleto.md) 
+
+[Backlog da 1ª Sprint.](/doc/sprints/sprint1/Backlog_sprint1.md)
 
 
 → [Voltar ao topo](#topo)
