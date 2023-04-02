@@ -28,14 +28,14 @@ Nesta primeira entrega foi priorizado o levantamento de requisitos (backlog), o 
 
 # Wireframe
 
-Prótotipo do projeto.
-
-![Protótipo_navegável](./../../prototipo/Prot%C3%B3tipo.gif)
+Prótotipo do projeto:
 ![Tela_Ajuda](./../../prototipo/TelaIn%C3%ADcio.png)
 ![Tela_Sobre](./../../prototipo/TelaSobre.png)
 ![Tela_Fontes](./../../prototipo/TelaFontes.png)
 ![Tela_Ajuda](./../../prototipo/TelaAjuda.png)
 ![Tela_Consulta](./../../prototipo/TelaConsulta.png)
+Vídeo do protótipo:
+![Protótipo_navegável](./../../prototipo/Prot%C3%B3tipo.gif)
 
 → [Voltar ao topo](#topo)
 
