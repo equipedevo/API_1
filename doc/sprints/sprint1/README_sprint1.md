@@ -9,7 +9,7 @@
 * [Descrição](#descrição)
 * [MVP](#MVP)
 * [Backlog](#backlog)
-* Wiframe: [Vídeo](#vídeo) | [Telas](#telas-wireframe)
+* [Wireframe](#wireframe)
 
 # Descrição
 Nesta primeira entrega foi priorizado o levantamento de requisitos (backlog), o protótipo (Wireframe) e o planejamento do projeto.
@@ -17,10 +17,8 @@ Nesta primeira entrega foi priorizado o levantamento de requisitos (backlog), o 
 <span id="MVP"></span>
 # :triangular_flag_on_post: Minimum Viable Product (MVP)
 
-* Protótipo
-* Backlog
+* [Protótipo](#wireframe)
 
-→ [Voltar ao topo](#topo)
 
 # Backlog
 
@@ -32,13 +30,8 @@ Nesta primeira entrega foi priorizado o levantamento de requisitos (backlog), o 
 
 Prótotipo do projeto.
 
-## Vídeo
-
 ![Protótipo_navegável](./../../prototipo/Prot%C3%B3tipo.gif)
 
-→ [Voltar ao topo](#topo)
-
-## Telas Wireframe
 Tela Inicio:
 ![Tela_Ajuda](./../../prototipo/TelaIn%C3%ADcio.png)
 
