@@ -12,13 +12,13 @@
 * [Wireframe](#wireframe)
 
 # Descrição
-Nesta primeira entrega foi priorizado o levantamento de requisitos (backlog), o protótipo (Wireframe) e o planejamento do projeto.
+Nesta primeira entrega foi definido pelo cliente a priorização do levantamento de requisitos (backlog), o protótipo (Wireframe) e o planejamento do projeto.
 
 <span id="MVP"></span>
 # :triangular_flag_on_post: Minimum Viable Product (MVP)
 
 * [Protótipo](#wireframe)
-
+Um protótipo navegável que mostre as posições de cada botão para a navegação entre páginas, mostre onde ficarão os filtros de ano, cidade, tipo e subtipo e onde se localizará os gráficos.
 
 # Backlog
 
