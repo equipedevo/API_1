@@ -30,13 +30,19 @@ Um protótipo navegável que mostre as posições de cada botão para a navegaç
 # Wireframe
 
 Prótotipo do projeto:
-![Tela_Ajuda](./../../prototipo/TelaIn%C3%ADcio.png)
-![Tela_Sobre](./../../prototipo/TelaSobre.png)
-![Tela_Fontes](./../../prototipo/TelaFontes.png)
-![Tela_Ajuda](./../../prototipo/TelaAjuda.png)
-![Tela_Consulta](./../../prototipo/TelaConsulta.png)
-Vídeo do protótipo:
-![Protótipo_navegável](./../../prototipo/Prot%C3%B3tipo.gif)
+<details>
+  <summary><b><u>Imagens</u></b></summary>
+  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaIn%C3%ADcio.png?raw=true">
+  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaSobre.png?raw=true">
+  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaFontes.png?raw=true">
+  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaAjuda.png?raw=true">
+  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaConsulta.png?raw=true">
+</details>
+
+<details>
+  <summary><b><u>Vídeo</u></b></summary>
+  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/Prot%C3%B3tipo.gif?raw=true">
+</details>
 
 → [Voltar ao topo](#topo)
 
