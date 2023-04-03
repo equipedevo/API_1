@@ -28,6 +28,8 @@ Conforme a demanda do 1º API (Aprendizagem por Projetos Integrados) (Abordando 
 Para jornalistas que querem ver os efeitos das sequelas da COVID-19,
 jornalista este que tem dificuldade em achar informações sobre a COVID longa. O CICOVALE (Central Informativa de COVID longa do Vale do Paraíba), é um site que possibilita ver os dados sobre o impacto da COVID longa a partir de fontes públicas do Sistema Único de Saúde. Diferentemente de outras pesquisas relacionadas, o nosso produto possibilita a facilidade e interatividade da visão sobre os dados da COVID longa.
 
+→ [Voltar ao topo](#topo)
+
 <span id="sprints">
 
 ## :hourglass_flowing_sand:	Entregas de Sprints
