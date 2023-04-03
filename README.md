@@ -37,9 +37,12 @@ jornalista este que tem dificuldade em achar informações sobre a COVID longa. 
 |                         Tag                        |   Entrega  |    Status    |
 |:--------------------------------------------------:|:----------:|:------------:|
 | [Sprint 1](/doc/sprints/sprint1/README_sprint1.md) | 02/04/2023 | Concluído    |
-| Sprint 2                                           | 23/04/2023 | Pendente     |
+| Sprint 2                                           | 23/04/2023 | Em andamento |
 | Sprint 3                                           | 14/05/2023 | Pendente     |
 | Sprint 4                                           | 04/06/2023 | Pendente     |
+
+>Após clicar nos links da área Tag você será redirecionado a página da sprint referente. <br/>
+>Sprint 1: Descrição, MVP, Backlog e Wireframe
 
 → [Voltar ao topo](#topo)
 
