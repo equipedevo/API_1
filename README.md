@@ -4,8 +4,8 @@
 ## :mag_right: Índice
 <p style="text-align: center">
     <a href="#sobre">Sobre</a> |
-    <a href="#sprints">Sprints</a> |
     <a href="#visão_do_produto">Visão do Produto</a>|
+    <a href="#sprints">Sprints</a> |
     <a href="#tecnologias">Tecnologias</a> |
     <a href="#backLog">BackLog</a> | 
     <a href="#equipe">Equipe</a>
