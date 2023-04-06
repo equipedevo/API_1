@@ -11,7 +11,7 @@
 /* Barra de navegação */
 
 header, .navbar{
-    background-color:rgb(214, 214, 214);
+    background-color: #d6d6d6;
     padding: 0px 10px;
 }
 
@@ -49,4 +49,21 @@ header, .navbar{
 p, li{
     color: #000;
     font-size: 14px;
+}
+
+/* Main */
+
+main{
+    min-height: 100vh;
+}
+
+/* Footer */
+
+footer #copy-area .container-fluid{
+    background-color: #d6d6d6;
+    padding: 10px 0px;
+}
+
+footer p{
+    text-align:center;
 }
