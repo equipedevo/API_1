@@ -1,1 +1,52 @@
+/* Classes do proprio bootstrap */
 
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0px;
+}
+
+/* Barra de navegação */
+
+header, .navbar{
+    background-color:rgb(214, 214, 214);
+    padding: 0px 10px;
+}
+
+#nav-container{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#logo{
+    width: 80px;
+}
+
+.navbar-brand{
+    padding: 0px;
+    color: #000;
+    font-size: 14px;
+}
+
+#navbar-links a{
+    text-align: center;
+    color: #000;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: .5rem .8rem;
+}
+
+.navbar-nav #consultar-menu{
+    background-color:#0000ff;
+    border-radius: 20%;
+}
+
+/* Tags básicas */
+
+p, li{
+    color: #000;
+    font-size: 14px;
+}
