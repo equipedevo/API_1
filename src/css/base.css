@@ -35,6 +35,10 @@ header, .navbar{
     color: #000;
 }
 
+#navbar-links a:hover{
+    color: #fff;
+}
+
 .navbar-expand-lg .navbar-nav .nav-link{
     padding: .5rem .8rem;
 }
@@ -66,4 +70,12 @@ footer #copy-area .container-fluid{
 
 footer p{
     text-align:center;
+}
+
+footer a{
+    color: #000;
+}
+
+footer a:hover{
+    color: #0000ff;
 }
