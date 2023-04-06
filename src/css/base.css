@@ -46,6 +46,10 @@ header, .navbar{
 
 /* Tags básicas */
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 p, li{
     color: #000;
     font-size: 14px;
