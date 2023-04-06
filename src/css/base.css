@@ -11,7 +11,7 @@
 /* Barra de navegação */
 
 header, .navbar{
-    background-color: #d6d6d6;
+    background-color: #fff;
     padding: 0px 10px;
 }
 
@@ -33,10 +33,6 @@ header, .navbar{
 #navbar-links a{
     text-align: center;
     color: #000;
-}
-
-#navbar-links a:hover{
-    color: #fff;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link{
