@@ -63,7 +63,7 @@ main{
 
 /* Footer */
 
-footer #copy-area .container-fluid{
+footer #copy-area .container-fluid, footer #info-area .container-fluid{
     background-color: #d6d6d6;
     padding: 10px 0px;
 }
@@ -73,7 +73,13 @@ footer p{
 }
 
 footer a{
+    text-align: center;
+    padding: 0rem 2rem;
     color: #000;
+}
+
+footer #copy-link{
+    padding: 0rem .3rem;
 }
 
 footer a:hover{
