@@ -37,3 +37,11 @@ OUTROS
 Febre
 Alergias
 Vertigem
+
+FONTES:
+
+ - Artigo científico com referências da NatureMedicine:
+    https://www.nature.com/articles/s41591-022-01909-w
+
+- Artigo simples no blog da NeuroLife:
+    https://neurolife.com.br/saiba-como-identificar-e-diferenciar-sintomas-respiratorios/
