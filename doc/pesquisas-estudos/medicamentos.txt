@@ -1,3 +1,20 @@
 Uma lista de medicamentos para poder posteriormente procurar dados de acordo com eles
 
 Basicamente vou utilizar este arquivo para estruturar tudo que vou pesquisar depois mais concretamente
+
+Relacionados à saúde mental:
+Fluoxetina
+Zolpidem
+Donaren
+
+Infecções:
+Ivermectina
+
+Anti-Inflamatório/Anti-Alérgico:
+Dexametasona
+
+Antibiótico:
+Azitromicina
+
+Outros:
+Cloroquina/Hidroxicloroquina
