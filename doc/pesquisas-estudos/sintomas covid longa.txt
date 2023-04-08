@@ -1,17 +1,39 @@
-Sintomas da COVID longa de acordo com NatureMedicine separados por grupos de 3
+Sintomas da COVID longa de acordo com NatureMedicine e Neurolife separados por grupos de 3
 
-Basicamente analisei uma lista com mais de 100 sintomas relacionados à covid longa e peguei 3 sintomas de cada grupo que eu achei mais importante ou coerente de acordo com a pesquisa a ser realizada
+Basicamente analisei uma lista com mais de 100 sintomas relacionados à covid longa e peguei entre 3 e 4 sintomas de cada grupo que eu achei mais importante ou coerente de acordo com a pesquisa a ser realizada
 
 RESPIRAÇÃO
+Falta de ar em repouso
+Chiado
+Falta de ar em exercício
 
 DORES
+Dor torácica pleurítica
+Dor no peito
+Dores musculares
 
 CIRCULAÇÃO
+Palpitações
+Taquicardia
+Inchaço
 
 SAÚDE MENTAL
+Ansiedade
+Depressão
 
 OUVIDOS, NARIZ E GARGANTA
+Anosmia
+Tosse
+Congestão nasal
+Dores de ouvido
 
 ESTÔMAGO E DIGESTÃO
+Náusea
+Diarréia
+Constipação
+Gastrite
 
 OUTROS
+Febre
+Alergias
+Vertigem
