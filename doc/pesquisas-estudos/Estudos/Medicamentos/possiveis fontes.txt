@@ -23,3 +23,11 @@ Aplicação, fonte, modalidade todos; fornecedor nulo
 -https://transparencia.cacapava.sp.gov.br/TDAPortalClient.aspx?417
 
 --------------------------------------------------------------
+
+Ferramenta de transparencia da prefeitura de jacareí
+Referente a detalhamento de despesas
+
+*Quando fui pesquisar, ele ficava carregando e não carregava nunca, não sei o que tem aqui exatamente, tentar entrar novamente depois
+-https://siap.jacarei.sp.gov.br/portal-transparencia/execucao/detalhamento-despesas
+
+--------------------------------------------------------------
