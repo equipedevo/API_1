@@ -1,47 +1,27 @@
-Sintomas da COVID longa de acordo com NatureMedicine e Neurolife separados por grupos de 3
+Sintomas da COVID longa de acordo com o ministério da saúde
 
-Basicamente analisei uma lista com mais de 100 sintomas relacionados à covid longa e peguei entre 3 e 4 sintomas de cada grupo que eu achei mais importante, coerente ou pertinente de acordo com a pesquisa a ser realizada
+Basicamente peguei a lista dos sintomas relacionados à covid longa de acordo com o site do ministério da saúde
 
-RESPIRAÇÃO
-Falta de ar em repouso
-Chiado
-Falta de ar em exercício
-
-DORES
-Dor torácica pleurítica
-Dor no peito
-Dores musculares
-
-CIRCULAÇÃO
-Palpitações
-Taquicardia
-Inchaço
-
-SAÚDE MENTAL
-Ansiedade
-Depressão
-
-OUVIDOS, NARIZ E GARGANTA
-Anosmia
-Tosse
-Congestão nasal
-Dores de ouvido
-
-ESTÔMAGO E DIGESTÃO
-Náusea
-Diarréia
-Constipação
-Gastrite
-
-OUTROS
-Febre
-Alergias
-Vertigem
+– Cansaço e fadiga que interferem no dia a dia, especialmente após esforço físico ou mental;
+– Falta de ar ou dificuldade para respirar;
+– Tosse persistente;
+– Dor no peito;
+– Palpitações no coração;
+– Problemas de memória e concentração (chamados de “névoa mental”);
+– Dificuldades na fala;
+– Perda de olfato ou paladar;
+– Problemas do sono;
+– Dor de cabeça;
+– Tontura ao se levantar;
+– Sensação de formigamento;
+– Depressão e ansiedade;
+– Dor muscular;
+– Febre;
+– Diarreia;
+– Dor no estômago;
+– Mudanças no ciclo menstrual.
 
 FONTES:
 
- - Artigo científico com referências da NatureMedicine:
-    https://www.nature.com/articles/s41591-022-01909-w
-
-- Artigo simples no blog da NeuroLife:
-    https://neurolife.com.br/saiba-como-identificar-e-diferenciar-sintomas-respiratorios/
+ - Site do ministério da saúde:
+    https://bvsms.saude.gov.br/o-que-vem-depois-respostas-e-lacunas-sobre-a-covid-longa-que-afeta-ate-20-dos-que-foram-infectados-pelo-coronavirus/
