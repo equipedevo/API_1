@@ -1,3 +1,25 @@
 Ferramenta de transparencia da prefeitura de sjc
 Referente a despesas relacionadas ao covid:
 -https://servicos.sjc.sp.gov.br/transparencia2/despesasCovid
+
+--------------------------------------------------------------
+
+Ferramenta de transparencia da prefeitura de sjc
+Referente a despesas por função
+Filtrando por: Secretaria de saúde, Natureza da despesa de código 339032:
+-https://servicos.sjc.sp.gov.br/portal_da_transparencia/despesa_funcao.aspx
+
+--------------------------------------------------------------
+
+Ferramenta de transparencia da prefeitura de caçapava
+Referente a aplicação de dinheiro publico (Depesas no site)
+Filtros testados:
+01/01/2019 - 31/12/2022
+Filtrar por data de processamento, órgão secretaria municipal da saúde
+Programa de assistencia farmaceutica de ações aquisição e distribuição de medicamentos
+Aplicação, fonte, modalidade todos; fornecedor nulo
+
+*Todos estes filtros foram utilizados simultaneamente, testar mais filtros.
+-https://transparencia.cacapava.sp.gov.br/TDAPortalClient.aspx?417
+
+--------------------------------------------------------------
