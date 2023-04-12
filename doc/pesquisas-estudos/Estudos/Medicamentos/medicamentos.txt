@@ -2,12 +2,12 @@ Uma lista de medicamentos para poder posteriormente procurar dados de acordo com
 
 Basicamente vou utilizar este arquivo para estruturar tudo que vou pesquisar depois mais concretamente
 
-Relacionados à saúde mental:
-Fluoxetina
-Zolpidem
-Donaren
+Anti-coagulação:
+Clexane
+Aspirina
+Xarelto
 
-FONTES:
+Pulmonar:
+Clenil - A e variações (bombinha)
 
- - Artigo simples no blog da ICTQ(Instituto de Ciencia, Tecnologia e Qualidade):
-    https://ictq.com.br/varejo-farmaceutico/2419-medicamentos-mais-buscados-durante-a-pandemia
+Paxlovid
