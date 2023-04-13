@@ -36,7 +36,7 @@ jornalista este que tem dificuldade em achar informações sobre a COVID longa. 
 
 |                         Tag                        |   Entrega  |    Status    |
 |:--------------------------------------------------:|:----------:|:------------:|
-| [Sprint 1](/doc/sprints/sprint1/README_sprint1.md) | 02/04/2023 | Concluído    |
+| [Sprint 1](https://github.com/equipedevo/API_1/releases/tag/V1) | 02/04/2023 | Concluído    |
 | Sprint 2                                           | 23/04/2023 | Em andamento |
 | Sprint 3                                           | 14/05/2023 | Pendente     |
 | Sprint 4                                           | 04/06/2023 | Pendente     |
