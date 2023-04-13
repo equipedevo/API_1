@@ -1,0 +1,3 @@
+Lista de links usados para as pesquisas contidas nesta pasta:
+
+1: http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/nisp.def
