@@ -31,3 +31,14 @@ Referente a detalhamento de despesas
 -https://siap.jacarei.sp.gov.br/portal-transparencia/execucao/detalhamento-despesas
 
 --------------------------------------------------------------
+
+DataSus
+Referente a informações sobre tratamentos de Tuberculose
+
+*Filtrado por:
+Linha: Municipio de notificação
+Coluna: Ano Diagnóstico
+Conteúdo: Casos confirmados
+Períodos: 2019 - 2022
+Seleções: Municipios de notificação - SJC, JACAREI E CAÇAPAVA
+-http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sinannet/cnv/tubercsp.def
