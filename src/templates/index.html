@@ -1,86 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CICOVALE</title>
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    
-
-    <link rel="stylesheet" href=".static/css/normalize.css">
-
-    <link rel="stylesheet" href=".static/css/style.css">
-
-</head>
-<body>
-    <header>
-        <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top">
-                <a href="#" class="navbar-brand">
-                    <img id="logo" src="img/devoLogo.png" alt="Logo CICOVALE"> CICOVALE
-                </a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" id="inicio-menu">Início</a>
-                        <a class="nav-item nav-link" id="sobre-menu">Sobre</a>
-                        <a class="nav-item nav-link" id="fontes-menu">Fontes</a>
-                        <a class="nav-item nav-link" id="ajuda-menu">Ajuda</a>
-                        <a class="nav-item nav-link" id="consultar-menu">Consultar</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <div id="bemvindo-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 class="TituloBemVindo">Bem-vindo à <br>base de dados <br>sobre a Covid longa</h3>
-                        <h4>Analise e compare dados <br>de forma simples e rápida</h4>
-                        <input class="btn" type="submit" value="Consultar">
-                    </div>
-                    <div class="col-md-6">
-                        <img class="img-fluid" src="img/covidIndex.png" alt="Covid News">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-
-
-    <footer>
-        <div id="info-area">
-            <div class="container-fluid">
-                <p><a href="#">Início</a>
-                <a href="#">Sobre</a>
-                <a href="#">Fontes</a>
-                <a href="#">Ajuda</a></p>
-                <p>Faculdade de Tecnologia do Estado de São Paulo - Prof Jessen Vidal </p>
-            </div>
-        </div>
-        <div id="copy-area">
-            <div class="container-fluid">
-                <div class="col-md-12">
-                    <p>Desenvolvido por <a id="copy-link" href="https://github.com/equipedevo/API_1#topo">&copy; Equipe DEVO</a><br>2023</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-</body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -88,8 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CICOVALE</title>
+    
+    <!-- Links para estilos -->
+
+    <link rel="stylesheet" href=".static/css/normalize.css">
+    <link rel="stylesheet" href=".static/css/style.css">
+
+    <!-- Fontes do google - ROBOTO -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    
+    <header>
+        <div id="brand">
+            <img src="./static/img/devoLogo.png"> CICOVALE
+        </div>
+        <div class="flex-container">
+            <div class="flex-items">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#fontes">Fontes</a>
+                <a href="#ajuda">Ajuda</a>
+                <a href="#consultar" id="btn-consultar">Consultar</a>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
