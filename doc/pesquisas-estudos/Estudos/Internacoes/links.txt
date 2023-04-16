@@ -1,3 +1,15 @@
 Lista de links usados para as pesquisas contidas nesta pasta:
+--------------------------------------------------------------
 
-1: http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/nisp.def
+1 - MORBIDADE HOSPITALAR DO SUS - POR LOCAL DE INTERNAÇÃO - SÃO PAULO: 
+
+http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/nisp.def
+
+2 - Gráfico com óbitos, recuperados e positvos, de SJC:
+
+https://www.sjc.sp.gov.br/servicos/saude/covid/grafico-epidemiologico/
+
+3 - Lista de morbidades divididas por CID 10:
+
+http://tabnet.datasus.gov.br/cgi/sih/mxcid10lm.htm
+
