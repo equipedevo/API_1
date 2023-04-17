@@ -15,31 +15,28 @@
     <!-- Links para estilos -->
 
     <link rel="stylesheet" href="/src/static/css/normalize.css">
-    <link rel="stylesheet" href="/src/static/css/style.css">
-
+    <link rel="stylesheet" href="/src/static/css/base.css">
+    <link rel="stylesheet" href="/src/static/css/index.css">
 </head>
 <body>
-    <header class="fixed-top">
-        <nav class="flex-container">
-            <div id="menu">
-                <img id="logo" src="/src/static/img/devoLogo.png">
-
-                <ul>
-                    <li><a href="#Home">Início</a></li>
-                    <li><a href="#Sobre">Sobre</a></li>
-                    <li><a href="#Ajuda">Ajuda</a></li>
-                    <li><a href="#Fontes">Fontes</a></li>
-                    <li><a href="#Consultar" id="btn-consultar">Consultar</a></li>
-                </ul>
-
-            </div>
-        </nav>
+    <header class="row">
+        <div class="col-2" id="logo">
+            <img src="/src/static/img/devoLogo.png">
+        </div>
+        <div class="col-10">
+            <ul>
+                <li><a href="#Home">Início</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Ajuda">Ajuda</a></li>
+                <li><a href="#Fontes">Fontes</a></li>
+                <li><a href="#Consultar" id="btn-consultar">Consultar</a></li>
+            </ul>
+        </div>
     </header>
-
     <main>
-        <section>
+        <div class="row" id="bem-vindo">
             <div class="col-6">
-                <div  class="conteudo">
+                <div class="conteudo">
                     <h3 class="title">Bem-vindo à <br>base de dados <br>sobre a covid longa</h3>
                     <h4>Analise e compare dados <br>de forma simples e rápida</h4>
                     <input class="btn" type="submit" value="Consultar">
@@ -48,9 +45,8 @@
             <div class="col-6">
                 <img src="/src/static/img/covidIndex.png" class="img-fluid" alt="Covid News">
             </div>
-        </section>
+        </div>
     </main>
-
     <footer>
         <p><a href="#Home">Início</a>
             <a href="#Sobre">Sobre</a>
