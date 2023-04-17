@@ -29,8 +29,8 @@ body{
 
 header{
     align-items: center;
-    padding: 10px;
-    border-bottom: 2px;
+    padding: 5px;
+    border-bottom: 2px solid #b3b3b3;
     background-color: #fff;
 }
 
@@ -95,6 +95,7 @@ header{
 
 main{
     margin-top: 110px;
+    min-width: 100vh;
 }
 
 .conteudo{
@@ -129,4 +130,28 @@ h4{
 .img-fluid{
     max-width: 100%;
     height: auto;
+}
+
+/* ÁREA DE ESTILIZAÇÃO DO FOOTER */
+
+footer{
+    background-color: #d6d6d6;
+    padding: 10px 0px;
+}
+
+footer p{
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    text-align: center;
+    padding: 0rem 2rem;
+    color: #000;
+}
+
+footer a:hover{
+    color: #00f;
 }
