@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CICOVALE</title>
     
-    <!-- Fontes do google - ROBOTO -->
+    <!-- Importação da fonte roboto -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,27 +14,26 @@
 
     <!-- Links para estilos -->
 
-    <link rel="stylesheet" href="./static/css/normalize.css">
-    <link rel="stylesheet" href="./static/css/style.css">
-
+    <link rel="stylesheet" href="/src/static/css/normalize.css">
+    <link rel="stylesheet" href="/src/static/css/style.css">
 
 </head>
 <body>
     <header>
-        <div class="container" id="nav-bar">
-            <div id="brand">
-                <img src="./static/img/devoLogo.png"> CICOVALE
+        <nav class="flex-container">
+            <div id="menu">
+                <img id="logo" src="/src/static/img/devoLogo.png">
+
+                <ul>
+                    <li><a href="#Home">Início</a></li>
+                    <li><a href="#Sobre">Sobre</a></li>
+                    <li><a href="#Ajuda">Ajuda</a></li>
+                    <li><a href="#Fontes">Fontes</a></li>
+                    <li><a href="#Consultar" id="btn-consultar">Consultar</a></li>
+                </ul>
+
             </div>
-            <div class="flex-container">
-                <div class="flex-items">
-                    <a href="#inicio">Início</a>
-                    <a href="#sobre">Sobre</a>
-                    <a href="#fontes">Fontes</a>
-                    <a href="#ajuda">Ajuda</a>
-                    <a href="#consultar" id="btn-consultar">Consultar</a>
-                </div>
-            </div>
-        </div>
+        </nav>
     </header>
 </body>
 </html>
