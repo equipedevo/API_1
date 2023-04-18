@@ -1,38 +1,10 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CICOVALE</title>
-    
-    <!-- Importação da fonte roboto -->
+{% extends "base.html" %}
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+{% block estilo %}
+    <link rel="stylesheet" href="./static/css/index.css">
+{% endblock %}
 
-    <!-- Links para estilos -->
-
-    <link rel="stylesheet" href="/src/static/css/normalize.css">
-    <link rel="stylesheet" href="/src/static/css/base.css">
-    <link rel="stylesheet" href="/src/static/css/index.css">
-</head>
-<body>
-    <header class="row">
-        <div class="col-2" id="logo">
-            <img src="/src/static/img/devoLogo.png">
-        </div>
-        <div class="col-10">
-            <ul>
-                <li><a href="#Home">Início</a></li>
-                <li><a href="#Sobre">Sobre</a></li>
-                <li><a href="#Ajuda">Ajuda</a></li>
-                <li><a href="#Fontes">Fontes</a></li>
-                <li><a href="#Consultar" id="btn-consultar">Consultar</a></li>
-            </ul>
-        </div>
-    </header>
+{% block conteudo %}
     <main>
         <div class="row" id="bem-vindo">
             <div class="col-6">
@@ -43,18 +15,8 @@
                 </div>
             </div>
             <div class="col-6">
-                <img src="/src/static/img/covidIndex.png" class="img-fluid" alt="Covid News">
+                <img src="./static/img/covidIndex.png" class="img-fluid" alt="Covid News">
             </div>
         </div>
     </main>
-    <footer>
-        <p><a href="#Home">Início</a>
-            <a href="#Sobre">Sobre</a>
-            <a href="#Fontes">Fontes</a>
-            <a href="#Ajuda">Ajuda</a></p>
-            <p>Faculdade de Tecnologia do Estado de São Paulo - Prof Jessen Vidal </p>
-            <p>Desenvolvido por <a id="copy-link" href="https://github.com/equipedevo/API_1#topo">&copy; Equipe DEVO</a><br>2023</p>
-    </footer>
-
-</body>
-</html>
+{% endblock %}
