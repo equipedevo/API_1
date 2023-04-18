@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 import io
-import base64
 
 class Table :
     def __init__(self,
@@ -32,7 +31,7 @@ class Table :
         labels = []
 
         j = 0
-        for i in range(0, len(dataFrame.values), lineStep): # 13):
+        for i in range(0, len(dataFrame.values), lineStep):
             if j > columns:
                 break
             j += 1

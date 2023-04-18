@@ -1,0 +1,52 @@
+#filtro{
+    background-color: #00f;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 75px;
+
+    border-radius: 0 0 5px 5px;
+}
+
+#filtro input{
+    width: 30px;
+    height: 30px;
+}
+
+#filtro input{
+    background-color:#00f;
+    padding: 2.5px;
+    border-radius: 5px;
+}
+
+#filtro input:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.dropdown label{
+    color: white;
+}
+
+.dropdown select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    padding: 10px 35px 10px 10px;
+    border-radius: 5px;
+
+    background-image: url("../img/dropdown arrow.png");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 5px) center;
+    background-size: 15px;
+}
