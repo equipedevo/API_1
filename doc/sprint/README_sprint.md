@@ -1,6 +1,6 @@
 <br id="topo">
 
-# 1ª Sprint
+# 2ª Sprint
 
 ## [Ir para a tela de início](./../../../README.md)
 
@@ -9,39 +9,32 @@
 * [Descrição](#descrição)
 * [MVP](#MVP)
 * [Backlog](#backlog)
-* [Wireframe](#wireframe)
+* [Apresentação do Projeto](#apresentação-do-projeto)
 
 # Descrição
-Nesta primeira entrega foi definido pelo cliente a priorização do levantamento de requisitos (backlog), o protótipo (Wireframe) e o planejamento do projeto.
+Nesta segunta entrega foi combinado pelo cliente a priorização da interface do projeto.
 
 <span id="MVP"></span>
+
 # :triangular_flag_on_post: Minimum Viable Product (MVP)
 
-* [Protótipo](#wireframe)
-
-Um protótipo navegável que mostre as posições de cada botão para a navegação entre páginas, mostre onde ficarão os filtros de ano, cidade, tipo e subtipo e onde se localizará os gráficos.
+Programação da base das telas do projeto, inspirada através do [Protótipo](./../prototipo/Prot%C3%B3tipo.gif). 
 
 # Backlog
 
-[Clique aqui](./Backlog_sprint1.md) para acessar o backlog da primeira sprint.
+[Clique aqui](./Backlog_sprint.md) para acessar o backlog da segunda sprint.
 
 → [Voltar ao topo](#topo)
 
-# Wireframe
+# Apresentação do Projeto
 
-Prótotipo do projeto:
 <details>
-  <summary><b><u>Imagens</u></b></summary>
-  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaIn%C3%ADcio.png?raw=true">
-  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaSobre.png?raw=true">
-  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaFontes.png?raw=true">
-  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaAjuda.png?raw=true">
-  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaConsulta.png?raw=true">
+  <summary><b><u>Vídeo:</u></b></summary>
+  <img>
 </details>
-
 <details>
-  <summary><b><u>Vídeo</u></b></summary>
-  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/Prot%C3%B3tipo.gif?raw=true">
+  <summary><b><u>Explicação das Tecnologias:</u></b></summary>
+  <p></p>
 </details>
 
 → [Voltar ao topo](#topo)
