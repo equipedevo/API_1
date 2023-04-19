@@ -14,22 +14,22 @@
 | 2 | Alta :red_square: | Eu, como jornalista, quero poder filtrar as informações que desejo visualizar entre anos de 2019 a 2022, para poder facilitar na montagem de uma matéria. | Um dropdown que dê para selecionar entre os anos de 2019 até 2022, a qual um gráfico relacionado as opções escolhidas será demonstrado. | Filtro de ano
 | 2 | Alta :red_square: | Eu, como jornalista, quero poder filtrar as informações que desejo visualizar entre tipos de consultas, tratamentos, procedimentos, internações e medicamentos, para poder facilitar na montagem de uma matéria. | Um dropdown que dê para selecionar entre os tipos de consultas, tratamentos, procedimentos, internações e medicamentos, o qual um gráfico relacionado as opções escolhidas será demonstrado. | Filtro de Tipo
 | 2 | Alta :red_square: | Eu, como jornalista, quero alterar a visualizção dos dados entre número e porcentagem, para facilitar o entendimento da diferença entre eles | Um modo de ver a porcentagem do quanto o procecimento desejado ocupava no SUS a cada ano e que dê para comparar essa porcentagem a cada ano e com outros procedimentos. | Botão troca
-| 3 | Alta :red_square: | | Fazer a raspagem de dados dá quantidade de consultas de 2019 a 2022 | Raspagem de dados da quantidade
-| 3 | Alta :red_square: | | Fazer a raspagem de dados dá quantidade de tratamentos de 2019 a 2022 | Raspagem de dados da quantidade
-| 3 | Alta :red_square: | | Fazer a raspagem de dados dá quantidade de procedimentos de 2019 a 2022 | Raspagem de dados da quantidade
-| 3 | Alta :red_square: | | Fazer a raspagem de dados dá quantidade de medicamentos de 2019 a 2022 | Raspagem de dados da quantidade 
-| 3 | Alta :red_square: | | Fazer a raspagem de dados dos custos das consultas a cada mês de 2019 a 2022 | Raspagem de dados dos custos 
-| 3 | Alta :red_square: | | Fazer a raspagem de dados dos custos dos tratamentos a cada mês de 2019 a 2022 | Raspagem de dados dos custos
-| 3 | Alta :red_square: | | Fazer a raspagem de dados dos custos das procedimentos a cada mês de 2019 a 2022 | Raspagem de dados dos custos 
-| 3 | Alta :red_square: | | Fazer a raspagem de dados dos custos das medicamentos a cada mês de 2019 a 2022 | Raspagem de dados dos custos 
-| 4 | Alta :red_square: | | Fazer gráficos da quantidade de tipos de consultas do ano de 2019 a 2022 | Gráficos consultas
-| 4 | Alta :red_square: | | Fazer gráficos da quantidade de tratamentos do ano de 2019 a 2022 | Gráficos tratamentos
-| 4 | Alta :red_square: | | Fazer gráficos da quantidade de procedimentos do ano de 2019 a 2022 | Gráficos procedimentos
-| 4 | Alta :red_square: | | Fazer gráficos da quantidade de medicamentos do ano de 2019 a 2022 | Gráficos medicamentos
-| 4 | Média :yellow_square: | | Fazer gráficos do gasto em reais por mês das consultas do ano de 2019 a 2022 | Gráfico de Custo consultas
-| 4 | Média :yellow_square: | | Fazer gráficos do gasto por mês em reais dos tratamentos do ano de 2019 a 2022 | Gráfico de Custo tratamentos
-| 4 | Média :yellow_square: | | Fazer gráficos do gasto por mês em reais dos procedimentos do ano de 2019 a 2022 | Gráfico de Custo procedimentos
-| 4 | Média :yellow_square: | | Fazer gráficos do gasto por mês em reais dos medicamentos do ano de 2019 a 2022 | Gráfico de Custo medicamentos
+| 3 | Média :yellow_square: | | Fazer a raspagem de dados dá quantidade de consultas de 2019 a 2022 | Raspagem de dados da quantidade
+| 3 | Média :yellow_square: | | Fazer a raspagem de dados dá quantidade de tratamentos de 2019 a 2022 | Raspagem de dados da quantidade
+| 3 | Média :yellow_square: | | Fazer a raspagem de dados dá quantidade de procedimentos de 2019 a 2022 | Raspagem de dados da quantidade
+| 3 | Média :yellow_square: | | Fazer a raspagem de dados dá quantidade de medicamentos de 2019 a 2022 | Raspagem de dados da quantidade 
+| 3 | Média :yellow_square: | | Fazer a raspagem de dados dos custos das consultas a cada mês de 2019 a 2022 | Raspagem de dados dos custos 
+| 3 | Média :yellow_square: | | Fazer a raspagem de dados dos custos dos tratamentos a cada mês de 2019 a 2022 | Raspagem de dados dos custos
+| 3 | Média :yellow_square: | | Fazer a raspagem de dados dos custos das procedimentos a cada mês de 2019 a 2022 | Raspagem de dados dos custos 
+| 3 | Média :yellow_square: | | Fazer a raspagem de dados dos custos das medicamentos a cada mês de 2019 a 2022 | Raspagem de dados dos custos 
+| 4 | Média :yellow_square: | | Fazer gráficos da quantidade de tipos de consultas do ano de 2019 a 2022 | Gráficos consultas
+| 4 | Média :yellow_square: | | Fazer gráficos da quantidade de tratamentos do ano de 2019 a 2022 | Gráficos tratamentos
+| 4 | Média :yellow_square: | | Fazer gráficos da quantidade de procedimentos do ano de 2019 a 2022 | Gráficos procedimentos
+| 4 | Média :yellow_square: | | Fazer gráficos da quantidade de medicamentos do ano de 2019 a 2022 | Gráficos medicamentos
+| 4 | Baixa :blue_square: | | Fazer gráficos do gasto em reais por mês das consultas do ano de 2019 a 2022 | Gráfico de Custo consultas
+| 4 | Baixa :blue_square: | | Fazer gráficos do gasto por mês em reais dos tratamentos do ano de 2019 a 2022 | Gráfico de Custo tratamentos
+| 4 | Baixa :blue_square: | | Fazer gráficos do gasto por mês em reais dos procedimentos do ano de 2019 a 2022 | Gráfico de Custo procedimentos
+| 4 | Baixa :blue_square: | | Fazer gráficos do gasto por mês em reais dos medicamentos do ano de 2019 a 2022 | Gráfico de Custo medicamentos
 
 
 [Ir para a tela de início](./../../README.md)
