@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block estilo %}
+    <link rel="stylesheet" href="./static/css/consulta.css">
+{% endblock %}
+
+{% block conteudo %}
+    <main>
+        <div class="row">
+            <div class="col-1"></div>
+            <form class="col-10" id="filtro" method="POST" action="{{ url_for('consulta') }}">
+                <div class="dropdown">
+                        <label for="ano">Ano</label>
+                        <select name="ano" id="ano">
+                        {% for a in anos %}
+                            <option value="{{ a }}">{{ a }}</option>
+                        {% endfor %}
+                        </select>
+                </div>
+                <div class="dropdown">
+                        <label for="cidade">Cidade</label>
+                        <select name="cidade" id="cidade">
+                        {% for c in cidades %}
+                            <option value="{{ c.name }}">{{ c.value }}</option>
+                        {% endfor %}
+                        </select>
+                </div>
+                <div class="dropdown">
+                        <label for="tipo">Tipo</label>
+                        <select name="tipo" id="tipo">
+                        {% for t in tipos %}
+                            <option value="{{ t.name }}">{{ t.value }}</option>
+                        {% endfor %}
+                        </select>
+                </div>
+                <div class="dropdown">
+                        <label for="subtipo">Subtipo</label>
+                        <select name="subtipo" id="subtipo">
+                        {% for s in subtipos %}
+                            <option value="{{ s }}">{{ s }}</option>
+                        {% endfor %}
+                        </select>
+                </div>
+                <input type="image" src="./static/img/magnifying glass.png">
+                <input type="image" src="./static/img/rewind.png">
+            </form>
+            <div class="col-1"></div>
+        </div>
+    </main>
+{% endblock %}

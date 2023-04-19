@@ -7,8 +7,8 @@
 }
 
 [class*="col-"] {
-    width: 100%;
     float: left;
+    padding: 5px;
     /* border: 1px solid red; */
 }
 .col-1 { width: 8.33%; }
@@ -23,6 +23,7 @@
 .col-10 { width: 83.33%; }
 .col-11 { width: 91.66%; }
 .col-12 { width: 100%; }
+.row { width: 100%; }
 .row::after {
     content: "";
     clear: both;
@@ -104,7 +105,8 @@ header a:hover{
 }
 
 main{
-    padding-top: 110px;
+    padding-top: 100px;
+    width: 100%;
     min-height: 100vh;
 }
 
