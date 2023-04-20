@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, url_for
+import FilterData
 # import TableToGraph
 
 app = Flask(__name__)
@@ -13,17 +14,10 @@ def index():
 @app.route("/consulta")
 def consulta():
     return render_template("consulta.html",
-    periodos=["2019", "2020", "2021", "2022"],
-    cidades=[
-        { "name": "sjc", "value": "São José dos Campos" },
-        { "name": "jacarei", "value": "Jacareí" },
-        { "name": "taubate", "value": "Taubaté" }],
-    tipos=[
-        { "name": "consultas", "value": "Consultas" },
-        { "name": "internacoes", "value": "Internações" },
-        { "name": "procedimentos", "value": "Procedimentos" },
-        { "name": "tratamentos", "value": "Tratamentos" }],
-    subtipos=["subtipo 1", "subtipo 2", "subtipo 3"])
+        periodos = FilterData.periodos,
+        cidades = FilterData.cidades,
+        tipos = FilterData.tipos,
+        subtipos = FilterData.subtipos)
 
 @app.route("/atualizarConsulta", methods=["GET", "POST"])
 def atualizarConsulta():
