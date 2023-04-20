@@ -61,9 +61,9 @@ Foram usadas na construção do projeto as seguintes ferramentas:
 <span id="backLog">
 
 # :scroll:Backlog
-[Backlog do projeto.](/doc/sprints/BacklogCompleto.md) 
+[Backlog do projeto.](./doc/sprint/BacklogCompleto.md) 
 
-[Backlog da 1ª Sprint.](/doc/sprints/sprint1/Backlog_sprint1.md)
+[Backlog da 2ª Sprint.](./doc/sprint/Backlog_sprint.md)
 
 
 → [Voltar ao topo](#topo)
