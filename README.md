@@ -8,6 +8,7 @@
     <a href="#sprints">Sprints</a> |
     <a href="#tecnologias">Tecnologias</a> |
     <a href="#backLog">BackLog</a> | 
+    <a href="#projeto">Projeto</a> | 
     <a href="#equipe">Equipe</a>
 </p>
 
@@ -64,11 +65,19 @@ Foram usadas na construção do projeto as seguintes ferramentas e linguagens:
 
 <span id="backLog">
 
-# :scroll:Backlog
+## :scroll:Backlog
 [Backlog do projeto.](./doc/sprint/BacklogCompleto.md) 
 
 [Backlog da 2ª Sprint.](./doc/sprint/Backlog_sprint.md)
 
+
+→ [Voltar ao topo](#topo)
+
+<span id="projeto">
+
+## :computer:Como executar nosso projeto
+
+Para executar nosso projeto, entre no readme da pasta `src` e siga os passos lá indicados, para isso, basta que você [Clique aqui](https://github.com/equipedevo/API_1/tree/main/src)
 
 → [Voltar ao topo](#topo)
 
