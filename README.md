@@ -50,20 +50,24 @@ jornalista este que tem dificuldade em achar informações sobre a COVID longa. 
 
 ## 🛠️ Tecnologias
 
-Foram usadas na construção do projeto as seguintes ferramentas:
+Foram usadas na construção do projeto as seguintes ferramentas e linguagens:
 
 - [Figma](http://www.figma.com): Prototipagem
 - [GitHub](https://github.com/): Versionamento e documentação
 - [Jira](https://www.atlassian.com/software/jira): Organização de tarefas
+- [Python](https://www.python.org): Back-End no geral, como ler arquivos csv e gerar os gráficos deles
+- [Flask](https://flask.palletsprojects.com): Utilizado como um servidor web
+- [HTML](https://html.spec.whatwg.org): Estruturação das páginas do site
+- [CSS](https://www.w3.org/Style/CSS/#specs): Estilização do site
 
 → [Voltar ao topo](#topo)
 
 <span id="backLog">
 
 # :scroll:Backlog
-[Backlog do projeto.](/doc/sprints/BacklogCompleto.md) 
+[Backlog do projeto.](./doc/sprint/BacklogCompleto.md) 
 
-[Backlog da 1ª Sprint.](/doc/sprints/sprint1/Backlog_sprint1.md)
+[Backlog da 2ª Sprint.](./doc/sprint/Backlog_sprint.md)
 
 
 → [Voltar ao topo](#topo)
