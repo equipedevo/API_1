@@ -16,8 +16,8 @@
                 <div class="dropdown">
                     <label for="periodo">Periodo</label>
                     <select name="periodo" id="periodo" multiple="multiple">
-                    {% for p in periodos %}
-                        <option value="{{ p }}">{{ p }}</option>
+                    {% for periodo in periodos %}
+                        <option value="{{ periodo }}">{{ periodo }}</option>
                     {% endfor %}
                     </select>
                     <button type="button" onclick="ShowSelect('periodo', this)">Mostrar</button>
@@ -25,25 +25,27 @@
                 <div class="dropdown">
                     <label for="cidade">Cidade</label>
                     <select name="cidade" id="cidade"  multiple="multiple">
-                    {% for c in cidades %}
-                        <option value="{{ c.name }}">{{ c.value }}</option>
+                    {% for cidade in cidades %}
+                        <option value="{{ cidade.name }}">{{ cidade.value }}</option>
                     {% endfor %}
                     </select>
                     <button type="button" onclick="ShowSelect('cidade', this)">Mostrar</button>
                 </div>
                 <div class="dropdown">
                     <label for="tipo">Tipo</label>
-                    <select name="tipo" id="tipo">
-                    {% for t in tipos %}
-                        <option value="{{ t.name }}">{{ t.value }}</option>
+                    <select name="tipo" id="tipo" onchange="UpdateSubtipos(this)">
+                    {% for tipo in tipos %}
+                        <option value="{{ tipo.name }}">{{ tipo.value }}</option>
                     {% endfor %}
                     </select>
                 </div>
                 <div class="dropdown">
                     <label for="subtipo">Subtipo</label>
                     <select name="subtipo" id="subtipo"  multiple="multiple">
-                    {% for s in subtipos %}
-                        <option value="{{ s }}">{{ s }}</option>
+                    {% for subtipo in subtipos %}
+                        {% for sub in subtipo %}
+                            <option value="{{ sub.name }}">{{ sub.value }}</option>
+                        {% endfor %}
                     {% endfor %}
                     </select>
                     <button type="button" onclick="ShowSelect('subtipo', this)">Mostrar</button>
@@ -51,6 +53,19 @@
                 <input id="filtro-btn" type="image" src="./static/img/magnifying glass.png">
                 <button id="filtro-btn" type="button" onclick="window.location.href = 'consulta';"><img src="./static/img/rewind.png"></button>
             </form>
+            <div class="col-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-6">
+                <!-- PLACEHOLDER GRAPH -->
+                <img src="./static/img/covidindex.png">
+            </div>
+            <div class="col-4">
+                <p>Texto exemplo</p>
+                <p>Texto exemplo</p>
+                <p>Texto exemplo</p>
+            </div>
             <div class="col-1"></div>
         </div>
     </main>
