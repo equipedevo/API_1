@@ -50,11 +50,15 @@ jornalista este que tem dificuldade em achar informações sobre a COVID longa. 
 
 ## 🛠️ Tecnologias
 
-Foram usadas na construção do projeto as seguintes ferramentas:
+Foram usadas na construção do projeto as seguintes ferramentas e linguagens:
 
 - [Figma](http://www.figma.com): Prototipagem
 - [GitHub](https://github.com/): Versionamento e documentação
 - [Jira](https://www.atlassian.com/software/jira): Organização de tarefas
+- [Python](https://www.python.org): 
+- [Flask](https://flask.palletsprojects.com): 
+- [HTML](https://html.spec.whatwg.org): 
+- [CSS](https://www.w3.org/Style/CSS/#specs): 
 
 → [Voltar ao topo](#topo)
 
