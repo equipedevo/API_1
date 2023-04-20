@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, url_for
 # import TableToGraph
 
 app = Flask(__name__)
@@ -13,7 +13,7 @@ def index():
 @app.route("/consulta")
 def consulta():
     return render_template("consulta.html",
-    anos=["2019", "2020", "2021", "2022"],
+    periodos=["2019", "2020", "2021", "2022"],
     cidades=[
         { "name": "sjc", "value": "São José dos Campos" },
         { "name": "jacarei", "value": "Jacareí" },
@@ -24,3 +24,11 @@ def consulta():
         { "name": "procedimentos", "value": "Procedimentos" },
         { "name": "tratamentos", "value": "Tratamentos" }],
     subtipos=["subtipo 1", "subtipo 2", "subtipo 3"])
+
+@app.route("/atualizarConsulta", methods=["GET", "POST"])
+def atualizarConsulta():
+    selecPeriodos = request.form.getlist("periodo")
+    selecCidades = request.form.getlist("cidade")
+    selecTipo = request.form.get("tipo")
+    selecSubtipos = request.form.getlist("subtipo")
+    return str(selecPeriodos) + "\n" + str(selecCidades) + "\n" + str(selecTipo) + "\n" + str(selecSubtipos)

@@ -5,23 +5,35 @@
     align-items: center;
     justify-content: space-evenly;
 
-    height: 75px;
+    min-height: 75px;
+    max-height: 150px;
 
     border-radius: 0 0 5px 5px;
 }
 
-#filtro input{
-    width: 30px;
-    height: 30px;
+#filtro form{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-#filtro input{
+#filtro-btn{
+    width: 40px;
+    height: 40px;
+}
+
+#filtro-btn *{
+    width: 100%;
+    height: 100%;
+}
+
+#filtro-btn{
     background-color:#00f;
     padding: 2.5px;
     border-radius: 5px;
 }
 
-#filtro input:hover{
+#filtro-btn:hover{
     color: #000000;
     background-color: #ffffff;
 }
@@ -31,6 +43,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    padding: 20px 0px;
 }
 
 .dropdown label{
@@ -42,11 +55,31 @@
     -moz-appearance: none;
     -webkit-appearance: none;
 
-    padding: 10px 35px 10px 10px;
-    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px;
 
     background-image: url("../img/dropdown arrow.png");
     background-repeat: no-repeat;
     background-position: calc(100% - 5px) center;
     background-size: 15px;
+}
+
+.dropdown select[multiple]{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    display: none;
+
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px;
+
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 5px) center;
+    background-size: 15px;
+}
+
+.dropdown button[type="button"]{
+    width: 100%;
 }

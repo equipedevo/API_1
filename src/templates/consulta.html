@@ -1,48 +1,55 @@
 {% extends "base.html" %}
 
-{% block estilo %}
+{% block estilos %}
     <link rel="stylesheet" href="./static/css/consulta.css">
+{% endblock %}
+
+{% block scripts %}
+    <script src="./static/js/FiltrosConsulta.js"></script>
 {% endblock %}
 
 {% block conteudo %}
     <main>
         <div class="row">
             <div class="col-1"></div>
-            <form class="col-10" id="filtro" method="POST" action="{{ url_for('consulta') }}">
+            <form class="col-10" id="filtro" method="POST" action="{{ url_for('atualizarConsulta') }}">
                 <div class="dropdown">
-                        <label for="ano">Ano</label>
-                        <select name="ano" id="ano">
-                        {% for a in anos %}
-                            <option value="{{ a }}">{{ a }}</option>
-                        {% endfor %}
-                        </select>
+                    <label for="periodo">Periodo</label>
+                    <select name="periodo" id="periodo" multiple="multiple">
+                    {% for p in periodos %}
+                        <option value="{{ p }}">{{ p }}</option>
+                    {% endfor %}
+                    </select>
+                    <button type="button" onclick="ShowSelect('periodo', this)">Mostrar</button>
                 </div>
                 <div class="dropdown">
-                        <label for="cidade">Cidade</label>
-                        <select name="cidade" id="cidade">
-                        {% for c in cidades %}
-                            <option value="{{ c.name }}">{{ c.value }}</option>
-                        {% endfor %}
-                        </select>
+                    <label for="cidade">Cidade</label>
+                    <select name="cidade" id="cidade"  multiple="multiple">
+                    {% for c in cidades %}
+                        <option value="{{ c.name }}">{{ c.value }}</option>
+                    {% endfor %}
+                    </select>
+                    <button type="button" onclick="ShowSelect('cidade', this)">Mostrar</button>
                 </div>
                 <div class="dropdown">
-                        <label for="tipo">Tipo</label>
-                        <select name="tipo" id="tipo">
-                        {% for t in tipos %}
-                            <option value="{{ t.name }}">{{ t.value }}</option>
-                        {% endfor %}
-                        </select>
+                    <label for="tipo">Tipo</label>
+                    <select name="tipo" id="tipo">
+                    {% for t in tipos %}
+                        <option value="{{ t.name }}">{{ t.value }}</option>
+                    {% endfor %}
+                    </select>
                 </div>
                 <div class="dropdown">
-                        <label for="subtipo">Subtipo</label>
-                        <select name="subtipo" id="subtipo">
-                        {% for s in subtipos %}
-                            <option value="{{ s }}">{{ s }}</option>
-                        {% endfor %}
-                        </select>
+                    <label for="subtipo">Subtipo</label>
+                    <select name="subtipo" id="subtipo"  multiple="multiple">
+                    {% for s in subtipos %}
+                        <option value="{{ s }}">{{ s }}</option>
+                    {% endfor %}
+                    </select>
+                    <button type="button" onclick="ShowSelect('subtipo', this)">Mostrar</button>
                 </div>
-                <input type="image" src="./static/img/magnifying glass.png">
-                <input type="image" src="./static/img/rewind.png">
+                <input id="filtro-btn" type="image" src="./static/img/magnifying glass.png">
+                <button id="filtro-btn" type="button" onclick="window.location.href = 'consulta';"><img src="./static/img/rewind.png"></button>
             </form>
             <div class="col-1"></div>
         </div>
