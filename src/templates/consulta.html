@@ -5,14 +5,14 @@
 {% endblock %}
 
 {% block scripts %}
-    <script src="./static/js/FiltrosConsulta.js"></script>
+    <script src="./static/js/Consulta.js"></script>
 {% endblock %}
 
 {% block conteudo %}
     <main>
         <div class="row">
             <div class="col-1"></div>
-            <form class="col-10" id="filtro" method="POST" action="{{ url_for('atualizarConsulta') }}">
+            <form class="col-10" id="filtro" method="POST">
                 <div class="dropdown">
                     <label for="periodo">Periodo</label>
                     <select name="periodo" id="periodo" multiple="multiple">
@@ -50,23 +50,26 @@
                     </select>
                     <button type="button" onclick="ShowSelect('subtipo', this)">Mostrar</button>
                 </div>
-                <input id="filtro-btn" type="image" src="./static/img/magnifying glass.png">
+                <!--<input id="filtro-btn" type="image" src="./static/img/magnifying glass.png">-->
+                <button id="filtro-btn" type="button" onclick="Search()"><img src="./static/img/magnifying glass.png"></button>
                 <button id="filtro-btn" type="button" onclick="window.location.href = 'consulta';"><img src="./static/img/rewind.png"></button>
             </form>
             <div class="col-1"></div>
         </div>
         <div class="row">
-            <div class="col-1"></div>
-            <div class="col-6">
+            <div class="col-2"></div>
+            <div class="col-8">
                 <!-- PLACEHOLDER GRAPH -->
-                <img src="./static/img/covidindex.png">
+                <img class="grafico" src="./static/img/grafico.svg">
             </div>
+            <!--
             <div class="col-4">
                 <p>Texto exemplo</p>
                 <p>Texto exemplo</p>
                 <p>Texto exemplo</p>
             </div>
-            <div class="col-1"></div>
+            -->
+            <div class="col-2"></div>
         </div>
     </main>
 {% endblock %}

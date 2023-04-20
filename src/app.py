@@ -1,17 +1,14 @@
 from flask import Flask, render_template, request, url_for
 import FilterData
-# import TableToGraph
+import TableToGraph
 
 app = Flask(__name__)
-
-# procedimentos = TableToGraph.Table("Procedimentos SJC", "ano", "quantidade", "./tables/Procedimentos/Sao Jose dos Campos.csv", 4, 13)
-# procedimentos.SaveFig("./static/img/", "grafico procedimentos sjc.svg")
 
 @app.route("/")
 def index():
     return render_template("index.html")
 
-@app.route("/consulta")
+@app.route("/consulta", methods=["GET", "POST"])
 def consulta():
     return render_template("consulta.html",
         periodos = FilterData.periodos,
@@ -25,4 +22,11 @@ def atualizarConsulta():
     selecCidades = request.form.getlist("cidade")
     selecTipo = request.form.get("tipo")
     selecSubtipos = request.form.getlist("subtipo")
-    return str(selecPeriodos) + "\n" + str(selecCidades) + "\n" + str(selecTipo) + "\n" + str(selecSubtipos)
+    TableToGraph.TableToGraph("./tables/Procedimentos/quantidade Jacarei.csv", "Quantidade de procedimentos em Jacareí", 4, range(1, 13, 1), "Mês", "Quantidade", "./static/img/grafico.svg")
+    
+    return consulta()
+    #render_template("consulta.html",
+    #    periodos = FilterData.periodos,
+    #    cidades = FilterData.cidades,
+    #    tipos = FilterData.tipos,
+    #    subtipos = FilterData.subtipos)
