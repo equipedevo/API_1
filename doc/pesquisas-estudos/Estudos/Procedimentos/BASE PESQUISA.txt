@@ -1,0 +1,43 @@
+(Quantidade ou Valor) aprovada por Ano/mês processamento segundo Procedimento
+Município: (São José dos Campos ou Taubaté ou Jacareí)
+
+Procedimento Principal:
+- Avaliação de função e mecânica respiratória com transdutores microprocessados
+- Teste rápido para detecção de SARS-COVID-2
+- Tratamento de infecção pelo coronavirus – COVID 19
+- Tratamento de outras doenças do aparelho respiratório
+- Radioterapia de traqueia, brônquio, pulmão, pleura e mediastino.
+
+Grupo Procedimento Principal:
+- Procedimentos clínicos
+- Procedimentos cirúrgicos
+- Medicamentos
+
+Subgrupo Proced.Principal:
+- Ações coletivas/individuais em saúde
+- Coleta de material
+- Tratamentos clínicos (outras especialidades)
+- Medicamentos de dispensação excepcional
+- Medicamentos estratégicos
+- Medicamentos de âmbito hospitalar e urgência
+- Ações relacionadas ao estabelecimento
+- Ações relacionadas ao atendimento
+- Autorização / Regulação
+
+Forma organização Principal:
+- Diagnóstico em otorrinolaringologia/fonoaudiologia
+- Diagnóstico em pneumologia
+- Consultas médicas/outros profissionais de nivel superior
+- Consulta/Atendimento ás urgências (em geral)
+- Atendimento pré-hospitalar de urgência
+- Atendimentos de enfermagem (em geral)
+- Outros atendimentos realizados por profissionais de níveis superior
+- Aparelho respiratório
+- Aparelho respiratório
+- Tratamento de doenças infecciosas e parasitárias
+- Acessos venosos
+- Traqueia e brônquios
+- Pulmão
+- Otorrinolaringologia
+
+Período: 2019-2022
