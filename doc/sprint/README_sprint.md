@@ -61,7 +61,7 @@ Nesta segunda entrega, foi combinado juntamente do cliente, a priorização da i
     flask run
     ```
   </h4>
-  <h4>  2. Após realizar o comando flask run, clique no link que ele te dá no cmd, ou então simplesmente acesse este: <a src="http://127.0.0.1:5000">http://127.0.0.1:5000</a>
+  <h4>  2. Após realizar o comando flask run, clique no link que ele te dá no cmd, ou então simplesmente acesse este: <a href="http://127.0.0.1:5000">http://127.0.0.1:5000</a>
   </h4>
   <h4> 3. Após finalizar o uso do nosso site, para sair do ambiente virtual, execute o seguinte comando:
 
