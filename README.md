@@ -44,6 +44,7 @@ jornalista este que tem dificuldade em achar informações sobre a COVID longa. 
 
 >Após clicar nos links da área Tag você será redirecionado a página da sprint referente. <br/>
 >Sprint 1: Descrição, MVP, Backlog e Wireframe
+>Sprint 2: Descrição, Como Usar, MVP, Backlog e Apresentação do projeto
 
 → [Voltar ao topo](#topo)
 
