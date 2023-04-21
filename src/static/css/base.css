@@ -131,29 +131,38 @@ footer a{
 footer a:hover{
     color: #00f;
 }
+
 /* Pop-up */
 /* Antes de Clicar */
-#modalOpen:checked + .modal {
+#modalOpen:checked + .modal,
+#modalfOpen:checked + .modalf {
     opacity: 1;
     transform: scale(1);
-      }
+      }        
+      
 /* Texto que abre o Modal */
-.modalOpen {
+.modalOpen,
+.modalfOpen {
     display: inline-block;
     cursor: pointer;;
 }
-.modalLabel {
+
+.modalLabel
+.modalfLabel {
     position: relative;
 }
 
-.modalRadio {
+.modalRadio,
+.modalfRadio {
     position: absolute;
     visibility: hidden;
     opacity: 0;
 }
+
 /* Depois do Clicar */
 /* Around */
-.modal {
+.modal,
+.modalf {
     position: fixed;
     height: 100%;
     width: 100%;
@@ -165,7 +174,10 @@ footer a:hover{
     text-align: left;
   z-index:99;
 }
-.overlay {
+
+
+.overlay,
+.overlayf {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -173,8 +185,10 @@ footer a:hover{
     top: 0;
     left: 0;
 }
+
 /* Container Pop-up */
-.modal .contentModal {
+.modal .contentModal, 
+.modalf .contentfModal {
     position: absolute;
     width: 70%;
     max-height: 70%;
@@ -186,6 +200,8 @@ footer a:hover{
     padding: 20px;
     padding-bottom: 30px;
 }
+
+
 /* X */
 .closeBtn {
     position: absolute;
