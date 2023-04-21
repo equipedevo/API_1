@@ -1,35 +1,35 @@
-| Sprint | Prioridade             |                                                         User Story                                                         |                                                                              Critério de Aceitação | Backlog                                                                              |               
-| :----: | :--------------------: |:-------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------: |
+| Sprint | Prioridade | User Story | Critério de Aceitação| Requisito |               
+| :----: | :--------: |:---------: | :------------------: | :-------: |
 | 1 | Alta :red_square: | Eu, enquanto programador, quero ter um protótipo do projeto, para ter uma noção de como o projeto ficará. | Um protótipo feito no figma que tenha a estrutura do projeto e os dados reias de pelo menos um dos procedimentos. | Wireframe
 | 1 | Alta :red_square: | Eu, enquanto cliente, quero ter a documentação do projeto, para saber como utilizá-lo. | Documentação feito no README no site do github, que tenha as informações de cada pasta e arquivo do projeto. |Documentação do github
 | 1 | Alta :red_square: | Eu, enquanto programador, quero que saibam quem trabalhou no projeto e como nos contatar, para que sejamos creditados.     | Documentação feito no README no site do github, que tenha as informações do membros do projeto, contatos e seus cargos. | Documentação do github
 | 1 | Alta :red_square: | Eu, enquanto cliente, quero saber quando cada parte do projeto será realizada, para ter uma noção de quando ficará pronta. | Fazer um backlog do produto que tenha todos os requisistos e historias do usuário de cada requisito, com a demonstração de qual sprint vai ser feita a entrega e de prioridade. | Product Backlog
 | 2 | Alta :red_square: | Eu, enquanto cliente, quero uma introdução de onde ir no site quando eu abri-lo pela primeira vez, para me direcionar nele. | Fazer página home, que deve ter um texto de boas vindas, explicando resumidamente sobre o que é o site. | Página Home
-| 2 | Alta :red_square: | Eu, enquanto cliente, quero saber sobre importância e utilidade do site, para eu saber mais sobre o projeto. | Uma página que contém um texto explicativo, que contextualiza o objetivo do site. | Pagina Sobre
-| 2 | Alta :red_square: | Eu, como cliente, quero ver os gráficos e poder alterar a visualização destes através de filtros, para saber os dados sobre a covid longa. | Uma página que dê para visualizar os gráficos e dê para selecionar os filtros destes gráficos| Pagina Consulta
+| 2 | Alta :red_square: | Eu, enquanto cliente, quero saber sobre importância e utilidade do site, para eu saber mais sobre o projeto. | Uma página que contém um texto explicativo, que contextualiza o objetivo do site. | Página Sobre
+| 2 | Alta :red_square: | Eu, como cliente, quero ver os gráficos e poder alterar a visualização destes através de filtros, para saber os dados sobre a covid longa. | Uma página que dê para visualizar os gráficos e dê para selecionar os filtros destes gráficos.| Página Consulta
 | 2 | Alta :red_square: | Eu, enquanto jornalista, quero saber as fontes que foram utilizadas para fazer o site, para saber a verossimilidade do site. | Um pop-up que tem todas as referências que foram usadas no desenvolvimento dos gráficos. | Pop-up Fontes
 | 2 | Alta :red_square: | Eu, como usuário leigo, quero saber como ver os gráficos e utilizar os filtros, para que eu possa visualizar os gráficos do jeito que prefiro. | Um pop-up que explique como utilizar a página de consultar. | Pop-up Ajuda
-| 2 | Alta :red_square: | Eu, como usuário, quero um modo de navegar por todas as páginas e pop-ups do site facilmente, para que eu possa ver tudo que o projeto tem a oferecer.| Um modo que, facilmente, possibilita navegar pelas páginas do site | NavBar
+| 2 | Alta :red_square: | Eu, como usuário, quero um modo de navegar por todas as páginas e pop-ups do site facilmente, para que eu possa ver tudo que o projeto tem a oferecer.| Um modo que, facilmente, possibilita navegar pelas páginas do site. | NavBar"
 | 2 | Alta :red_square: | Eu, como jornalista, quero poder filtrar as informações que desejo visualizar entre as cidades de SJC, Jacareí e Taubaté, para poder facilitar na montagem de uma matéria. | Um dropdown que tenha como selecionar as cidades de SJC, Jacareí e Taubaté, o qual um gráfico relacionado as opções escolhidas será demonstrado. | Filtro de cidade
 | 2 | Alta :red_square: | Eu, como jornalista, quero poder filtrar as informações que desejo visualizar entre anos de 2019 a 2022, para poder facilitar na montagem de uma matéria. | Um dropdown que dê para selecionar entre os anos de 2019 até 2022, a qual um gráfico relacionado as opções escolhidas será demonstrado. | Filtro de ano
 | 2 | Alta :red_square: | Eu, como jornalista, quero poder filtrar as informações que desejo visualizar entre tipos de consultas, tratamentos, procedimentos, internações e medicamentos, para poder facilitar na montagem de uma matéria. | Um dropdown que dê para selecionar entre os tipos de consultas, tratamentos, procedimentos, internações e medicamentos, o qual um gráfico relacionado as opções escolhidas será demonstrado. | Filtro de Tipo
 | 2 | Alta :red_square: | Eu, como jornalista, quero alterar a visualizção dos dados entre número e porcentagem, para facilitar o entendimento da diferença entre eles | Um modo de ver a porcentagem do quanto o procecimento desejado ocupava no SUS a cada ano e que dê para comparar essa porcentagem a cada ano e com outros procedimentos. | Botão troca
-| 3 | Média :yellow_square: | | Fazer a raspagem de dados dá quantidade de consultas de 2019 a 2022 | Raspagem de dados da quantidade
-| 3 | Média :yellow_square: | | Fazer a raspagem de dados dá quantidade de tratamentos de 2019 a 2022 | Raspagem de dados da quantidade
-| 3 | Média :yellow_square: | | Fazer a raspagem de dados dá quantidade de procedimentos de 2019 a 2022 | Raspagem de dados da quantidade
-| 3 | Média :yellow_square: | | Fazer a raspagem de dados dá quantidade de medicamentos de 2019 a 2022 | Raspagem de dados da quantidade 
-| 3 | Média :yellow_square: | | Fazer a raspagem de dados dos custos das consultas a cada mês de 2019 a 2022 | Raspagem de dados dos custos 
-| 3 | Média :yellow_square: | | Fazer a raspagem de dados dos custos dos tratamentos a cada mês de 2019 a 2022 | Raspagem de dados dos custos
-| 3 | Média :yellow_square: | | Fazer a raspagem de dados dos custos das procedimentos a cada mês de 2019 a 2022 | Raspagem de dados dos custos 
-| 3 | Média :yellow_square: | | Fazer a raspagem de dados dos custos das medicamentos a cada mês de 2019 a 2022 | Raspagem de dados dos custos 
-| 4 | Média :yellow_square: | | Fazer gráficos da quantidade de tipos de consultas do ano de 2019 a 2022 | Gráficos consultas
-| 4 | Média :yellow_square: | | Fazer gráficos da quantidade de tratamentos do ano de 2019 a 2022 | Gráficos tratamentos
-| 4 | Média :yellow_square: | | Fazer gráficos da quantidade de procedimentos do ano de 2019 a 2022 | Gráficos procedimentos
-| 4 | Média :yellow_square: | | Fazer gráficos da quantidade de medicamentos do ano de 2019 a 2022 | Gráficos medicamentos
-| 4 | Baixa :blue_square: | | Fazer gráficos do gasto em reais por mês das consultas do ano de 2019 a 2022 | Gráfico de Custo consultas
-| 4 | Baixa :blue_square: | | Fazer gráficos do gasto por mês em reais dos tratamentos do ano de 2019 a 2022 | Gráfico de Custo tratamentos
-| 4 | Baixa :blue_square: | | Fazer gráficos do gasto por mês em reais dos procedimentos do ano de 2019 a 2022 | Gráfico de Custo procedimentos
-| 4 | Baixa :blue_square: | | Fazer gráficos do gasto por mês em reais dos medicamentos do ano de 2019 a 2022 | Gráfico de Custo medicamentos
+| 3 | Média :yellow_square: | | Fazer a raspagem de dados dá quantidade de consultas de 2019 a 2022. | Raspagem de dados da quantidade
+| 3 | Média :yellow_square: | | Fazer a raspagem de dados dá quantidade de tratamentos de 2019 a 2022. | Raspagem de dados da quantidade
+| 3 | Média :yellow_square: | | Fazer a raspagem de dados dá quantidade de procedimentos de 2019 a 2022. | Raspagem de dados da quantidade
+| 3 | Média :yellow_square: | | Fazer a raspagem de dados dá quantidade de medicamentos de 2019 a 2022. | Raspagem de dados da quantidade 
+| 3 | Média :yellow_square: | | Fazer a raspagem de dados dos custos das consultas a cada mês de 2019 a 2022. | Raspagem de dados dos custos 
+| 3 | Média :yellow_square: | | Fazer a raspagem de dados dos custos dos tratamentos a cada mês de 2019 a 2022. | Raspagem de dados dos custos
+| 3 | Média :yellow_square: | | Fazer a raspagem de dados dos custos das procedimentos a cada mês de 2019 a 2022. | Raspagem de dados dos custos 
+| 3 | Média :yellow_square: | | Fazer a raspagem de dados dos custos das medicamentos a cada mês de 2019 a 2022. | Raspagem de dados dos custos 
+| 4 | Média :yellow_square: | | Fazer gráficos da quantidade de tipos de consultas do ano de 2019 a 2022. | Gráficos consultas
+| 4 | Média :yellow_square: | | Fazer gráficos da quantidade de tratamentos do ano de 2019 a 2022. | Gráficos tratamentos
+| 4 | Média :yellow_square: | | Fazer gráficos da quantidade de procedimentos do ano de 2019 a 2022. | Gráficos procedimentos
+| 4 | Média :yellow_square: | | Fazer gráficos da quantidade de medicamentos do ano de 2019 a 2022. | Gráficos medicamentos
+| 4 | Baixa :blue_square: | | Fazer gráficos do gasto em reais por mês das consultas do ano de 2019 a 2022. | Gráfico de Custo consultas
+| 4 | Baixa :blue_square: | | Fazer gráficos do gasto por mês em reais dos tratamentos do ano de 2019 a 2022. | Gráfico de Custo tratamentos
+| 4 | Baixa :blue_square: | | Fazer gráficos do gasto por mês em reais dos procedimentos do ano de 2019 a 2022. | Gráfico de Custo procedimentos
+| 4 | Baixa :blue_square: | | Fazer gráficos do gasto por mês em reais dos medicamentos do ano de 2019 a 2022. | Gráfico de Custo medicamentos
 
 
 [Ir para a tela de início](./../../README.md)
