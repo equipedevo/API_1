@@ -35,12 +35,12 @@ jornalista este que tem dificuldade em achar informações sobre a COVID longa. 
 
 ## :hourglass_flowing_sand:	Entregas de Sprints
 
-|                               Tag                               |  Entrega   |    Status    |
-|:---------------------------------------------------------------:|:----------:|:------------:|
-| [Sprint 1](https://github.com/equipedevo/API_1/releases/tag/V1) | 02/04/2023 | Concluído    |
-| [Sprint 2](./doc/sprint/README_sprint.md)                       | 23/04/2023 | Em andamento |
-| Sprint 3                                                        | 14/05/2023 | Pendente     |
-| Sprint 4                                                        | 04/06/2023 | Pendente     |
+|                               Tag                               |  Entrega   |    Status    | Documentação                                                |
+|:---------------------------------------------------------------:|:----------:|:------------:| :---------------------------------------------------------: |
+| [Sprint 1](https://github.com/equipedevo/API_1/releases/tag/V1) | 02/04/2023 | Concluído    | [Clique Aqui](./doc/sprint/Sprints%20Anteriores/Sprint1.md) |
+| [Sprint 2](./doc/sprint/README_sprint.md)                       | 23/04/2023 | Em andamento | [Clique Aqui](./doc/sprint/README_sprint.md)                |
+| Sprint 3                                                        | 14/05/2023 | Pendente     | -----------                                                 |
+| Sprint 4                                                        | 04/06/2023 | Pendente     | -----------                                                 |
 
 >Após clicar nos links da área Tag você será redirecionado a página da sprint referente. <br/>
 >Sprint 1: Descrição, MVP, Backlog e Wireframe
