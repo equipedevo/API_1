@@ -8,20 +8,72 @@
 
 <p style="text-align: center">
     <a href="#descrição">Descrição</a> |
+    <a href="#comoUsar">Como Usar</a> |
     <a href="#MVP">MVP</a> |
     <a href="#backlog">BackLog</a> |
     <a href="#apresentação-do-projeto">Apresentação do projeto</a>
 </p>
 
-<!--
-* [Descrição](#descrição)
-* [MVP](#MVP)
-* [Backlog](#backlog)
-* [Apresentação do Projeto](#apresentação-do-projeto)
--->
-
 # Descrição
 Nesta segunda entrega, foi combinado juntamente do cliente, a priorização da interface do projeto.
+
+<span id="comoUsar"></span>
+
+# :wrench: Como Usar
+<h3>Para garantir o sucesso na utilização de nosso sistema, aqui vai uma listinha das tecnologias necessárias para realizar os próximos passos:</h3>
+<h3>
+  <details>
+  <summary><b>O que será necessário:</b></summary>
+  <h4>  1. <a href="https://git-scm.com/downloads">Git</a> Precisaremos do git para realizarmos a clonagem do nosso repositório do github
+  </h4>
+  <h4>  2. <a href="https://www.python.org/downloads">Python</a> Recomendamos que você instale uma versão superior à 3.6, nós particularmente utilizamos a 3.11, mas qualquer uma a partir do 3.7 irá funcionar, não esqueça de na hora da instalação, marcar a opção da instalação do pip, pois precisaremos dele para o ambiente virtual
+  </h4>
+  </details>
+</h3>
+<h3>
+  <details>
+  <summary><b>Clonando o repositório:</b></summary>
+  <h4>  1. Clone o repositório atual através do git no seu cmd, utilize o comando:
+
+  ```
+  git clone https://github.com/equipedevo/API_1
+  ```
+  </h4>
+  <h4>  2. Ainda no cmd vá para a pasta src:
+
+  ```
+  cd API_1/
+  cd src/
+  ```
+  </h4>
+
+  </details>
+</h3>
+<h3>
+  <details>
+  <summary><b>Rodando o projeto:</b></summary>
+  <h4>  1. Após entrar na pasta src, digite os seguintes comandos:
+
+    ```
+    python -m venv venv
+    .\venv\Scripts\activate
+    pip install -r requirements.txt
+    flask run
+    ```
+  </h4>
+  <h4>  2. Após realizar o comando flask run, clique no link que ele te dá no cmd, ou então simplesmente acesse este: <a src="http://127.0.0.1:5000">http://127.0.0.1:5000</a>
+  </h4>
+  <h4> 3. Após finalizar o uso do nosso site, para sair do ambiente virtual, execute o seguinte comando:
+
+  ```
+  deactivate
+  ```
+  </h4>
+
+  </details>
+</h3>
+
+→ [Voltar ao topo](#topo)
 
 <span id="MVP"></span>
 
@@ -38,14 +90,18 @@ A base para o MVP é a coerência entre o site programado e o nosso [Protótipo]
 
 # Apresentação do Projeto
 
+<h3>
 <details>
   <summary><b><u>Vídeo:</u></b></summary>
   <img>
 </details>
+</h3>
+<h3>
 <details>
   <summary><b><u>Explicação das Tecnologias:</u></b></summary>
   <p></p>
 </details>
+</h3>
 
 → [Voltar ao topo](#topo)
 
