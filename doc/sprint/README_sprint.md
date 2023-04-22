@@ -21,7 +21,7 @@ Nesta segunda entrega, foi combinado juntamente do cliente, a priorização da i
 
 # :wrench: Como Usar
 <h3>Para garantir o sucesso na utilização de nosso sistema, aqui vai uma listinha das tecnologias necessárias para realizar os próximos passos:</h3>
-<h3>
+<h4>
   <details>
   <summary><b>O que será necessário:</b></summary>
   <h4>  1. <a href="https://git-scm.com/downloads">Git</a> Precisaremos do git para realizarmos a clonagem do nosso repositório do github
@@ -29,8 +29,8 @@ Nesta segunda entrega, foi combinado juntamente do cliente, a priorização da i
   <h4>  2. <a href="https://www.python.org/downloads">Python</a> Recomendamos que você instale uma versão superior à 3.6, nós particularmente utilizamos a 3.11, mas qualquer uma a partir do 3.7 irá funcionar, não esqueça de na hora da instalação, marcar a opção da instalação do pip, pois precisaremos dele para o ambiente virtual
   </h4>
   </details>
-</h3>
-<h3>
+</h4>
+<h4>
   <details>
   <summary><b>Clonando o repositório:</b></summary>
   <h4>  1. Clone o repositório atual através do git no seu cmd, utilize o comando:
@@ -48,8 +48,8 @@ Nesta segunda entrega, foi combinado juntamente do cliente, a priorização da i
   </h4>
 
   </details>
-</h3>
-<h3>
+</h4>
+<h4>
   <details>
   <summary><b>Rodando o projeto:</b></summary>
   <h4>  1. Após entrar na pasta src, digite os seguintes comandos:
@@ -71,7 +71,7 @@ Nesta segunda entrega, foi combinado juntamente do cliente, a priorização da i
   </h4>
 
   </details>
-</h3>
+</h4>
 
 → [Voltar ao topo](#topo)
 
@@ -90,18 +90,23 @@ A base para o MVP é a coerência entre o site programado e o nosso [Protótipo]
 
 # Apresentação do Projeto
 
-<h3>
+<h4>
 <details>
   <summary><b><u>Vídeo:</u></b></summary>
   <img>
 </details>
-</h3>
-<h3>
+</h4>
+<h4>
 <details>
   <summary><b><u>Explicação das Tecnologias:</u></b></summary>
-  <p></p>
+  <br>
+  1. <a href="https://www.w3schools.com/html/">HTML</a>: Utilizado para toda a estruturação das páginas do nosso site<br>
+  2. <a href="https://www.w3schools.com/css/">CSS</a>: Utilizado para toda a estilização das páginas do nosso site<br>
+  3. <a href="https://flask.palletsprojects.com/en/2.2.x/">Flask</a>: Utilizado para fazer as rotas do nosso site e facilitar manutenção do mesmo, já que fazemos o uso do "base.html", onde está incluído tudo que será equivalente em todas as páginas do site<br>
+  4. <a href="https://www.w3schools.com/js/default.asp">JavaScript</a>: Utilizado para a funcionalidade dos pop-ups<br>
+  5. <a href="https://www.w3schools.com/python/default.asp">Python</a>: Utilizado para fazer a construção dos gráficos através de arquivos .csv já criados
 </details>
-</h3>
+</h4>
 
 → [Voltar ao topo](#topo)
 
