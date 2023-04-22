@@ -6,6 +6,10 @@ cidades = [
     { "name": "jacarei", "value": "Jacareí" },
     { "name": "taubate", "value": "Taubaté" }]
 
+tipovalor = [
+    { "name": "gastos", "value": "Gastos" },
+    { "name": "quantidade", "value": "Quantidade" }
+]
 
 tipos = [
     { "name": "consultas", "value": "Consultas" },
@@ -56,12 +60,12 @@ subtipos = [
         # { "name": "internacoes", "value": "CID IX Doenças do aparelho circulatório - Infarto cerebral" },
         # { "name": "internacoes", "value": "CID IX Doenças do aparelho circulatório - Insuficiência cardíaca" },
 
-        { "name": "internacoes", "value": "CID X: Doenças do aparelho respiratório - Gastos e quantidade" },
+        { "name": "internacoes", "value": "CID X: Doenças do aparelho respiratório" },
         # { "name": "internacoes", "value": "CID X Doenças do aparelho respiratório - Pneumonia" },
         # { "name": "internacoes", "value": "CID X Doenças do aparelho respiratório - Bronquite e bronqueolíte agúda, doenças pulmonares crônicas e bronquequiectasia" },
         # { "name": "internacoes", "value": "CID X Doenças do aparelho respiratório - Asma" },
 
-        { "name": "internacoes", "value": "CID XI: Doenças do aparelho digestivo - Gastos e quantidade" },
+        { "name": "internacoes", "value": "CID XI: Doenças do aparelho digestivo - Gastos e quantidade" }
         # { "name": "internacoes", "value": "CID XI Doenças do aparelho digestivo - Pancreatite aguda e doenças do pâncreas" },
         # { "name": "internacoes", "value": "CID XI Doenças do aparelho digestivo - Doença de crohn, úlcera gástrica e duodenal" },
     ],
@@ -83,4 +87,4 @@ subtipos = [
         { "name": "medicamentos", "value": "INFORMAÇÃO NÃO DISPONIVEL" },
         { "name": "medicamentos", "value": "INFORMAÇÃO NÃO DISPONIVEL" },
         { "name": "medicamentos", "value": "INFORMAÇÃO NÃO DISPONIVEL" }
-    ]],
+    ]]

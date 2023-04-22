@@ -32,6 +32,15 @@
                     <button type="button" onclick="ShowSelect('cidade', this)">Mostrar</button>
                 </div>
                 <div class="dropdown">
+                    <label for="tipovalor">Tipo do valor</label>
+                    <select name="tipovalor" id="tipovalor">
+                    {% for tipovalor in tipovalor %}
+                        <option value="{{ tipovalor.name }}">{{ tipovalor.value }}</option>
+                    {% endfor %}
+                    </select>
+                    <button type="button" onclick="ShowSelect('tipovalor', this)">Mostrar</button>
+                </div>
+                <div class="dropdown">
                     <label for="tipo">Tipo</label>
                     <select name="tipo" id="tipo" onchange="UpdateSubtipos(this)">
                     {% for tipo in tipos %}
@@ -52,7 +61,7 @@
                 </div>
                 <!--<input id="filtro-btn" type="image" src="./static/img/magnifying glass.png">-->
                 <button id="filtro-btn" type="button" onclick="Search()"><img src="./static/img/magnifying glass.png"></button>
-                <button id="filtro-btn" type="button" onclick="window.location.href = 'consulta';"><img src="./static/img/rewind.png"></button>
+                <button id="filtro-btn" type="button" onclick="window.location.href = 'atualizarConsulta';"><img src="./static/img/rewind.png"></button>
             </form>
             <div class="col-1"></div>
         </div>
@@ -60,7 +69,7 @@
             <div class="col-2"></div>
             <div class="col-8">
                 <!-- PLACEHOLDER GRAPH -->
-                <img class="grafico" src="./static/img/grafico.svg">
+                <img class="grafico" src="{{ imgpath }}">
             </div>
             <!--
             <div class="col-4">

@@ -21,6 +21,17 @@ window.onload = function (){
         }
     }
 
+    let tipovalorSelect = document.getElementById("tipovalor");
+    let tipovalorParam = GetURLParameter("tipovalor");
+    if(tipovalorParam.length > 0){
+        for(let i = 0; i < tipovalorSelect.options.length; i++){
+            if(i == tipovalorParam){
+                tipovalorSelect.selectedIndex = i;
+                break;
+            }
+        }
+    }
+
     let tipoSelect = document.getElementById("tipo");
     let tipoParam = GetURLParameter("tipo");
     if(tipoParam.length > 0){
@@ -49,10 +60,11 @@ window.onload = function (){
 function Search(){
     let periodoSelect = document.getElementById("periodo");
     let cidadeSelect = document.getElementById("cidade");
+    let tipovalorSelect = document.getElementById("tipovalor");
     let tipoSelect = document.getElementById("tipo");
     let subtipoSelect = document.getElementById("subtipo");
 
-    window.location.href = 'atualizarConsulta?periodo=' + periodoSelect.selectedIndex + '&cidade=' + cidadeSelect.selectedIndex + '&tipo=' + tipoSelect.selectedIndex + '&subtipo=' + subtipoSelect.selectedIndex;
+    window.location.href = 'atualizarConsulta?periodo=' + periodoSelect.selectedIndex + '&cidade=' + cidadeSelect.selectedIndex + '&tipovalor=' + tipovalorSelect.selectedIndex + '&tipo=' + tipoSelect.selectedIndex + '&subtipo=' + subtipoSelect.selectedIndex;
 }
 
 function ShowSelect(selectID, btn){
