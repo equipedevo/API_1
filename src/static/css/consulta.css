@@ -84,6 +84,16 @@
     width: 100%;
 }
 
+.grafico-cidade{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
 .grafico{
-    width: 100%;
+    width: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /* width: 100%; */
 }
