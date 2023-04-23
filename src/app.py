@@ -13,101 +13,46 @@ def sobre():
     return render_template("sobre.html")
 
 @app.route("/consulta", methods=["GET", "POST"])
-def consulta(grafico2019 = "", grafico2020 = "", grafico2021 = "", grafico2022 = ""):
+def consulta(graficos = ""):
     return render_template("consulta.html",
         periodos = FilterData.periodos,
         cidades = FilterData.cidades,
-        tipovalor = FilterData.tipovalor,
+        tipoValor = FilterData.tipoValor,
         tipos = FilterData.tipos,
-        subtipos = FilterData.subtipos,
-        graph2019path = grafico2019,
-        graph2020path = grafico2020,
-        graph2021path = grafico2021,
-        graph2022path = grafico2022)
+        subTipos = FilterData.subTipos,
+        graficos = graficos)
 
 @app.route("/atualizarConsulta", methods=["GET"])
 def atualizarConsulta():
     selecPeriodos = request.args.get("periodo").split(",")
     selecCidades = request.args.get("cidade").split(",")
-    selecTipovalor = request.args.get("tipovalor")
+    selecTipovalor = request.args.get("tipoValor")
     selecTipo = request.args.get("tipo")
-    selecSubtipos = request.args.get("subtipo").split(",")
+    selecSubTipos = request.args.get("subTipo").split(",")
 
-    """ return f"{selecPeriodos}<br>{selecCidades}<br>{selecTipovalor}<br>{selecTipo}<br>{selecSubtipos}"
-    print(selecPeriodos)
-    for periodo in selecPeriodos:
-        print(FilterData.periodos[int(periodo)])
-    for cidade in selecCidades:
-        print(FilterData.cidades[int(cidade)]["value"])
-    print(FilterData.tipovalor[int(selecTipovalor)])
-    print(FilterData.tipos[int(selecTipo)])
-    for subtipo in selecSubtipos:
-        print(FilterData.GetSubtipo(int(selecTipo), int(subtipo))["value"])
-    """
+    periodos = FilterData.GetPeriodos(selecPeriodos)
+    cidades = FilterData.GetCidades(selecCidades)
+    tipoValor = FilterData.GetTipoValor(selecTipovalor)["value"]
+    tipo = FilterData.GetTipo(selecTipo)["value"]
+    subTipos = FilterData.GetSubtipos(int(selecTipo), selecSubTipos)
 
-    """
-    #if FilterData.tipos[int(selecTipo)] == "internacoes" and FilterData.subtipos[int(selecSubtipos)] == "internacoes": # "CID X: Doenças do aparelho respiratório - Gastos e quantidade":
-    #print(FilterData.subtipos[int(selecTipo)][int(selecSubtipos)])
-    if FilterData.periodos[int(selecPeriodos[0])] == "2019":
-        if FilterData.GetSubtipo(int(selecTipo), int(selecSubtipos[0]))["value"] == "CID X: Doenças do aparelho respiratório":
-            if FilterData.tipovalor[int(selecTipovalor)]["name"] == "gastos":
-                return consulta(Gastos2019Jacarei)
-            elif FilterData.tipovalor[int(selecTipovalor)]["name"] == "quantidade":
-                return consulta(Internacoes2019Jacarei)
-    if FilterData.periodos[int(selecPeriodos[0])] == "2020":
-        if FilterData.GetSubtipo(int(selecTipo), int(selecSubtipos[0]))["value"] == "CID X: Doenças do aparelho respiratório":
-            if FilterData.tipovalor[int(selecTipovalor)]["name"] == "gastos":
-                return consulta(Gastos2020Jacarei)
-            elif FilterData.tipovalor[int(selecTipovalor)]["name"] == "quantidade":
-                return consulta(Internacoes2020Jacarei)
-    """
+    graficos = []
 
-    """
-    TableToGraph.BarGraph(
-        csvDir = "./tables/procedimentos/quantidade jacarei.csv",
-        title = "Quantidade de procedimentos em Jacareí",
-        barCount = 12,
-        lineRange = range(1, 13, 1),
-        xLabel = "2019",
-        yLabel = "Quantidade",
-        figDir = "./static/img/grafico.svg")
-
-    TableToGraph.GroupedBarGraph(
-        csvDir = "./tables/procedimentos/quantidade jacarei.csv",
-        title = "Quantidade de procedimentos em Jacareí",
-        barRange = [1, 3],
-        lineRange = range(1, 13, 1),
-        xLabel = "2019",
-        yLabel = "Quantidade",
-        figDir = "./static/img/grafico.svg",
-        divisor = 1)
-    #"""
+    for cidade in cidades:
+        paths = []
+        for periodo in periodos:
+            cidadeValue = cidade["value"]
+            path = f"./static/img/grafico_{cidadeValue}_{periodo}.svg"
+            TableToGraph.GroupedBarGraph(
+                csvDir = f"./tables/{tipo}/{tipoValor} {cidadeValue}.csv",
+                title = f"{tipoValor} de {tipo} em {cidadeValue}",
+                barRange = selecSubTipos,
+                lineRange = range(1, 13, 1),
+                xLabel = periodo,
+                yLabel = f"{tipoValor} de {tipo}",
+                figDir = path,
+                divisor = 1)
+            paths.append(path)
+        graficos.append({ "cidade": cidade["name"], "paths": paths })
     
-    for cidade in selecCidades:
-        print(FilterData.cidades[int(cidade)]["value"])
-    print(FilterData.tipovalor[int(selecTipovalor)])
-    print(FilterData.tipos[int(selecTipo)])
-    for subtipo in selecSubtipos:
-        print(FilterData.GetSubtipo(int(selecTipo), int(subtipo))["value"])
-
-    for i in selecPeriodos:
-        periodo = FilterData.periodos[int(i)]
-
-        TableToGraph.GroupedBarGraph(
-            csvDir = f"./tables/{FilterData.tipos[int(selecTipo)]["value"]}/{FilterData.tipovalor[int(selecTipovalor)]["value"]} {}.csv",# "./tables/procedimentos/quantidade jacarei.csv",
-            title = "Quantidade de procedimentos em Jacareí",
-            barRange = [1, 3],
-            lineRange = range(1, 13, 1),
-            xLabel = periodo,
-            yLabel = "Quantidade",
-            figDir = f"./static/img/grafico{periodo}.svg",
-            divisor = 1)
-        FilterData.periodos[int(periodo)]
-    for cidade in selecCidades:
-        print(FilterData.cidades[int(cidade)]["value"])
-    print(FilterData.tipovalor[int(selecTipovalor)])
-    print(FilterData.tipos[int(selecTipo)])
-    for subtipo in selecSubtipos:
-        print(FilterData.GetSubtipo(int(selecTipo), int(subtipo))["value"])
-
-    return consulta()
+    return consulta(graficos)
