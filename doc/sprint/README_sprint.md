@@ -103,7 +103,7 @@ A base para o MVP é a coerência entre o site programado e o nosso [Protótipo]
   1. <a href="https://www.w3schools.com/html/">HTML</a>: Utilizado para toda a estruturação das páginas do nosso site<br>
   2. <a href="https://www.w3schools.com/css/">CSS</a>: Utilizado para toda a estilização das páginas do nosso site<br>
   3. <a href="https://flask.palletsprojects.com/en/2.2.x/">Flask</a>: Utilizado para fazer as rotas do nosso site e facilitar manutenção do mesmo, já que fazemos o uso do "base.html", onde está incluído tudo que será equivalente em todas as páginas do site<br>
-  4. <a href="https://www.w3schools.com/js/default.asp">JavaScript</a>: Utilizado para a funcionalidade dos pop-ups<br>
+  4. <a href="https://www.w3schools.com/js/default.asp">JavaScript</a>: Utilizado para as funcionalidades do filtro da página de consultas<br>
   5. <a href="https://www.w3schools.com/python/default.asp">Python</a>: Utilizado para fazer a construção dos gráficos através de arquivos .csv já criados
 </details>
 </h4>
