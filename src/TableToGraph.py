@@ -58,11 +58,11 @@ def GroupedBarGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, 
         for j in range(1, 13):
             value = 0
             try:
-                value = float(dataFrame.values[j][i])
+                value = float(dataFrame.values[j][int(i)+1])
             except:
                 value = 0
             values.append(value / divisor)
-        bars.update({ dataFrame.columns[i]: numpy.array(values) })
+        bars.update({ dataFrame.columns[int(i)+1]: numpy.array(values) })
 
     x = numpy.arange(len(lines))
     width = 1/(len(bars) + 1)
