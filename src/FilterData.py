@@ -3,9 +3,10 @@ periodos = ["2019", "2020", "2021", "2022"]
 cidades = [
     { "name": "sjc", "value": "São José dos Campos" },
     { "name": "jacarei", "value": "Jacareí" },
-    { "name": "taubate", "value": "Taubaté" }]
+    { "name": "taubate", "value": "Taubaté" }
+]
 
-tipovalor = [
+tipoValor = [
     { "name": "gastos", "value": "Gastos" },
     { "name": "quantidade", "value": "Quantidade" }
 ]
@@ -15,15 +16,15 @@ tipos = [
     { "name": "internacoes", "value": "Internações" },
     { "name": "procedimentos", "value": "Procedimentos" },
     { "name": "tratamentos", "value": "Tratamentos" },
-    { "name": "medicamentos", "value": "Medicamentos" }]
+    { "name": "medicamentos", "value": "Medicamentos" }
+]
 
-subtipos = [
+subTipos = [
     [
         { "name": "consultas", "value": "Total" },
         { "name": "consultas", "value": "Serviços hospitalares" },
         { "name": "consultas", "value": "Serviços profissionais" }
     ],
-
     [
         # As linhas codadas, são subtipos das CID, filtros para sprints futuras. Favor não apagar. 
 
@@ -66,27 +67,46 @@ subtipos = [
         # { "name": "internacoes", "value": "CID XI Doenças do aparelho digestivo - Pancreatite aguda e doenças do pâncreas" },
         # { "name": "internacoes", "value": "CID XI Doenças do aparelho digestivo - Doença de crohn, úlcera gástrica e duodenal" },
     ],
-    
     [
         { "name": "procedimentos", "value": "Procedimentos com finalidade diagnóstica" },
         { "name": "procedimentos", "value": "Procedimentos clínicos" },
         { "name": "procedimentos", "value": "Procedimentos cirúrgicos" }
     ],
-
     [
         { "name": "tratamentos", "value": "INFORMAÇÃO NÃO DISPONIVEL" },
         { "name": "tratamentos", "value": "INFORMAÇÃO NÃO DISPONIVEL" },
         { "name": "tratamentos", "value": "INFORMAÇÃO NÃO DISPONIVEL" }
     ],
-
     [
         { "name": "medicamentos", "value": "INFORMAÇÃO NÃO DISPONIVEL" },
         { "name": "medicamentos", "value": "INFORMAÇÃO NÃO DISPONIVEL" },
         { "name": "medicamentos", "value": "INFORMAÇÃO NÃO DISPONIVEL" }
-    ]]
+    ]
+]
 
-def GetSubtipo(tipoIndex, subtipoIndex):
+def GetPeriodos(periodosIndexes):
+    retPeriodos = []
+    for index in periodosIndexes:
+        retPeriodos.append(periodos[int(index)])
+    return retPeriodos
+
+def GetCidades(cidadesIndexes):
+    retCidades = []
+    for index in cidadesIndexes:
+        retCidades.append(cidades[int(index)])
+    return retCidades
+
+def GetTipoValor(tipoValorIndex):
+    return tipoValor[int(tipoValorIndex)]
+
+def GetTipo(tipoIndex):
+    return tipos[int(tipoIndex)]
+
+def GetSubtipos(tipoIndex, subTipoIndexes):
+    retSubTipos = []
     pad = 0
     for i in range(0, tipoIndex):
-        pad += len(subtipos[i])
-    return subtipos[tipoIndex][subtipoIndex-pad]
+        pad += len(subTipos[i])
+    for index in subTipoIndexes:
+        retSubTipos.append(subTipos[tipoIndex][int(index)-pad])
+    return retSubTipos
