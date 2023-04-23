@@ -93,7 +93,7 @@ A base para o MVP é a coerência entre o site programado e o nosso [Protótipo]
 <h4>
 <details>
   <summary><b><u>Vídeo:</u></b></summary>
-  <img>
+  <img src="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Site_sprint2.gif?raw=true">
 </details>
 </h4>
 <h4>
