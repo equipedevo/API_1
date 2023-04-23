@@ -14,4 +14,4 @@
 | US#13  | Filtro de Tipo   | Jornalista    | Poder filtrar as informações que desejo visualizar entre tipos de consultas, tratamentos, procedimentos, internações e medicamentos. | Poder facilitar na montagem de uma matéria.       |
 | US#14  | Botão Troca      | Jornalista    | Alterar a visualização dos dados entre número e porcentagem.                                                                         | Facilitar o entendimento da diferença entre eles. |
 
-## [Ir para a tela de início](./../../../README.md) ou [Ir para a 1ª sprint](./README_sprint1.md)
+## [Ir para a tela de início](./../../README.md) ou [Ir para a 2ª sprint](./README_sprint.md)
