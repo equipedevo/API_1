@@ -134,7 +134,8 @@ footer a:hover{
 
 /* Pop-up */
 /* Antes de Clicar */
-#modalOpen:checked + .modal {
+#ajudaOpen:checked + .modal,
+#fontesOpen:checked + .modal {
     opacity: 1;
     transform: scale(1);
       }        
