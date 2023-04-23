@@ -1,42 +1,88 @@
-import matplotlib.pyplot as plt
-import pandas as pd
+import matplotlib.pyplot as pyplot
+import numpy
+import pandas
 
-def TableToGraph(csvDir, title, bars, lineRange, xLabel, yLabel, figDir):
-    dataFrame = pd.read_csv(csvDir)
+colors = [
+    '#fa0606',
+    '#f8047e',
+    '#fe05ff',
+    '#870bf1',
+    '#0003fe',
+    '#0884f9',
+    '#02faf9',
+    '#03ff83',
+    '#06fb04',
+    '#7dff05',
+    '#fcfb09',
+    '#f98203']
 
-    left = range(1, bars+1)
+def BarGraph(csvDir, title, barCount, lineRange, xLabel, yLabel, figDir):
+    dataFrame = pandas.read_csv(csvDir)
 
-    height = []
-    labels = []
+    left = range(0, barCount)
+
+    bars = []
+    lines = []
 
     j = 0
     for i in lineRange:
         j += 1
-        if j > bars:
+        if j > barCount:
             break
-        labels.append(dataFrame.values[i][0])
-        height.append(dataFrame.values[i][-1])
+        lines.append(dataFrame.values[i][0])
+        for l in range(0, len(dataFrame.values[i])):
+            print(dataFrame.values[i][l])
+        bars.append(dataFrame.values[i][-1])
 
-    colors = [
-        '#fa0606',
-        '#f8047e',
-        '#fe05ff',
-        '#870bf1',
-        '#0003fe',
-        '#0884f9',
-        '#02faf9',
-        '#03ff83',
-        '#06fb04',
-        '#7dff05',
-        '#fcfb09',
-        '#f98203']
-    plt.bar(left, height, tick_label = labels, width = 0.75, color = colors)
+    pyplot.bar(left, bars, tick_label = lines, width = 0.75, color = colors)
 
-    plt.xlabel(xLabel)
-    plt.ylabel(yLabel)
+    pyplot.xlabel(xLabel)
+    pyplot.ylabel(yLabel)
 
-    plt.title(title)
+    pyplot.title(title)
 
-    plt.gcf().set_size_inches(10, 5)
-    plt.tight_layout()
-    plt.savefig(figDir)
+    pyplot.gcf().set_size_inches(10, 5)
+    pyplot.tight_layout()
+    pyplot.savefig(figDir)
+
+def GroupedBarGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, divisor = 1):
+    dataFrame = pandas.read_csv(csvDir)
+
+    lines = []
+    for i in lineRange:
+        lines.append(dataFrame.values[i][0])
+
+    bars = {}
+    for i in barRange:
+        values = []
+        for j in range(1, 13):
+            value = 0
+            try:
+                value = float(dataFrame.values[j][i])
+            except:
+                value = 0
+            values.append(value / divisor)
+        bars.update({ dataFrame.columns[i]: numpy.array(values) })
+
+    x = numpy.arange(len(lines))
+    width = 1/(len(bars) + 1)
+    multiplier = 0
+
+    fig, axes = pyplot.subplots(layout='constrained')
+
+    for names, values in bars.items():
+        offset = width * multiplier
+        rects = axes.bar(x + offset, values, width, label=names) #, color=colors)
+        axes.bar_label(rects)
+        multiplier += 1
+
+    axes.set_xlabel(xLabel)
+    axes.set_ylabel((f"{yLabel} / {divisor}" if divisor > 1 else yLabel))
+    axes.set_title(title)
+    axes.set_xticks(x + width, lines)
+    axes.legend(loc='upper left')
+    axes.set_ymargin(0.2)
+
+    pyplot.gcf().set_size_inches(10, 5)
+    pyplot.tight_layout()
+    pyplot.savefig(figDir)

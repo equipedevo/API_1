@@ -64,7 +64,11 @@ function Search(){
     let tipoSelect = document.getElementById("tipo");
     let subtipoSelect = document.getElementById("subtipo");
 
-    window.location.href = 'atualizarConsulta?periodo=' + periodoSelect.selectedIndex + '&cidade=' + cidadeSelect.selectedIndex + '&tipovalor=' + tipovalorSelect.selectedIndex + '&tipo=' + tipoSelect.selectedIndex + '&subtipo=' + subtipoSelect.selectedIndex;
+    window.location.href = 'atualizarConsulta?periodo=' + Array.from(periodoSelect.selectedOptions).map(option => option.index) +
+        '&cidade=' + Array.from(cidadeSelect.selectedOptions).map(option => option.index) +
+        '&tipovalor=' + tipovalorSelect.selectedIndex +
+        '&tipo=' + tipoSelect.selectedIndex +
+        '&subtipo=' + Array.from(subtipoSelect.selectedOptions).map(option => option.index);
 }
 
 function ShowSelect(selectID, btn){
