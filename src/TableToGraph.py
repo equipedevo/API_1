@@ -17,7 +17,7 @@ colors = [
     '#f98203']
 
 def BarGraph(csvDir, title, barCount, lineRange, xLabel, yLabel, figDir):
-    dataFrame = pandas.read_csv(csvDir)
+    dataFrame = pandas.read_csv(csvDir, encoding = "utf-8")
 
     left = range(0, barCount)
 
@@ -46,7 +46,7 @@ def BarGraph(csvDir, title, barCount, lineRange, xLabel, yLabel, figDir):
     pyplot.savefig(figDir)
 
 def GroupedBarGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, divisor = 1):
-    dataFrame = pandas.read_csv(csvDir)
+    dataFrame = pandas.read_csv(csvDir, encoding = "utf-8")
 
     lines = []
     for i in lineRange:
