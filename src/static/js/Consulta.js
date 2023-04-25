@@ -1,29 +1,39 @@
 window.onload = function (){
     let periodoSelect = document.getElementById("periodo");
     let periodoParam = GetURLParameter("periodo").split(",");
-    if(periodoParam.length > 0){
-        for(let i = 0; i < periodoParam.length; i++)
-            periodoSelect.options[periodoParam[i]].selected = "selected";
+    if(periodoParam != ""){
+        if(periodoParam.length > 0){
+            for(let i = 0; i < periodoParam.length; i++)
+                periodoSelect.options[periodoParam[i]].selected = "selected";
+        }
     }
 
     let cidadeSelect = document.getElementById("cidade");
     let cidadeParam = GetURLParameter("cidade").split(",");
-    if(cidadeParam.length > 0){
-        for(let i = 0; i < cidadeParam.length; i++)
-            cidadeSelect.options[cidadeParam[i]].selected = "selected"
+    if(cidadeParam != ""){
+        if(cidadeParam.length > 0){
+            for(let i = 0; i < cidadeParam.length; i++)
+                cidadeSelect.options[cidadeParam[i]].selected = "selected"
+        }
     }
 
     let tipoValorSelect = document.getElementById("tipoValor");
-    tipoValorSelect.selectedIndex = GetURLParameter("tipoValor");
+    let tipoValorParam = GetURLParameter("tipoValor");
+    if(tipoValorParam != "")
+        tipoValorSelect.selectedIndex = tipoValorParam;
 
     let tipoSelect = document.getElementById("tipo");
-    tipoSelect.selectedIndex = GetURLParameter("tipo");
+    let tipoSelectParam = GetURLParameter("tipo");
+    if(tipoSelectParam != "")
+        tipoSelect.selectedIndex = tipoSelectParam;
 
     let subTipoSelect = document.getElementById("subTipo");
     let subTipoParam = GetURLParameter("subTipo").split(",");
-    if(subTipoParam.length > 0){
-        for(let i = 0; i < subTipoParam.length; i++)
-            subTipoSelect.options[subTipoParam[i]].selected = "selected"
+    if(subTipoParam != ""){
+        if(subTipoParam.length > 0){
+            for(let i = 0; i < subTipoParam.length; i++)
+                subTipoSelect.options[subTipoParam[i]].selected = "selected"
+        }
     }
 
     UpdatesubTipos(document.getElementById("tipo"));
@@ -36,7 +46,7 @@ function Search(){
     let tipoSelect = document.getElementById("tipo");
     let subTipoSelect = document.getElementById("subTipo");
     
-    window.location.href = 'atualizarConsulta?periodo=' + Array.from(periodoSelect.selectedOptions).map(option => option.index) +
+    window.location.href = 'consulta?periodo=' + Array.from(periodoSelect.selectedOptions).map(option => option.index) +
         '&cidade=' + Array.from(cidadeSelect.selectedOptions).map(option => option.index) +
         '&tipoValor=' + tipoValorSelect.selectedIndex +
         '&tipo=' + tipoSelect.selectedIndex +

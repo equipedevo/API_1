@@ -12,7 +12,7 @@
     <main>
         <div class="row">
             <div class="col-1"></div>
-            <form class="col-10" id="filtro" method="POST">
+            <form class="col-10" id="filtro">
                 <div class="dropdown">
                     <label for="periodo">Periodo</label>
                     <select name="periodo" id="periodo" multiple="multiple">
@@ -48,7 +48,7 @@
                     </select>
                 </div>
                 <div class="dropdown">
-                    <label for="subTipo">subTipo</label>
+                    <label for="subTipo">Subtipo</label>
                     <select name="subTipo" id="subTipo"  multiple="multiple">
                     {% for subTipo in subTipos %}
                         {% for sub in subTipo %}
@@ -74,30 +74,5 @@
             <div class="col-1"></div>
         </div>
         {% endfor %}
-        <!--
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8">
-                {% for graphPath in graphPaths %}
-                <img class="grafico" src="{{ graphPath }}">
-                {% endfor %}
-            </div>
-            <div class="col-2"></div>
-        </div>
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8">
-                <img class="grafico" src="{{ graph2021path }}">
-            </div>
-            <div class="col-2"></div>
-        </div>
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8">
-                <img class="grafico" src="{{ graph2022path }}">
-            </div>
-            <div class="col-2"></div>
-        </div>
-        -->
     </main>
 {% endblock %}

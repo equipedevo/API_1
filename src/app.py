@@ -12,18 +12,16 @@ def index():
 def sobre():
     return render_template("sobre.html")
 
-@app.route("/consulta", methods=["GET", "POST"])
-def consulta(graficos = ""):
-    return render_template("consulta.html",
-        periodos = FilterData.periodos,
-        cidades = FilterData.cidades,
-        tipoValor = FilterData.tipoValor,
-        tipos = FilterData.tipos,
-        subTipos = FilterData.subTipos,
-        graficos = graficos)
-
-@app.route("/atualizarConsulta", methods=["GET"])
-def atualizarConsulta():
+@app.route("/consulta", methods=["GET"])
+def consulta():
+    if request.method != "GET" or not request.args.get("periodo") or not request.args.get("cidade") or not request.args.get("tipoValor") or not request.args.get("tipo") or not request.args.get("subTipo"):
+        return render_template("consulta.html",
+            periodos = FilterData.periodos,
+            cidades = FilterData.cidades,
+            tipoValor = FilterData.tipoValor,
+            tipos = FilterData.tipos,
+            subTipos = FilterData.subTipos)
+    
     selecPeriodos = request.args.get("periodo").split(",")
     selecCidades = request.args.get("cidade").split(",")
     selecTipovalor = request.args.get("tipoValor")
@@ -54,5 +52,11 @@ def atualizarConsulta():
                 divisor = 1)
             paths.append(path)
         graficos.append({ "cidade": cidade["name"], "paths": paths })
-    
-    return consulta(graficos)
+        
+    return render_template("consulta.html",
+        periodos = FilterData.periodos,
+        cidades = FilterData.cidades,
+        tipoValor = FilterData.tipoValor,
+        tipos = FilterData.tipos,
+        subTipos = FilterData.subTipos,
+        graficos = graficos)
