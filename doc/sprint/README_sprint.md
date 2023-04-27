@@ -1,21 +1,21 @@
 <br id="topo">
 
-# 2ª Sprint
+# 3ª Sprint
 
 ## [Ir para a tela de início](./../../README.md)
 
 ## :mag_right: Índice
 
 <p style="text-align: center">
-    <a href="#descrição">Descrição</a> |
+    <!-- <a href="#descrição">Descrição</a> | -->
     <a href="#comoUsar">Como Usar</a> |
-    <a href="#MVP">MVP</a> |
-    <a href="#backlog">BackLog</a> |
-    <a href="#apresentação-do-projeto">Apresentação do projeto</a>
+    <!-- <a href="#MVP">MVP</a> | -->
+    <a href="#backlog">BackLog</a><!-- |
+    <a href="#apresentação-do-projeto">Apresentação do projeto</a> -->
 </p>
 
-# Descrição
-Nesta segunda entrega, foi combinado juntamente do cliente, a priorização da interface do projeto.
+<!-- # Descrição
+Nesta segunda entrega, foi combinado juntamente do cliente, a priorização da interface do projeto. -->
 
 <span id="comoUsar"></span>
 
@@ -73,27 +73,27 @@ Nesta segunda entrega, foi combinado juntamente do cliente, a priorização da i
   </details>
 </h4>
 
+<!--
 → [Voltar ao topo](#topo)
-
 <span id="MVP"></span>
 
 # :triangular_flag_on_post: Minimum Viable Product (MVP)
 
-O mínimo produto viável desta sprint é um site já navegável, porém com priorização apenas na programação das telas, sem necessariamente o uso das raspagens de dados, dos gráficos e  filtros que futuramente serão colocados.<br> 
-A base para o MVP é a coerência entre o site programado e o nosso [Protótipo](./../prototipo/Prot%C3%B3tipo.gif), realizado na Sprint 1.
+ O mínimo produto viável desta sprint é um site já navegável, porém com priorização apenas na programação das telas, sem necessariamente o uso das raspagens de dados, dos gráficos e  filtros que futuramente serão colocados.<br> 
+A base para o MVP é a coerência entre o site programado e o nosso [Protótipo](./../prototipo/Prot%C3%B3tipo.gif), realizado na Sprint 1. -->
 
 # Backlog
 
 [Clique aqui](./Backlog_sprint.md) para acessar o backlog da segunda sprint.
 
+<!-- 
 → [Voltar ao topo](#topo)
-
 # Apresentação do Projeto
 
 <h4>
 <details>
   <summary><b><u>Vídeo:</u></b></summary>
-  <img>
+  <img src="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Site_sprint2.gif?raw=true">
 </details>
 </h4>
 <h4>
@@ -109,5 +109,5 @@ A base para o MVP é a coerência entre o site programado e o nosso [Protótipo]
 </h4>
 
 → [Voltar ao topo](#topo)
-
+ -->
 ## [Ir para a tela de início](./../../README.md)
