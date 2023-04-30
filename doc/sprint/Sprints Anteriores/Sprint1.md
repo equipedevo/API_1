@@ -6,21 +6,46 @@
 
 ## :mag_right: Índice
 
-* [Descrição](#descrição)
-* [MVP](#MVP)
-* [Backlog](#backlog)
+* [Sobre a Sprint](#sobre-a-sprint)
 * [Wireframe](#wireframe)
+* [Backlog](#backlog)
+* [MVP](#MVP)
+* [Tag](#tag)
 
-# Descrição
+# Sobre a Sprint
 Nesta primeira entrega foi definido pelo cliente a priorização do levantamento de requisitos (backlog), o protótipo (Wireframe) e o planejamento do projeto.
+<img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/Prot%C3%B3tipo.gif?raw=true">
 
-<span id="MVP"></span>
-# :triangular_flag_on_post: Minimum Viable Product (MVP)
+→ [Voltar ao topo](#topo)<br/>
 
-* [Protótipo](#wireframe)
+<span id="wireframe"></span>
 
-Um protótipo navegável que mostre as posições de cada botão para a navegação entre páginas, mostre onde ficarão os filtros de ano, cidade, tipo e subtipo e onde se localizará os gráficos.
+# Wireframe (Apresentação)
 
+Prótotipo do projeto:
+
+<details>
+  <summary><b>Início:</b></summary>
+  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaIn%C3%ADcio.png?raw=true">
+</details>
+<details>
+  <summary><b>Sobre:</b></summary>
+  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaSobre.png?raw=true">
+</details>
+<details>
+  <summary><b>Pop-Up de Fontes:</b></summary>
+  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaFontes.png?raw=true">
+</details>
+<details>
+  <summary><b>Pop-Up de Ajuda:</b></summary>
+  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaAjuda.png?raw=true">
+</details>
+<details>
+  <summary><b>Tela de Consultar:</b></summary>
+  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaConsulta.png?raw=true">
+</details>
+
+→ [Voltar ao topo](#topo)<br/>
 # Backlog
 
 | Código |     Backlog     |     Quem    |                            Quer                           |                  Para                   |
@@ -28,27 +53,26 @@ Um protótipo navegável que mostre as posições de cada botão para a navegaç
 | US#01  | Wireframe       | Programador | Ter um protótipo do projeto.                              | Ter uma noção de como o projeto ficará. |
 | US#02  | Documentação    | Cliente     | Ter a documentação do projeto.                            | Saber como utilizá-lo.                  |
 | US#03  | Documentação    | Programador | Que saibam quem trabalhou no projeto e como nos contatar. | Ser creditado.                          |
-| US#04  | Backlog         | Cliente     | Saber quando cada parte do projeto será realizada.        | Ter uma noção de quando ficará pronta.  |
+| US#04  | Backlog         | Cliente     | Saber quando cada parte do projeto será realizada.        | Ter uma noção de quando ficará pronta.  |<br/>
 
-→ [Voltar ao topo](#topo)
+→ [Voltar ao topo](#topo)<br/>
 
-# Wireframe
+<span id="MVP"></span>
 
-Prótotipo do projeto:
-<details>
-  <summary><b><u>Imagens</u></b></summary>
-  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaIn%C3%ADcio.png?raw=true">
-  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaSobre.png?raw=true">
-  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaFontes.png?raw=true">
-  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaAjuda.png?raw=true">
-  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/TelaConsulta.png?raw=true">
-</details>
+# :triangular_flag_on_post: Minimum Viable Product (MVP)
+ 
 
-<details>
-  <summary><b><u>Vídeo</u></b></summary>
-  <img src="https://github.com/equipedevo/API_1/blob/main/doc/prototipo/Prot%C3%B3tipo.gif?raw=true">
-</details>
+Um [Protótipo](#wireframe) navegável que mostre:
+ - As posições de cada botão para a navegação entre páginas
+ - Onde ficarão os filtros de ano, cidade, tipo e subtipo
+ - Onde se localizará os gráficos.
 
-→ [Voltar ao topo](#topo)
+<span id="tag"></span>
+
+# Tag
+
+A última versão da 1ªSprint foi [V1](https://github.com/equipedevo/API_1/releases/tag/V1).
+
+→ [Voltar ao topo](#topo)<br/>
 
 ## [Ir para a tela de início](./../../../README.md)
