@@ -35,17 +35,17 @@ jornalista este que tem dificuldade em achar informações sobre a COVID longa. 
 
 ## :hourglass_flowing_sand:	Entregas de Sprints
 
-|                                Tag                                |   Entrega  |    Status    |                        Documentação                         |
-| :---------------------------------------------------------------: | :--------: | :----------: | :---------------------------------------------------------: |
-| [Sprint 1](https://github.com/equipedevo/API_1/releases/tag/V1)   | 02/04/2023 | Concluído    | [Clique Aqui](./doc/sprint/Sprints%20Anteriores/Sprint1.md) |
-| [Sprint 2](https://github.com/equipedevo/API_1/releases/tag/V2.3) | 23/04/2023 | Concluído    | [Clique Aqui](./doc/sprint/Sprints%20Anteriores/Sprint2.md) |
-| Sprint 3                                                          | 14/05/2023 | Em andamento | [Clique Aqui](./doc/sprint/README_sprint.md)                |
-| Sprint 4                                                          | 04/06/2023 | Pendente     | -----------                                                 |
+|                          Sprint                          |  Entrega |    Status    | Tag  |
+| :------------------------------------------------------: | :------: | :----------: | :--: |
+| [Sprint 1](./doc/sprint/Sprints%20Anteriores/Sprint1.md) | 02/04/23 | Concluído    | V1.0 |
+| [Sprint 2](./doc/sprint/Sprints%20Anteriores/Sprint2.md) | 23/04/23 | Concluído    | V2.3 |
+| [Sprint 3](./doc/sprint/README_sprint.md)                | 14/05/23 | Em andamento | ---- |
+| --------                                                 | 04/06/23 | Pendente     | ---- |
 
->Após clicar nos links da área Tag você será redirecionado a página da sprint referente. <br/>
->Sprint 1: Descrição, MVP, Backlog e Wireframe <br/>
->Sprint 2: Descrição, Como Usar, MVP, Backlog e Apresentação do projeto <br/>
->Sprint 3: Como Usar e Backlog <br/>
+>Após clicar nos links da área Sprint você será redirecionado a página da sprint referente. Nela você encontrará: <br/>
+>Sprint 1-3: Sobre a Sprint, Backlog, MVP e Tag. <br/>
+>Sprint 1:  Wireframe <br/>
+>Sprint 2 e 3: Como Usar
 
 → [Voltar ao topo](#topo)
 
