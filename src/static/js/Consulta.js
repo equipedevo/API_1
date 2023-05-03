@@ -1,70 +1,56 @@
 window.onload = function (){
     let periodoSelect = document.getElementById("periodo");
-    let periodoParam = GetURLParameter("periodo");
-    if(periodoParam.length > 0){
-        for(let i = 0; i < periodoSelect.options.length; i++){
-            if(i == periodoParam){
-                periodoSelect.selectedIndex = i;
-                break;
-            }
+    let periodoParam = GetURLParameter("periodo").split(",");
+    if(periodoParam != ""){
+        if(periodoParam.length > 0){
+            for(let i = 0; i < periodoParam.length; i++)
+                periodoSelect.options[periodoParam[i]].selected = "selected";
         }
     }
 
     let cidadeSelect = document.getElementById("cidade");
-    let cidadeParam = GetURLParameter("cidade");
-    if(cidadeParam.length > 0){
-        for(let i = 0; i < cidadeSelect.options.length; i++){
-            if(i == cidadeParam){
-                cidadeSelect.selectedIndex = i;
-                break;
-            }
+    let cidadeParam = GetURLParameter("cidade").split(",");
+    if(cidadeParam != ""){
+        if(cidadeParam.length > 0){
+            for(let i = 0; i < cidadeParam.length; i++)
+                cidadeSelect.options[cidadeParam[i]].selected = "selected"
         }
     }
 
-    let tipovalorSelect = document.getElementById("tipovalor");
-    let tipovalorParam = GetURLParameter("tipovalor");
-    if(tipovalorParam.length > 0){
-        for(let i = 0; i < tipovalorSelect.options.length; i++){
-            if(i == tipovalorParam){
-                tipovalorSelect.selectedIndex = i;
-                break;
-            }
-        }
-    }
+    let tipoValorSelect = document.getElementById("tipoValor");
+    let tipoValorParam = GetURLParameter("tipoValor");
+    if(tipoValorParam != "")
+        tipoValorSelect.selectedIndex = tipoValorParam;
 
     let tipoSelect = document.getElementById("tipo");
-    let tipoParam = GetURLParameter("tipo");
-    if(tipoParam.length > 0){
-        for(let i = 0; i < tipoSelect.options.length; i++){
-            if(i == tipoParam){
-                tipoSelect.selectedIndex = i;
-                break;
-            }
+    let tipoSelectParam = GetURLParameter("tipo");
+    if(tipoSelectParam != "")
+        tipoSelect.selectedIndex = tipoSelectParam;
+
+    let subTipoSelect = document.getElementById("subTipo");
+    let subTipoParam = GetURLParameter("subTipo").split(",");
+    if(subTipoParam != ""){
+        if(subTipoParam.length > 0){
+            for(let i = 0; i < subTipoParam.length; i++)
+                subTipoSelect.options[subTipoParam[i]].selected = "selected"
         }
     }
 
-    let subtipoSelect = document.getElementById("subtipo");
-    let subtipoParam = GetURLParameter("subtipo");
-    if(subtipoParam.length > 0){
-        for(let i = 0; i < subtipoSelect.options.length; i++){
-            if(i == subtipoParam){
-                subtipoSelect.selectedIndex = i;
-                break;
-            }
-        }
-    }
-
-    UpdateSubtipos(document.getElementById("tipo"));
+    UpdatesubTipos(document.getElementById("tipo"));
 }
 
 function Search(){
     let periodoSelect = document.getElementById("periodo");
     let cidadeSelect = document.getElementById("cidade");
-    let tipovalorSelect = document.getElementById("tipovalor");
+    let tipoValorSelect = document.getElementById("tipoValor");
     let tipoSelect = document.getElementById("tipo");
-    let subtipoSelect = document.getElementById("subtipo");
-
-    window.location.href = 'atualizarConsulta?periodo=' + periodoSelect.selectedIndex + '&cidade=' + cidadeSelect.selectedIndex + '&tipovalor=' + tipovalorSelect.selectedIndex + '&tipo=' + tipoSelect.selectedIndex + '&subtipo=' + subtipoSelect.selectedIndex;
+    let subTipoSelect = document.getElementById("subTipo");
+    
+    window.location.href = 'consulta?periodo=' + Array.from(periodoSelect.selectedOptions).map(option => option.index) +
+        '&cidade=' + Array.from(cidadeSelect.selectedOptions).map(option => option.index) +
+        '&tipoValor=' + tipoValorSelect.selectedIndex +
+        '&tipo=' + tipoSelect.selectedIndex +
+        '&subTipo=' + Array.from(subTipoSelect.selectedOptions).map(option => option.index);
 }
 
 function ShowSelect(selectID, btn){
@@ -79,15 +65,15 @@ function ShowSelect(selectID, btn){
     }
 }
 
-function UpdateSubtipos(tipo){
-    subtipoSelect = document.getElementById("subtipo");
+function UpdatesubTipos(tipo){
+    subTipoSelect = document.getElementById("subTipo");
     
     selectedTipo = tipo.options[tipo.selectedIndex].value;
 
-    for (let i = 0; i < subtipoSelect.options.length; i++) {
-        if (subtipoSelect.options[i].value != selectedTipo)
-            subtipoSelect.options[i].style.display = "none";
-        else subtipoSelect.options[i].style.display = "block";
+    for (let i = 0; i < subTipoSelect.options.length; i++) {
+        if (subTipoSelect.options[i].value != selectedTipo)
+            subTipoSelect.options[i].style.display = "none";
+        else subTipoSelect.options[i].style.display = "block";
     }
 }
 

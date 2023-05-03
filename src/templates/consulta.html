@@ -12,7 +12,7 @@
     <main>
         <div class="row">
             <div class="col-1"></div>
-            <form class="col-10" id="filtro" method="POST">
+            <form class="col-10" id="filtro">
                 <div class="dropdown">
                     <label for="periodo">Periodo</label>
                     <select name="periodo" id="periodo" multiple="multiple">
@@ -32,52 +32,47 @@
                     <button type="button" onclick="ShowSelect('cidade', this)">Mostrar</button>
                 </div>
                 <div class="dropdown">
-                    <label for="tipovalor">Tipo do valor</label>
-                    <select name="tipovalor" id="tipovalor">
-                    {% for tipovalor in tipovalor %}
-                        <option value="{{ tipovalor.name }}">{{ tipovalor.value }}</option>
+                    <label for="tipoValor">Tipo do valor</label>
+                    <select name="tipoValor" id="tipoValor">
+                    {% for tipoValor in tipoValor %}
+                        <option value="{{ tipoValor.name }}">{{ tipoValor.value }}</option>
                     {% endfor %}
                     </select>
                 </div>
                 <div class="dropdown">
                     <label for="tipo">Tipo</label>
-                    <select name="tipo" id="tipo" onchange="UpdateSubtipos(this)">
+                    <select name="tipo" id="tipo" onchange="document.getElementById('subTipo').selectedIndex = -1; UpdatesubTipos(this)">
                     {% for tipo in tipos %}
                         <option value="{{ tipo.name }}">{{ tipo.value }}</option>
                     {% endfor %}
                     </select>
                 </div>
                 <div class="dropdown">
-                    <label for="subtipo">Subtipo</label>
-                    <select name="subtipo" id="subtipo"  multiple="multiple">
-                    {% for subtipo in subtipos %}
-                        {% for sub in subtipo %}
+                    <label for="subTipo">Subtipo</label>
+                    <select name="subTipo" id="subTipo"  multiple="multiple">
+                    {% for subTipo in subTipos %}
+                        {% for sub in subTipo %}
                             <option value="{{ sub.name }}">{{ sub.value }}</option>
                         {% endfor %}
                     {% endfor %}
                     </select>
-                    <button type="button" onclick="ShowSelect('subtipo', this)">Mostrar</button>
+                    <button type="button" onclick="ShowSelect('subTipo', this)">Mostrar</button>
                 </div>
-                <!--<input id="filtro-btn" type="image" src="./static/img/magnifying glass.png">-->
                 <button id="filtro-btn" type="button" onclick="Search()"><img src="./static/img/magnifying glass.png"></button>
-                <button id="filtro-btn" type="button" onclick="window.location.href = 'atualizarConsulta';"><img src="./static/img/rewind.png"></button>
+                <button id="filtro-btn" type="button" onclick="window.location.href = 'consulta';"><img src="./static/img/rewind.png"></button>
             </form>
             <div class="col-1"></div>
         </div>
+        {% for cidade in graficos %}
         <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8">
-                <!-- PLACEHOLDER GRAPH -->
-                <img class="grafico" src="{{ imgpath }}">
+            <div class="col-1"></div>
+            <div class="col-10 grafico-cidade">
+                {% for path in cidade.paths %}
+                <img class="grafico" src="{{ path }}">
+                {% endfor %}
             </div>
-            <!--
-            <div class="col-4">
-                <p>Texto exemplo</p>
-                <p>Texto exemplo</p>
-                <p>Texto exemplo</p>
-            </div>
-            -->
-            <div class="col-2"></div>
+            <div class="col-1"></div>
         </div>
+        {% endfor %}
     </main>
 {% endblock %}
