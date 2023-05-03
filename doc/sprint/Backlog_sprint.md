@@ -11,5 +11,6 @@
 | US#20  | Raspagem de dados dos custos     |               |                                                                                                                                      |                                                   |
 | US#21  | Raspagem de dados dos custos     |               |                                                                                                                                      |                                                   |
 | US#22  | Raspagem de dados dos custos     |               |                                                                                                                                      |                                                   |
+| US#23  | Filtro de mês                    |               |                                                                                                                                      |                                                   |
 
 ## [Ir para a tela de início](./../../README.md) ou [Ir para a 3ª sprint](./README_sprint.md)
