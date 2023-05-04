@@ -2,12 +2,13 @@
 
 {% block estilos %}
     <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="stylesheet" href="./static/css/responsivo.css">
 {% endblock %}
 
 {% block conteudo %}
     <main>
         <div class="row" id="bem-vindo">
-            <div class="col-1"></div>
+            <div class="col-1 space"></div>
             <div class="col-5">
                 <div class="conteudo">
                     <h3 class="title">Bem-vindo à <br>base de dados <br>sobre a covid longa</h3>
@@ -15,7 +16,7 @@
                     <button class="btn" type="button" onclick="window.location.href = 'consulta';">Consultar</button>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-6 col-dir">
                 <img src="./static/img/covidIndex.svg" class="img-fluid" alt="Covid News">
             </div>
         </div>

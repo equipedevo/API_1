@@ -1,0 +1,41 @@
+@media(max-width:425px){
+
+    .col-dir{
+        display: none;
+    }
+
+    .col-esq{
+        display: none;
+    }
+
+    .space{
+        display: none;
+    }
+
+    .conteudo{
+        text-align: center;
+    }
+
+    .title{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    h4{
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .col-5 { 
+        width: 83.33%; 
+    }
+
+    footer a{
+        padding: 0rem .5rem;
+    }
+
+    footer p{
+        padding-top: .5rem;
+    }
+
+}
