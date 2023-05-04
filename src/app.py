@@ -6,14 +6,17 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    title = "Home"
+    return render_template("index.html", title = title)
 
 @app.route("/sobre")
 def sobre():
-    return render_template("sobre.html")
+    title = "Sobre o CICOVALE"
+    return render_template("sobre.html", title = title)
 
 @app.route("/consulta", methods=["GET"])
 def consulta():
+    title = "Consultar"
     if request.method != "GET" or not request.args.get("periodo") or not request.args.get("cidade") or not request.args.get("tipoValor") or not request.args.get("tipo") or not request.args.get("subTipo"):
         return render_template("consulta.html",
             periodos = FilterData.periodos,
@@ -53,7 +56,7 @@ def consulta():
             paths.append(path)
         graficos.append({ "cidade": cidade["name"], "paths": paths })
         
-    return render_template("consulta.html",
+    return render_template("consulta.html", title = title,
         periodos = FilterData.periodos,
         cidades = FilterData.cidades,
         tipoValor = FilterData.tipoValor,
