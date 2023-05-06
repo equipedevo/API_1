@@ -37,15 +37,12 @@ body {
 /* ÁREA DE ESTILIZAÇÃO DO MENU/NAVBAR */
 
 header {
-    display: flex;
-    align-items: center;
-
     position: fixed;
     top: 0;
     left: 0;
 
-    width: 100%;
-    height: 100px;
+    width: 100vw;
+    height: 10vh;
 
     padding: 0px;
 
@@ -53,31 +50,28 @@ header {
     background-color: #ffffff;
 }
 
-#logo {
+nav{
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
 }
 
-#logo img {
-    width: 70px;
-    height: 70px;
+.logo img {
+    width: 60px;
+    height: 60px;
 }
 
-header li{
-    padding: 1em .8em;
-    font-size:18px;
-}
-
-header ul{
+.nav-list{
     display: flex;
-
-    float: right;
-
     list-style: none;
 
     margin-right: 10px;
     padding: 0;
+}
+
+.nav-list li{
+    padding: 1em .8em;
+    font-size:18px;
 }
 
 header a{
@@ -104,11 +98,26 @@ header a:hover{
     border: 1px solid #00f;
 }
 
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background-color: #00f;
+    margin: 8px;
+    transition: 0.3s;
+}
+
 main{
     padding-top: 100px;
     width: 100%;
     min-height: 100vh;
 }
+
+/* FOOTER */
 
 footer{
     background-color: #d6d6d6;

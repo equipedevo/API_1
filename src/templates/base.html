@@ -26,7 +26,22 @@
 </head>
 <body>
     <header class="row">
-        <div class="col-2" id="logo">
+      <nav>
+        <a class="logo" href="#"><img src="../static/img/devoLogo.png"></a>
+        <div class="mobile-menu">
+          <div class="linha1"></div>
+          <div class="linha2"></div>
+          <div class="linha3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="/">Início</a></li>
+          <li><a href="sobre">Sobre</a></li>
+          <li><a href="#ajuda">Ajuda</a></li>
+          <li><a href="#fontes">Fontes</a></li>
+          <li><a href="consulta" id="btn-consultar">Consultar</a></li>
+        </ul>
+      </nav>
+        <!-- <div class="col-2" id="logo">
             <img src="./static/img/devoLogo.png">
         </div>
         <div class="col-9">
@@ -81,7 +96,7 @@
                 <li><a href="consulta" id="btn-consultar">Consultar</a></li>
             </ul>
         </div>
-        <div class="col-1"></div>
+        <div class="col-1"></div> -->
     </header>
 
     {% block conteudo %}
@@ -95,5 +110,6 @@
             <p>Faculdade de Tecnologia do Estado de São Paulo - Prof Jessen Vidal </p>
             <p>Desenvolvido por<a target="_blank" id="copy-link" href="https://github.com/equipedevo/API_1#topo">&copy; Equipe DEVO</a><br>2023</p>
     </footer>
+    <script src="../static/js/mobile-navbar.js"></script>
 </body>
 </html>
