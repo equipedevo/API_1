@@ -1,4 +1,9 @@
-periodos = ["2019", "2020", "2021", "2022"]
+periodos = [
+    { "name": "2019", "range": range(1, 13) },
+    { "name": "2020", "range": range(14, 26) },
+    { "name": "2021", "range": range(27, 39) },
+    { "name": "2022", "range": range(40, 52) }
+]
 
 cidades = [
     { "name": "sjc", "value": "São José dos Campos" },

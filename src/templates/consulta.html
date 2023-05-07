@@ -2,10 +2,12 @@
 
 {% block estilos %}
     <link rel="stylesheet" href="./static/css/consulta.css">
+    <link rel="stylesheet" href="./static/css/carousel.css">
 {% endblock %}
 
 {% block scripts %}
     <script src="./static/js/Consulta.js"></script>
+    <script src="./static/js/Carousel.js"></script>
 {% endblock %}
 
 {% block conteudo %}
@@ -15,21 +17,21 @@
             <form class="col-10" id="filtro">
                 <div class="dropdown">
                     <label for="periodo">Periodo</label>
+                    <button type="button" onclick="ShowSelect('periodo', this)">Mostrar</button>
                     <select name="periodo" id="periodo" multiple="multiple">
                     {% for periodo in periodos %}
-                        <option value="{{ periodo }}">{{ periodo }}</option>
+                        <option value="{{ periodo.name }}">{{ periodo.name }}</option>
                     {% endfor %}
                     </select>
-                    <button type="button" onclick="ShowSelect('periodo', this)">Mostrar</button>
                 </div>
                 <div class="dropdown">
                     <label for="cidade">Cidade</label>
+                    <button type="button" onclick="ShowSelect('cidade', this)">Mostrar</button>
                     <select name="cidade" id="cidade"  multiple="multiple">
                     {% for cidade in cidades %}
                         <option value="{{ cidade.name }}">{{ cidade.value }}</option>
                     {% endfor %}
                     </select>
-                    <button type="button" onclick="ShowSelect('cidade', this)">Mostrar</button>
                 </div>
                 <div class="dropdown">
                     <label for="tipoValor">Tipo do valor</label>
@@ -49,14 +51,18 @@
                 </div>
                 <div class="dropdown">
                     <label for="subTipo">Subtipo</label>
+                    <button type="button" onclick="ShowSelect('subTipo', this)">Mostrar</button>
                     <select name="subTipo" id="subTipo"  multiple="multiple">
-                    {% for subTipo in subTipos %}
+                        {% for subTipo in subTipos %}
                         {% for sub in subTipo %}
                             <option value="{{ sub.name }}">{{ sub.value }}</option>
                         {% endfor %}
                     {% endfor %}
                     </select>
-                    <button type="button" onclick="ShowSelect('subTipo', this)">Mostrar</button>
+                </div>
+                <div class="dropdown">
+                    <label for="porcentagem">Porcentagem</label>
+                    <input name="porcentagem" id="porcentagem" type="checkbox">
                 </div>
                 <button id="filtro-btn" type="button" onclick="Search()"><img src="./static/img/magnifying glass.png"></button>
                 <button id="filtro-btn" type="button" onclick="window.location.href = 'consulta';"><img src="./static/img/rewind.png"></button>
@@ -66,10 +72,16 @@
         {% for cidade in graficos %}
         <div class="row">
             <div class="col-1"></div>
-            <div class="col-10 grafico-cidade">
+            <div id="{{ cidade.name }}" class="col-10 carousel">
+                {% if cidade.paths| length > 1 %}
+                <button onclick="RollCarousel(document.getElementById('{{ cidade.name }}'), -1)"><1/4</button>
+                {% endif %}
                 {% for path in cidade.paths %}
                 <img class="grafico" src="{{ path }}">
                 {% endfor %}
+                {% if cidade.paths| length > 1 %}
+                <button onclick="RollCarousel(document.getElementById('{{ cidade.name }}'), 1)">1/4></button>
+                {% endif %}
             </div>
             <div class="col-1"></div>
         </div>

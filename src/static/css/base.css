@@ -35,7 +35,6 @@ body {
 }
 
 /* ÁREA DE ESTILIZAÇÃO DO MENU/NAVBAR */
-
 header {
     display: flex;
     align-items: center;
@@ -138,12 +137,12 @@ footer a:hover{
 #fontesOpen:checked + .modal {
     opacity: 1;
     transform: scale(1);
-      }        
+}        
       
 /* Texto que abre o Modal */
 .modalOpen {
     display: inline-block;
-    cursor: pointer;;
+    cursor: pointer;
 }
 
 .modalLabel {
@@ -168,9 +167,8 @@ footer a:hover{
     opacity: 0;
     transform: scale(0);
     text-align: left;
-  z-index:99;
+    z-index:99;
 }
-
 
 .overlay {
     position: absolute;
@@ -194,7 +192,6 @@ footer a:hover{
     padding: 20px;
     padding-bottom: 30px;
 }
-
 
 /* X */
 .closeBtn {

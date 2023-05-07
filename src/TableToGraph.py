@@ -1,6 +1,7 @@
 import matplotlib.pyplot as pyplot
 import numpy
 import pandas
+import os
 
 colors = [
     '#fa0606',
@@ -29,7 +30,7 @@ def BarGraph(csvDir, title, barCount, lineRange, xLabel, yLabel, figDir):
         j += 1
         if j > barCount:
             break
-        lines.append(dataFrame.values[i][0])
+        lines.append(dataFrame.values[i][0][:3])
         for l in range(0, len(dataFrame.values[i])):
             print(dataFrame.values[i][l])
         bars.append(dataFrame.values[i][-1])
@@ -41,6 +42,8 @@ def BarGraph(csvDir, title, barCount, lineRange, xLabel, yLabel, figDir):
 
     pyplot.title(title)
 
+    MakeFolder()
+
     pyplot.gcf().set_size_inches(10, 5)
     pyplot.tight_layout()
     pyplot.savefig(figDir)
@@ -50,12 +53,12 @@ def GroupedBarGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, 
 
     lines = []
     for i in lineRange:
-        lines.append(dataFrame.values[i][0])
+        lines.append(dataFrame.values[i][0][:3])
 
     bars = {}
     for i in barRange:
         values = []
-        for j in range(1, 13):
+        for j in lineRange:
             value = 0
             try:
                 value = float(dataFrame.values[j][int(i)+1])
@@ -72,17 +75,120 @@ def GroupedBarGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, 
 
     for names, values in bars.items():
         offset = width * multiplier
-        rects = axes.bar(x + offset, values, width, label=names) #, color=colors)
+        rects = axes.bar(x + offset, values, width, label=names)
         axes.bar_label(rects)
         multiplier += 1
 
     axes.set_xlabel(xLabel)
     axes.set_ylabel((f"{yLabel} / {divisor}" if divisor > 1 else yLabel))
     axes.set_title(title)
-    axes.set_xticks(x + width, lines)
+    axes.set_xticks(x + width / len(bars), lines)
     axes.legend(loc='upper left')
     axes.set_ymargin(0.2)
+
+    MakeFolder()
 
     pyplot.gcf().set_size_inches(10, 5)
     pyplot.tight_layout()
     pyplot.savefig(figDir)
+
+def PercentageGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, divisor = 1):
+    dataFrame = pandas.read_csv(csvDir, encoding = "utf-8")
+
+    lines = []
+    for i in lineRange:
+        lines.append(dataFrame.values[i][0][:3])
+
+    bars = {}
+    for i in barRange:
+        values = []
+        for j in lineRange:
+            value = 0
+            try:
+                value = float(dataFrame.values[j][int(i)+1])
+            except:
+                value = 0
+            values.append(value / divisor)
+        bars.update({ dataFrame.columns[int(i)+1]: numpy.array(values) })
+
+    x = numpy.arange(len(lines))
+    width = 1/(len(bars) + 1)
+    multiplier = 0
+
+    fig, axes = pyplot.subplots(layout='constrained')
+
+    maxVal = 0
+    for names, values in bars.items():
+        if max(values) > maxVal:
+            maxVal = max(values)
+
+    for names, values in bars.items():
+        offset = width * multiplier
+        rects = axes.bar(x + offset, [int((x / maxVal) * 100) for x in values], width, label=names)
+        axes.bar_label(rects)
+        multiplier += 1
+
+    axes.set_xlabel(xLabel)
+    axes.set_ylabel((f"{yLabel} / {divisor}" if divisor > 1 else yLabel))
+    axes.set_title(title)
+    axes.set_xticks(x + width / len(bars), lines)
+    axes.legend(loc='upper left')
+    axes.set_ymargin(0.2)
+
+    MakeFolder()
+
+    pyplot.gcf().set_size_inches(10, 5)
+    pyplot.tight_layout()
+    pyplot.savefig(figDir)
+
+def PercentageLineGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, divisor = 1):
+    dataFrame = pandas.read_csv(csvDir, encoding = "utf-8")
+
+    lines = []
+    for i in lineRange:
+        lines.append(dataFrame.values[i][0][:3])
+
+    total = []
+    bars = {}
+    for i in barRange:
+        values = []
+        total.append(float(dataFrame.values[lineRange[0]-1][int(i)+1]))
+        for j in lineRange:
+            value = 0
+            try:
+                value = float(dataFrame.values[j][int(i)+1])
+            except:
+                value = 0
+            values.append(value / divisor)
+        bars.update({ dataFrame.columns[int(i)+1]: numpy.array(values) })
+
+    x = numpy.arange(len(lines))
+    width = 1/(len(bars) + 1)
+    multiplier = 0
+
+    fig, axes = pyplot.subplots(layout='constrained')
+
+    totalTick = 0
+    for names, values in bars.items():
+        width * multiplier
+        axes.plot([float((x / total[totalTick]) * 100) for x in values], label=names)
+        multiplier += 1
+        totalTick += 1
+
+    axes.set_xlabel(xLabel)
+    axes.set_ylabel((f"{yLabel} / {divisor}" if divisor > 1 else yLabel))
+    axes.set_title(title)
+    axes.set_xticks(x, lines)
+    axes.legend(loc='upper left')
+    axes.set_ymargin(0.2)
+    # axes.set_ylim(0, 120)
+
+    MakeFolder()
+
+    pyplot.gcf().set_size_inches(10, 5)
+    pyplot.tight_layout()
+    pyplot.savefig(figDir)
+
+def MakeFolder():
+    if not os.path.isdir("./static/graficos/"):
+        os.makedirs("./static/graficos/")

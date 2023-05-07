@@ -1,0 +1,12 @@
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel button{
+    display: inline-block;
+
+    height: 100%;
+    width: 5%;
+}
