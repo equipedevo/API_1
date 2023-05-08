@@ -41,7 +41,7 @@
         <div class="col-1"></div>
     </header>
     <main>
-      
+
       <div class="popups overlay">
         <div class="contentPopup" id="popupAjuda">
           <h2>Como consultar os dados?</h2>
@@ -57,52 +57,9 @@
       <div class="popups overlay">
         <div class="contentPopup" id="popupFontes">
           <h2>Fontes</h2>
-          <p><a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/">DATASUS TABNET</p>
+          <p><a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/" target="_blank">DATASUS TABNET</p>
         </div>
       </div>
-
-    <label class="modalOpen modalLabel" for="ajudaOpen"><p>Ajuda</p></label>
-    <input type="radio" name="modal" value="open" id="ajudaOpen" class="modalRadio" />
-    <div class="modal">
-      <label class="modalLabel overlay">
-        <input type="radio" name="modal" value="close" class="modalRadio"/>
-      </label>
-      <div class="contentModal">
-        <label class="modalLabel closeBtn">
-          <input type="radio" name="modal" value="close" class="modalRadio"/>
-        </label>
-        <br/><br/><h2>Como consultar dados?</h2><br/><br/>
-        <br>
-        <p>Para consultar dados isolados, vá para a página "Consultar", selecione apenas uma opção em cada uma das caixas de seleção e clique na lupa à direita.
-        <br><br>
-        Para iniciar nova pesquisa, clique no botão atualizar.</p>    
-        <br>
-        <br>                    
-        <h2>Como comparar dados?</h2>
-        <br>
-        <p>Para comparar dados, vá para a página "Consultar", selecione uma ou mais opções em cada uma das caixas de seleção e clique na lupa à direita.
-        <br><br>
-        Para iniciar nova pesquisa, clique no botão atualizar </p><br/>
-      </div>
-    </div>
-
-    <label class="modalOpen modalLabel" for="fontesOpen"><p>Fontes</p></label>
-    <input type="radio" name="modal" value="open" id="fontesOpen" class="modalRadio" />
-    <div class="modal">
-      <label class="modalLabel overlay">
-        <input type="radio" name="modal" value="close" class="modalRadio"/>
-      </label>
-      <div class="contentModal">
-        <label class="modalLabel closeBtn">
-          <input type="radio" name="modal" value="close" class="modalRadio"/>
-        </label>
-        <br>
-        <h2>Fontes</h2>
-        <br><br>
-        <a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/">TABNET</a> 
-        <br><br>
-        </div>
-    </div>
 
     {% block conteudo %}
     {% endblock %}

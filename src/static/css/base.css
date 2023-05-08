@@ -150,7 +150,8 @@ footer a:hover{
     top: 0;
     left: 0;
 
-    overflow: visible;
+    /* overflow: visible; */
+    display: none;
 
     text-align: justify;
     z-index: 99;
@@ -180,83 +181,4 @@ footer a:hover{
 .popups .contentPopup p{
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-/* Pop-up */
-/* Antes de Clicar */
-#ajudaOpen:checked + .modal,
-#fontesOpen:checked + .modal {
-    opacity: 1;
-    transform: scale(1);
-}        
-      
-/* Depois do Clicar */
-/* Around */
-.modal {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    opacity: 0;
-    transform: scale(0);
-    text-align: left;
-    z-index:99;
-}
-
-/* Container Pop-up */
-.modal .contentModal {
-    position: absolute;
-    width: 70%;
-    max-height: 70%;
-    top: 10%;
-    left: 15%;
-    background: #fff;
-    border-radius: 15px;
-    box-shadow: 0 3px 15px -2px #6c6c6c;
-    padding: 20px;
-    padding-bottom: 30px;
-}
-
-/* X */
-.closeBtn {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 10px;
-    right: 20px;
-    cursor: pointer;
-}
-.closeBtn:after,
-.closeBtn:before {
-    content: "";
-    position: absolute;
-    width: 70%;
-    height: 2px;
-    background: #a9a9a9;
-    left: 15%;
-    top: 50%;
-    top: calc(50% - 1px);
-    transform-origin: 50% 50%;
-    transform: rotate(45deg);
-}
-.closeBtn:before {
-    transform: rotate(-45deg);
-}
-
-/* Texto que abre o Modal */
-.modalOpen {
-    display: inline-block;
-    cursor: pointer;
-}
-
-.modalLabel {
-    position: relative;
-}
-
-.modalRadio {
-    position: absolute;
-    visibility: hidden;
-    opacity: 0;
 }
