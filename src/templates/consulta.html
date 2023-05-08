@@ -9,70 +9,68 @@
 {% endblock %}
 
 {% block conteudo %}
-    <main>
-        <div class="row">
-            <div class="col-1"></div>
-            <form class="col-10" id="filtro">
-                <div class="dropdown">
-                    <label for="periodo">Periodo</label>
-                    <select name="periodo" id="periodo" multiple="multiple">
-                    {% for periodo in periodos %}
-                        <option value="{{ periodo }}">{{ periodo }}</option>
-                    {% endfor %}
-                    </select>
-                    <button type="button" onclick="ShowSelect('periodo', this)">Mostrar</button>
-                </div>
-                <div class="dropdown">
-                    <label for="cidade">Cidade</label>
-                    <select name="cidade" id="cidade"  multiple="multiple">
-                    {% for cidade in cidades %}
-                        <option value="{{ cidade.name }}">{{ cidade.value }}</option>
-                    {% endfor %}
-                    </select>
-                    <button type="button" onclick="ShowSelect('cidade', this)">Mostrar</button>
-                </div>
-                <div class="dropdown">
-                    <label for="tipoValor">Tipo do valor</label>
-                    <select name="tipoValor" id="tipoValor">
-                    {% for tipoValor in tipoValor %}
-                        <option value="{{ tipoValor.name }}">{{ tipoValor.value }}</option>
-                    {% endfor %}
-                    </select>
-                </div>
-                <div class="dropdown">
-                    <label for="tipo">Tipo</label>
-                    <select name="tipo" id="tipo" onchange="document.getElementById('subTipo').selectedIndex = -1; UpdatesubTipos(this)">
-                    {% for tipo in tipos %}
-                        <option value="{{ tipo.name }}">{{ tipo.value }}</option>
-                    {% endfor %}
-                    </select>
-                </div>
-                <div class="dropdown">
-                    <label for="subTipo">Subtipo</label>
-                    <select name="subTipo" id="subTipo"  multiple="multiple">
-                    {% for subTipo in subTipos %}
-                        {% for sub in subTipo %}
-                            <option value="{{ sub.name }}">{{ sub.value }}</option>
-                        {% endfor %}
-                    {% endfor %}
-                    </select>
-                    <button type="button" onclick="ShowSelect('subTipo', this)">Mostrar</button>
-                </div>
-                <button id="filtro-btn" type="button" onclick="Search()"><img src="./static/img/magnifying glass.png"></button>
-                <button id="filtro-btn" type="button" onclick="window.location.href = 'consulta';"><img src="./static/img/rewind.png"></button>
-            </form>
-            <div class="col-1"></div>
-        </div>
-        {% for cidade in graficos %}
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col-10 grafico-cidade">
-                {% for path in cidade.paths %}
-                <img class="grafico" src="{{ path }}">
+    <div class="row">
+        <div class="col-1"></div>
+        <form class="col-10" id="filtro">
+            <div class="dropdown">
+                <label for="periodo">Periodo</label>
+                <select name="periodo" id="periodo" multiple="multiple">
+                {% for periodo in periodos %}
+                    <option value="{{ periodo }}">{{ periodo }}</option>
                 {% endfor %}
+                </select>
+                <button type="button" onclick="ShowSelect('periodo', this)">Mostrar</button>
             </div>
-            <div class="col-1"></div>
+            <div class="dropdown">
+                <label for="cidade">Cidade</label>
+                <select name="cidade" id="cidade"  multiple="multiple">
+                {% for cidade in cidades %}
+                    <option value="{{ cidade.name }}">{{ cidade.value }}</option>
+                {% endfor %}
+                </select>
+                <button type="button" onclick="ShowSelect('cidade', this)">Mostrar</button>
+            </div>
+            <div class="dropdown">
+                <label for="tipoValor">Tipo do valor</label>
+                <select name="tipoValor" id="tipoValor">
+                {% for tipoValor in tipoValor %}
+                    <option value="{{ tipoValor.name }}">{{ tipoValor.value }}</option>
+                {% endfor %}
+                </select>
+            </div>
+            <div class="dropdown">
+                <label for="tipo">Tipo</label>
+                <select name="tipo" id="tipo" onchange="document.getElementById('subTipo').selectedIndex = -1; UpdatesubTipos(this)">
+                {% for tipo in tipos %}
+                    <option value="{{ tipo.name }}">{{ tipo.value }}</option>
+                {% endfor %}
+                </select>
+            </div>
+            <div class="dropdown">
+                <label for="subTipo">Subtipo</label>
+                <select name="subTipo" id="subTipo"  multiple="multiple">
+                {% for subTipo in subTipos %}
+                    {% for sub in subTipo %}
+                        <option value="{{ sub.name }}">{{ sub.value }}</option>
+                    {% endfor %}
+                {% endfor %}
+                </select>
+                <button type="button" onclick="ShowSelect('subTipo', this)">Mostrar</button>
+            </div>
+            <button id="filtro-btn" type="button" onclick="Search()"><img src="./static/img/magnifying glass.png"></button>
+            <button id="filtro-btn" type="button" onclick="window.location.href = 'consulta';"><img src="./static/img/rewind.png"></button>
+        </form>
+        <div class="col-1"></div>
+    </div>
+    {% for cidade in graficos %}
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10 grafico-cidade">
+            {% for path in cidade.paths %}
+            <img class="grafico" src="{{ path }}">
+            {% endfor %}
         </div>
-        {% endfor %}
-    </main>
+        <div class="col-1"></div>
+    </div>
+    {% endfor %}
 {% endblock %}

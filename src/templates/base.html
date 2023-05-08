@@ -26,90 +26,95 @@
 </head>
 <body>
     <header class="row">
-      <nav>
-        <a class="logo" href="#"><img src="../static/img/devoLogo.png"></a>
-        <div class="mobile-menu">
-          <div class="linha1"></div>
-          <div class="linha2"></div>
-          <div class="linha3"></div>
-        </div>
-        <ul class="nav-list">
-          <li><a href="/">Início</a></li>
-          <li><a href="sobre">Sobre</a></li>
-          <li><a href="#ajuda">Ajuda</a></li>
-          <li><a href="#fontes">Fontes</a></li>
-          <li><a href="consulta" id="btn-consultar">Consultar</a></li>
-        </ul>
-      </nav>
-        <!-- <div class="col-2" id="logo">
+        <div class="col-2" id="logo">
             <img src="./static/img/devoLogo.png">
         </div>
         <div class="col-9">
             <ul>
                 <li><a href="/">Início</a></li>
                 <li><a href="sobre">Sobre</a></li>
-                <li>
-                    <label class="modalOpen modalLabel" for="ajudaOpen"><p>Ajuda</p></label>
-                    <input type="radio" name="modal" value="open" id="ajudaOpen" class="modalRadio" />
-                    <div class="modal">
-                      <label class="modalLabel overlay">
-                        <input type="radio" name="modal" value="close" class="modalRadio"/>
-                      </label>
-                      <div class="contentModal">
-                        <label class="modalLabel closeBtn">
-                          <input type="radio" name="modal" value="close" class="modalRadio"/>
-                        </label>
-                        <br/><br/><h2>Como consultar dados?</h2><br/><br/>
-                        <br>
-                        <p>Para consultar dados isolados, vá para a página "Consultar", selecione apenas uma opção em cada uma das caixas de seleção e clique na lupa à direita.
-                        <br><br>
-                        Para iniciar nova pesquisa, clique no botão atualizar.</p>    
-                        <br>
-                        <br>                    
-                        <h2>Como comparar dados?</h2>
-                        <br>
-                        <p>Para comparar dados, vá para a página "Consultar", selecione uma ou mais opções em cada uma das caixas de seleção e clique na lupa à direita.
-                        <br><br>
-                        Para iniciar nova pesquisa, clique no botão atualizar </p><br/>
-                      </div>
-                    </div>
-                </li>
-                <li>
-                    <label class="modalOpen modalLabel" for="fontesOpen"><p>Fontes</p></label>
-                    <input type="radio" name="modal" value="open" id="fontesOpen" class="modalRadio" />
-                    <div class="modal">
-                      <label class="modalLabel overlay">
-                        <input type="radio" name="modal" value="close" class="modalRadio"/>
-                      </label>
-                      <div class="contentModal">
-                        <label class="modalLabel closeBtn">
-                          <input type="radio" name="modal" value="close" class="modalRadio"/>
-                        </label>
-                        <br>
-                        <h2>Fontes</h2>
-                        <br><br>
-                        <a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/">TABNET</a> 
-                        <br><br>
-                        </div>
-                    </div>
-                </li>
+                <li><a href="#Ajuda">Ajuda</a></li>
+                <li><a href="#Fontes">Fontes</a></li>
                 <li><a href="consulta" id="btn-consultar">Consultar</a></li>
             </ul>
         </div>
-        <div class="col-1"></div> -->
+        <div class="col-1"></div>
     </header>
+    <main>
+      
+      <div class="popups overlay">
+        <div class="contentPopup" id="popupAjuda">
+          <h2>Como consultar os dados?</h2>
+          <p>Para consultar dados isolados, vá para a página "Consultar", selecione a opção que desejar em cada uma das caixas de seleção e clique na lupa à direita.</p>
+          <p>Para iniciar uma nova pesquisa, clique no botão de atualizar, a setinha curvada, à direita da lupa.</p>
+          <br>
+          <h2>Como comparar dados?</h2>
+          <p>Para comparar dados vá para a página "Consultar", selecione uma ou mais opções em cada uma das caixas de seleção e clique na lupa à direita.</p>
+          <p>Para iniciar uma nova pesquisa, clique no botão de atualizar, a setinha curvada, à direita da lupa.</p>
+        </div>
+      </div>
+
+      <div class="popups overlay">
+        <div class="contentPopup" id="popupFontes">
+          <h2>Fontes</h2>
+          <p><a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/">DATASUS TABNET</p>
+        </div>
+      </div>
+
+    <label class="modalOpen modalLabel" for="ajudaOpen"><p>Ajuda</p></label>
+    <input type="radio" name="modal" value="open" id="ajudaOpen" class="modalRadio" />
+    <div class="modal">
+      <label class="modalLabel overlay">
+        <input type="radio" name="modal" value="close" class="modalRadio"/>
+      </label>
+      <div class="contentModal">
+        <label class="modalLabel closeBtn">
+          <input type="radio" name="modal" value="close" class="modalRadio"/>
+        </label>
+        <br/><br/><h2>Como consultar dados?</h2><br/><br/>
+        <br>
+        <p>Para consultar dados isolados, vá para a página "Consultar", selecione apenas uma opção em cada uma das caixas de seleção e clique na lupa à direita.
+        <br><br>
+        Para iniciar nova pesquisa, clique no botão atualizar.</p>    
+        <br>
+        <br>                    
+        <h2>Como comparar dados?</h2>
+        <br>
+        <p>Para comparar dados, vá para a página "Consultar", selecione uma ou mais opções em cada uma das caixas de seleção e clique na lupa à direita.
+        <br><br>
+        Para iniciar nova pesquisa, clique no botão atualizar </p><br/>
+      </div>
+    </div>
+
+    <label class="modalOpen modalLabel" for="fontesOpen"><p>Fontes</p></label>
+    <input type="radio" name="modal" value="open" id="fontesOpen" class="modalRadio" />
+    <div class="modal">
+      <label class="modalLabel overlay">
+        <input type="radio" name="modal" value="close" class="modalRadio"/>
+      </label>
+      <div class="contentModal">
+        <label class="modalLabel closeBtn">
+          <input type="radio" name="modal" value="close" class="modalRadio"/>
+        </label>
+        <br>
+        <h2>Fontes</h2>
+        <br><br>
+        <a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/">TABNET</a> 
+        <br><br>
+        </div>
+    </div>
 
     {% block conteudo %}
     {% endblock %}
+  </main>
 
-    <footer>
-        <p><a href="/">Início</a>
-            <a href="/sobre">Sobre</a>
-            <a href="#Fontes">Fontes</a>
-            <a href="#Ajuda">Ajuda</a></p>
-            <p>Faculdade de Tecnologia do Estado de São Paulo - Prof Jessen Vidal </p>
-            <p>Desenvolvido por<a target="_blank" id="copy-link" href="https://github.com/equipedevo/API_1#topo">&copy; Equipe DEVO</a><br>2023</p>
-    </footer>
-    <script src="../static/js/mobile-navbar.js"></script>
+  <footer>
+      <p><a href="/">Início</a>
+          <a href="/sobre">Sobre</a>
+          <a href="#Fontes">Fontes</a>
+          <a href="#Ajuda">Ajuda</a></p>
+          <p>Faculdade de Tecnologia do Estado de São Paulo - Prof Jessen Vidal </p>
+          <p>Desenvolvido por<a target="_blank" id="copy-link" href="https://github.com/equipedevo/API_1#topo">&copy; Equipe DEVO</a><br>2023</p>
+  </footer>
 </body>
 </html>
