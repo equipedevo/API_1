@@ -114,4 +114,4 @@ A última versão da 2ªSprint foi [V2.3](https://github.com/equipedevo/API_1/re
 
 → [Voltar ao topo](#topo)
 
-## [Ir para a tela de início](./../../../README.md)
+## [Ir para a tela de início](./../../../)

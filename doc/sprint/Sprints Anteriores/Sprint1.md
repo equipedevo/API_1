@@ -75,4 +75,4 @@ A última versão da 1ªSprint foi [V1](https://github.com/equipedevo/API_1/rele
 
 → [Voltar ao topo](#topo)<br/>
 
-## [Ir para a tela de início](./../../../README.md)
+## [Ir para a tela de início](./../../../)
