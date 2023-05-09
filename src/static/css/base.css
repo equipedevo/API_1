@@ -140,6 +140,8 @@ footer a:hover{
     background: inherit;
     top: 0;
     left: 0;
+
+    display: none;
 }
 
 .popups{
@@ -149,9 +151,6 @@ footer a:hover{
 
     top: 0;
     left: 0;
-
-    /* overflow: visible; */
-    display: none;
 
     text-align: justify;
     z-index: 99;
@@ -166,7 +165,7 @@ footer a:hover{
 
     background-color: #fff;
     
-    border-radius: 50px;
+    border-radius: 25px;
     box-shadow: 0 3px 15px -2px #6c6c6c;
     padding: 20px;
     padding-bottom: 30px;
@@ -181,4 +180,27 @@ footer a:hover{
 .popups .contentPopup p{
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+
+.contentPopup #popAjuda{
+    display: none;
+}
+
+.contentPopup #popFontes{
+    display: none;
+}
+
+.contentPopup .sair{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentPopup .sair div{
+    width: 32px;
+    height: 2px;
+    float: right;
+    margin: 8px;
+    background-color: #00f;
 }

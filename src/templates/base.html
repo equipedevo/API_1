@@ -20,7 +20,7 @@
     {% block estilos %}
 
     {% endblock %}
-
+    <script src="../static/js/Pop-up.js" defer></script>
     {% block scripts %}
     {% endblock %}
 </head>
@@ -33,8 +33,8 @@
             <ul>
                 <li><a href="/">Início</a></li>
                 <li><a href="sobre">Sobre</a></li>
-                <li><a href="#Ajuda">Ajuda</a></li>
-                <li><a href="#Fontes">Fontes</a></li>
+                <li><a href="#Ajuda" id="btnajuda" onclick="PopUpAjuda()">Ajuda</a></li>
+                <li><a href="#Fontes" id="btnfontes">Fontes</a></li>
                 <li><a href="consulta" id="btn-consultar">Consultar</a></li>
             </ul>
         </div>
@@ -44,6 +44,7 @@
 
       <div class="popups overlay">
         <div class="contentPopup" id="popupAjuda">
+          <!-- <div class="sair"><div class="linha1"></div><div class="linha2"></div></div> -->
           <h2>Como consultar os dados?</h2>
           <p>Para consultar dados isolados, vá para a página "Consultar", selecione a opção que desejar em cada uma das caixas de seleção e clique na lupa à direita.</p>
           <p>Para iniciar uma nova pesquisa, clique no botão de atualizar, a setinha curvada, à direita da lupa.</p>
@@ -54,12 +55,12 @@
         </div>
       </div>
 
-      <div class="popups overlay">
+      <!-- <div class="popups overlay">
         <div class="contentPopup" id="popupFontes">
           <h2>Fontes</h2>
-          <p><a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/" target="_blank">DATASUS TABNET</p>
+          <p><a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/" target="_blank">DATASUS TABNET</a></p>
         </div>
-      </div>
+      </div> -->
 
     {% block conteudo %}
     {% endblock %}
