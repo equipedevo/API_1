@@ -94,12 +94,15 @@
 .dropdown input[type="checkbox"]{
     width: 40px;
     height: 40px;
+    border: 2px solid #3c3c3c;
+    cursor: pointer;
 }
 
 .dropdown button[type="button"]{
     background-color: #ffffff;
     width: 117px;
     height: 40px;
+    cursor: pointer;
 }
 
 .grafico-cidade{
