@@ -64,8 +64,14 @@
                     <label for="porcentagem">Porcentagem</label>
                     <input name="porcentagem" id="porcentagem" type="checkbox">
                 </div>
-                <button id="filtro-btn" type="button" onclick="Search()"><img src="./static/img/magnifying glass.png"></button>
-                <button id="filtro-btn" type="button" onclick="window.location.href = 'consulta';"><img src="./static/img/rewind.png"></button>
+                <div class="dropdown">
+                    <label for="buscar">Buscar</label>
+                    <button name="buscar" id="filtro-btn" type="button" onclick="Search()"><img src="./static/img/magnifying glass.png"></button>
+                </div>
+                <div class="dropdown">
+                    <label for="reset">Resetar</label>
+                    <button name="reset" id="filtro-btn" type="button" onclick="window.location.href = 'consulta';"><img src="./static/img/rewind.png"></button>
+                </div>
             </form>
             <div class="col-1"></div>
         </div>
