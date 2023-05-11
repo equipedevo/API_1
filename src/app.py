@@ -57,28 +57,31 @@ def consulta():
             yLabel = f"{tipoValor} de {tipo}{(' em porcentagem' if porcentagem else '')}"
             figDir = path
 
-            if porcentagem:
-                TableToGraph.PercentageLineGraph(
-                    csvDir = csvDir,
-                    title = title,
-                    barRange = barRange,
-                    lineRange = lineRange,
-                    xLabel = xLabel,
-                    yLabel = yLabel,
-                    figDir = figDir,
-                    divisor = 1)
-            else:
-                TableToGraph.GroupedBarGraph(
-                    csvDir = csvDir,
-                    title = title,
-                    barRange = barRange,
-                    lineRange = lineRange,
-                    xLabel = xLabel,
-                    yLabel = yLabel,
-                    figDir = figDir,
-                    divisor = 1)
-            
-            paths.append(path)
+            try:
+                if porcentagem:
+                    TableToGraph.PercentageLineGraph(
+                        csvDir = csvDir,
+                        title = title,
+                        barRange = barRange,
+                        lineRange = lineRange,
+                        xLabel = xLabel,
+                        yLabel = yLabel,
+                        figDir = figDir,
+                        divisor = 1)
+                else:
+                    TableToGraph.GroupedBarGraph(
+                        csvDir = csvDir,
+                        title = title,
+                        barRange = barRange,
+                        lineRange = lineRange,
+                        xLabel = xLabel,
+                        yLabel = yLabel,
+                        figDir = figDir,
+                        divisor = 1)
+                paths.append(path)
+            except:
+                paths.append("static/img/erroGrafico.png")
+        
         graficos.append({ "name": cidade["name"], "paths": paths })
         
     return render_template("consulta.html", title = title,
