@@ -104,7 +104,7 @@ header a:hover{
 }
 
 main{
-    padding-top: 100px;
+    padding-top: 50px;
     width: 100%;
     min-height: 100vh;
 }
@@ -159,8 +159,8 @@ footer a:hover{
 .popups .contentPopup{
     position: absolute;
     width: 70%;
-    max-height: 70%;
-    top: 10%;
+    height: 50%;
+    top: 25%;
     left: 15%;
 
     background-color: #fff;
