@@ -67,8 +67,7 @@ def consulta():
                         lineRange = lineRange,
                         xLabel = xLabel,
                         yLabel = yLabel,
-                        figDir = figDir,
-                        divisor = 1)
+                        figDir = figDir)
                 else:
                     TableToGraph.GroupedBarGraph(
                         csvDir = csvDir,
@@ -78,7 +77,7 @@ def consulta():
                         xLabel = xLabel,
                         yLabel = yLabel,
                         figDir = figDir,
-                        divisor = 1000)
+                        autoDivide = True)
                 paths.append(path)
             else: #except:
                 paths.append("static/img/erroGrafico.png")

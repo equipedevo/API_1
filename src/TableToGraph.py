@@ -18,7 +18,7 @@ colors = [
     '#f98203']
 
 # def BarGraph(csvDir, title, barCount, lineRange, xLabel, yLabel, figDir):
-#     dataFrame = ReadCSV(csvDir) # pandas.read_csv(csvDir, encoding = "utf-8")
+#     dataFrame = ReadCSV(csvDir)
 
 #     left = range(0, barCount)
 
@@ -48,12 +48,14 @@ colors = [
 #     pyplot.tight_layout()
 #     pyplot.savefig(figDir)
 
-def GroupedBarGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, divisor = 1):
-    dataFrame = ReadCSV(csvDir) # pandas.read_csv(csvDir, encoding = "utf-8")
+def GroupedBarGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, autoDivide = False, divisor = 1):
+    dataFrame = ReadCSV(csvDir)
 
     lines = []
     for i in lineRange:
         lines.append(dataFrame.values[i][0][:3])
+
+    largestValue = 0
 
     bars = {}
     for i in barRange:
@@ -64,8 +66,16 @@ def GroupedBarGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, 
                 value = float(dataFrame.values[j][int(i)+1])
             except:
                 value = 0
-            values.append(value / divisor)
+            
+            if value > largestValue:
+                largestValue = value
+
+            values.append(value) # / divisor)
         bars.update({ dataFrame.columns[int(i)+1]: numpy.array(values) })
+
+    autoDivideValue = 10 ** (len(str(int(largestValue))) - 4)
+    print(largestValue)
+    print(autoDivideValue)
 
     x = numpy.arange(len(lines))
     width = 1/(len(bars) + 1)
@@ -75,12 +85,19 @@ def GroupedBarGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, 
 
     for names, values in bars.items():
         offset = width * multiplier
-        rects = axes.bar(x + offset, values, width, label=names)
+        rects = axes.bar(x + offset, values / (autoDivideValue if autoDivide else divisor), width, label=names)
         axes.bar_label(rects)
         multiplier += 1
 
     axes.set_xlabel(xLabel)
-    axes.set_ylabel((f"{yLabel} / {divisor}" if divisor > 1 else yLabel))
+
+    if autoDivide:    
+        axes.set_ylabel(f"{yLabel} / {autoDivideValue}")
+    elif divisor > 1:
+        axes.set_ylabel(f"{yLabel} / {divisor}")
+    else:
+        axes.set_ylabel(yLabel)
+
     axes.set_title(title)
     axes.set_xticks(x + width / len(bars), lines)
     axes.legend(loc='upper left')
@@ -92,8 +109,8 @@ def GroupedBarGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, 
     pyplot.tight_layout()
     pyplot.savefig(figDir)
 
-# def PercentageGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, divisor = 1):
-#     dataFrame = ReadCSV(csvDir) # pandas.read_csv(csvDir, encoding = "utf-8")
+# def PercentageGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, autoDivide = False, divisor = 1):
+#     dataFrame = ReadCSV(csvDir)
 
 #     lines = []
 #     for i in lineRange:
@@ -141,8 +158,8 @@ def GroupedBarGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, 
 #     pyplot.tight_layout()
 #     pyplot.savefig(figDir)
 
-def PercentageLineGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, divisor = 1):
-    dataFrame = ReadCSV(csvDir)  # pandas.read_csv(csvDir, encoding = "utf-8")
+def PercentageLineGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir):
+    dataFrame = ReadCSV(csvDir)
 
     lines = []
     for i in lineRange:
@@ -159,7 +176,7 @@ def PercentageLineGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figD
                 value = float(dataFrame.values[j][int(i)+1])
             except:
                 value = 0
-            values.append(value / divisor)
+            values.append(value)
         bars.update({ dataFrame.columns[int(i)+1]: numpy.array(values) })
 
     x = numpy.arange(len(lines))
