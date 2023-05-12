@@ -193,7 +193,7 @@ def PercentageLineGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figD
         totalTick += 1
 
     axes.set_xlabel(xLabel)
-    axes.set_ylabel((f"{yLabel} / {divisor}" if divisor > 1 else yLabel))
+    axes.set_ylabel(yLabel)
     axes.set_title(title)
     axes.set_xticks(x, lines)
     axes.legend(loc='upper left')
