@@ -12,10 +12,10 @@ function PopUpAjuda(btnAjuda, popAjuda){
     popAjuda = document.getElementById("popupAjuda");
     
     if(popAjuda.style.display == "none"){
-        popAjuda.style.display == "block";
+        popAjuda.style.display = "block";
     }
     else{
-        popAjuda.style.display == "none";
+        popAjuda.style.display = "none";
     }
     console.log(popAjuda.style.display);
 }
