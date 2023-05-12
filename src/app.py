@@ -36,6 +36,7 @@ def consulta():
     cidades = FilterData.GetCidades(selecCidades)
     tipoValor = FilterData.GetTipoValor(selecTipovalor)["value"]
     tipo = FilterData.GetTipo(selecTipo)["value"]
+    subtipos = FilterData.GetSubtiposRange(selecTipo, selecSubTipos)
     porcentagem = True if checkboxPorcent == "true" else False
 
     graficos = []
@@ -51,13 +52,13 @@ def consulta():
 
             csvDir = f"./tables/{tipo}/{tipoValor} {cidadeValue}.csv"
             title = f"{tipoValor} de {tipo} em {cidadeValue} durante {periodoName}{(' em porcentagem' if porcentagem else '')}"
-            barRange = selecSubTipos
+            barRange = subtipos
             lineRange = periodoRange
             xLabel = periodoName
             yLabel = f"{tipoValor} de {tipo}{(' em porcentagem' if porcentagem else '')}"
             figDir = path
 
-            try:
+            if True: #try:
                 if porcentagem:
                     TableToGraph.PercentageLineGraph(
                         csvDir = csvDir,
@@ -77,9 +78,9 @@ def consulta():
                         xLabel = xLabel,
                         yLabel = yLabel,
                         figDir = figDir,
-                        divisor = 1)
+                        divisor = 1000)
                 paths.append(path)
-            except:
+            else: #except:
                 paths.append("static/img/erroGrafico.png")
         
         graficos.append({ "name": cidade["name"], "paths": paths })

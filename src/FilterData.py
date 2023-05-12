@@ -100,8 +100,17 @@ def GetTipo(tipoIndex):
 def GetSubtipos(tipoIndex, subTipoIndexes):
     retSubTipos = []
     pad = 0
-    for i in range(0, tipoIndex):
+    for i in range(0, int(tipoIndex)):
         pad += len(subTipos[i])
     for index in subTipoIndexes:
         retSubTipos.append(subTipos[tipoIndex][int(index)-pad])
+    return retSubTipos
+
+def GetSubtiposRange(tipoIndex, subTipoIndexes):
+    retSubTipos = []
+    pad = 0
+    for i in range(0, int(tipoIndex)):
+        pad += len(subTipos[i])
+    for index in subTipoIndexes:
+        retSubTipos.append(int(index)-pad)
     return retSubTipos
