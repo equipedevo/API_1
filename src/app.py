@@ -30,12 +30,14 @@ def consulta():
     selecTipovalor = request.args.get("tipoValor")
     selecTipo = request.args.get("tipo")
     selecSubTipos = request.args.get("subTipo").split(",")
+    checkboxPorcent = request.args.get("porcentagem")
 
     periodos = FilterData.GetPeriodos(selecPeriodos)
     cidades = FilterData.GetCidades(selecCidades)
     tipoValor = FilterData.GetTipoValor(selecTipovalor)["value"]
     tipo = FilterData.GetTipo(selecTipo)["value"]
-    subTipos = FilterData.GetSubtipos(int(selecTipo), selecSubTipos)
+    subtipos = FilterData.GetSubtiposRange(selecTipo, selecSubTipos)
+    porcentagem = True if checkboxPorcent == "true" else False
 
     graficos = []
 
@@ -43,18 +45,44 @@ def consulta():
         paths = []
         for periodo in periodos:
             cidadeValue = cidade["value"]
-            path = f"./static/img/grafico_{cidadeValue}_{periodo}.svg"
-            TableToGraph.GroupedBarGraph(
-                csvDir = f"./tables/{tipo}/{tipoValor} {cidadeValue}.csv",
-                title = f"{tipoValor} de {tipo} em {cidadeValue}",
-                barRange = selecSubTipos,
-                lineRange = range(1, 13, 1),
-                xLabel = periodo,
-                yLabel = f"{tipoValor} de {tipo}",
-                figDir = path,
-                divisor = 1)
-            paths.append(path)
-        graficos.append({ "cidade": cidade["name"], "paths": paths })
+            periodoName = periodo["name"]
+            periodoRange = periodo["range"]
+
+            path = f"./static/graficos/grafico_{cidadeValue}_{periodoName}.svg"
+
+            csvDir = f"./tables/{tipo}/{tipoValor} {cidadeValue}.csv"
+            title = f"{tipoValor} de {tipo} em {cidadeValue} durante {periodoName}{(' em porcentagem' if porcentagem else '')}"
+            barRange = subtipos
+            lineRange = periodoRange
+            xLabel = periodoName
+            yLabel = f"{tipoValor} de {tipo}{(' em porcentagem' if porcentagem else '')}"
+            figDir = path
+
+            if True: #try:
+                if porcentagem:
+                    TableToGraph.PercentageLineGraph(
+                        csvDir = csvDir,
+                        title = title,
+                        barRange = barRange,
+                        lineRange = lineRange,
+                        xLabel = xLabel,
+                        yLabel = yLabel,
+                        figDir = figDir)
+                else:
+                    TableToGraph.GroupedBarGraph(
+                        csvDir = csvDir,
+                        title = title,
+                        barRange = barRange,
+                        lineRange = lineRange,
+                        xLabel = xLabel,
+                        yLabel = yLabel,
+                        figDir = figDir,
+                        autoDivide = True)
+                paths.append(path)
+            else: #except:
+                paths.append("static/img/erroGrafico.png")
+        
+        graficos.append({ "name": cidade["name"], "paths": paths })
         
     return render_template("consulta.html", title = title,
         periodos = FilterData.periodos,
