@@ -18,9 +18,13 @@
     
 Conforme a demanda do 1º API (Aprendizagem por Projetos Integrados) (Abordando as disciplinas: "Design Digital", "Desenvolvimento Web I" e "Engenharia de Software"), foi realizado um aplicação web que demonstra dados do <a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/r"> TABNET (DATASUS)</a>, com o objetivo de comprovar se existe ou não COVID longa.
 > _API se trata de um projeto  submetido a metodologia de ensino em implantação na Fatec São José dos Campos, desde o Segundo Semestre de 2019, do qual os alunos formam equipes baseadas na metodologia SCRUM, tendo um aluno como master, Product Owner e os integrates restantes dev team._ <br><br>
+
+### Se interessou pelo projeto? Então da só uma <a href= "https://github.com/equipedevo/API_1/blob/main/doc/sprint/Sprints%20Anteriores/Sprint2.md#sobre-a-sprint"> olhadinha</a> :movie_camera: em como ele está ficando!
+
 > **Status do Projeto: Em andamento :warning:** 
 
 → [Voltar ao topo](#topo)
+
 
 <span id="visão_do_produto">
 
