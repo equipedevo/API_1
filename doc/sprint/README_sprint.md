@@ -36,20 +36,27 @@ Nesta segunda entrega, foi combinado juntamente do cliente, a priorização da i
 <details>
   <summary><b>Clonando o repositório:</b></summary>
 
- 1. Clone o repositório atual através do git no seu cmd, utilize o comando:
-  ```
-  git clone https://github.com/equipedevo/API_1
-  ```
+1. Para clonar (baixar) o projeto e utiliza-lo no seu computador, siga os seguintes passos:
 
- 2. Ainda no cmd vá para a pasta src:
-  ```
-  cd API_1/src/
-  ```
+```
+Crie uma pasta onde deseja clonar o projeto e abra-a
+Clique no link do diretório ou utilize o comando "CTRL+L" no seu teclado
+Digite "cmd" (sem aspas) e pressione "Enter"
+
+Um prompt de comando (cmd) irá abrir, copie o comando todo abaixo e de "Enter"
+git clone https://github.com/equipedevo/API_1
+``` 
+
+2. Ainda no cmd, você precisará ir para a pasta src, para isso, execute os seguintes comandos, linha por linha:
+```
+cd API_1/
+cd src/
+```
 </details>
 
 
 <details>
-<summary><b>Rodando o projeto:</b></summary> 
+<summary><b>Iniciando o ambiente virtual para poder usar o projeto através do navegador:</b></summary> 
 
  1. Após entrar na pasta src, digite os seguintes comandos:
   ```
@@ -59,11 +66,12 @@ Nesta segunda entrega, foi combinado juntamente do cliente, a priorização da i
   flask run
   ```
 
- 2. Após realizar o comando flask run, clique no link que ele te dá no cmd, ou então simplesmente acesse este: <a href="http://127.0.0.1:5000">http://127.0.0.1:5000</a>
+ 2. Após realizar o comando "flask run", clique no link que aparece no cmd segurando o botão "CTRL" no seu teclado, ou então simplesmente acesse este link: <a href="http://127.0.0.1:5000">http://127.0.0.1:5000</a>
 
  3. Após finalizar o uso do nosso site, para sair do ambiente virtual, execute o seguinte comando:
   ```
-  deactivate
+  CTRL+C (teclado)
+ (digite) deactivate
   ```
 
 </details>
