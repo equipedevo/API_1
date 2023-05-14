@@ -91,7 +91,7 @@ def GroupedBarGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, 
 
     axes.set_xlabel(xLabel)
 
-    if autoDivide:    
+    if autoDivide and autoDivideValue > 1:
         axes.set_ylabel(f"{yLabel} / {autoDivideValue}")
     elif divisor > 1:
         axes.set_ylabel(f"{yLabel} / {divisor}")
