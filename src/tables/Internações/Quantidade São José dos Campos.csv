@@ -1,7 +1,7 @@
-"Ano/Mês processamento", "Meningítes", "Doenças de Parkinson, Alzheimer e Epilepsia", "Doenças Relacionadas ao sistema Nervoso", "Pneumonia", "Bronquites",  "Asma"
+"Ano/Mês processamento", "Meningítes", "Doenças de Parkinson, Alzheimer e Epilepsia", "Doenças Relacionadas ao sistema Nervoso", "Pneumonia", "Bronquites", "Asma"
 "2019", 53, 253, 440, 391, 100, 24
 "Janeiro", 3, 13, 57, 24, 4, 0
-"Fevereiro", 6, 13, 38, 17, 5, 2 
+"Fevereiro", 6, 13, 38, 17, 5, 2
 "Março", 4, 19, 51, 22, 2, 0
 "Abril", 3, 26, 27, 23, 9, 2
 "Maio", 8, 18, 25, 34, 16, 6
@@ -16,10 +16,10 @@
 "Janeiro", 2, 25, 35, 15, 7, 0
 "Fevereiro", 3, 23, 32, 26, 9, 2
 "Março", 3, 26, 33, 34, 7, 5
-"Abril", 1,	18,	16, 14, 2, 1
-"Maio",	0,	17,	14, 6, 2, 0
-"Junho", 1,	21,	15, 7, 2, 1
-"Julho", 3,	17,	20, 9, 1, 3
+"Abril", 1, 18, 16, 14, 2, 1
+"Maio", 0, 17, 14, 6, 2, 0
+"Junho", 1, 21, 15, 7, 2, 1
+"Julho", 3, 17, 20, 9, 1, 3
 "Agosto", 0, 29, 24, 12, 1, 1
 "Setembro", 1, 17, 43, 9, 4, 1
 "Outubro", 3, 27, 24, 11, 1, 3
@@ -27,27 +27,27 @@
 "Dezembro", 2, 17, 26, 11, 2, 0
 "2021", 24, 307, 421, 218, 69, 23
 "Janeiro", 2, 30, 41, 6, 3, 1
-"Fevereiro", 1,	18,	21, 13, 4, 1
-"Março", 2,	26,	45, 22, 7, 1
-"Abril", 2,	26,	40, 10, 8, 1
-"Maio",	1,	36,	35, 23, 2, 1
-"Junho", 1,	22,	29, 15, 5, 2
-"Julho", 3,	28,	42, 19, 4, 7
+"Fevereiro", 1, 18, 21, 13, 4, 1
+"Março", 2, 26, 45, 22, 7, 1
+"Abril", 2, 26, 40, 10, 8, 1
+"Maio", 1, 36, 35, 23, 2, 1
+"Junho", 1, 22, 29, 15, 5, 2
+"Julho", 3, 28, 42, 19, 4, 7
 "Agosto", 4, 25, 26, 17, 3, 3
-"Setembro",	1, 29, 39, 16, 4, 1
-"Outubro",	2 22, 44, 18, 5, 1
-"Novembro",	5, 28, 36, 31, 10, 3
-"Dezembro",	0, 17, 23, 28, 14, 1
+"Setembro", 1, 29, 39, 16, 4, 1
+"Outubro", 222, 44, 18, 5, 1
+"Novembro", 5, 28, 36, 31, 10, 3
+"Dezembro", 0, 17, 23, 28, 14, 1
 "2022", 49, 436, 520, 420, 164, 30
 "Janeiro", 2, 31, 42, 45, 21, 0
-"Fevereiro", 2, 25,	51, 21, 13, 0
-"Março", 2, 29,	50, 30, 15,0
+"Fevereiro", 2, 25, 51, 21, 13, 0
+"Março", 2, 29, 50, 30, 15, 0
 "Abril", 11, 22, 31, 40, 15, 0
-"Maio",	6, 36, 53, 32, 21, 0
-"Junho", 6,	30,	32, 44, 23, 0
-"Julho", 0,	38,	46, 41, 6, 0
+"Maio", 6, 36, 53, 32, 21, 0
+"Junho", 6, 30, 32, 44, 23, 0
+"Julho", 0, 38, 46, 41, 6, 0
 "Agosto", 3, 47, 45, 32, 8, 0
-"Setembro",	4, 47, 44, 35, 13, 0
-"Outubro",	4, 52, 57, 35, 10, 0
-"Novembro",	4, 47, 39, 28, 9, 0
-"Dezembro",	5, 32, 30, 37, 10,0
+"Setembro", 4, 47, 44, 35, 13, 0
+"Outubro", 4, 52, 57, 35, 10, 0
+"Novembro", 4, 47, 39, 28, 9, 0
+"Dezembro", 5, 32, 30, 37, 10, 0

@@ -1,14 +1,14 @@
-"Ano/Mês processamento, "Meningítes", "Doenças de Parkinson, Alzheimer e Epilepsia", "Doenças Relacionadas ao sistema Nervoso", "Pneumonia", "Bronquites",  "Asma"
+"Ano/Mês processamento", "Meningítes", "Doenças de Parkinson, Alzheimer e Epilepsia", "Doenças Relacionadas ao sistema Nervoso", "Pneumonia", "Bronquites", "Asma"
 "2019", 9, 90, 46, 391, 100, 24
 "Janeiro", 0, 8, 11, 24, 4, 0
-"Fevereiro", 1, 7, 2, 17, 5, 2 
+"Fevereiro", 1, 7, 2, 17, 5, 2
 "Março", 1, 7, 2, 22, 2, 0
-"Abril, 1, 7, 2, 23, 9, 2
-"Maio, 1, 7, 2, 34, 16, 6
+"Abril", 1, 7, 2, 23, 9, 2
+"Maio", 1, 7, 2, 34, 16, 6
 "Junho", 1, 7, 8, 62, 20, 0
 "Julho", 0, 3, 6, 42, 7, 2
 "Agosto", 0, 15, 4, 32, 6, 6
-"Setembro", 3, 5, 1, 38, 9, 0 
+"Setembro", 3, 5, 1, 38, 9, 0
 "Outubro", 0, 8, 4, 37, 8, 4
 "Novembro", 1, 5, 3, 28, 10, 2
 "Dezembro", 0, 11, 1, 32, 4, 0
@@ -16,8 +16,8 @@
 "Janeiro", 0, 11, 2, 15, 7, 0
 "Fevereiro", 0, 6, 9, 26, 9, 2
 "Março", 1, 4, 3, 34, 7, 5
-"Abril, 0, 7, 1, 14, 2, 1
-"Maio, 0, 10, 2, 6, 2, 0
+"Abril", 0, 7, 1, 14, 2, 1
+"Maio", 0, 10, 2, 6, 2, 0
 "Junho", 1, 7, 5, 7, 2, 1
 "Julho", 1, 9, 2, 9, 1, 3
 "Agosto", 0, 6, 2, 12, 1, 1
@@ -29,8 +29,8 @@
 "Janeiro", 0, 6, 8, 6, 3, 1
 "Fevereiro", 1, 10, 5, 13, 4, 1
 "Março", 1, 10, 5, 22, 7, 1
-"Abril, 0, 10, 1, 10, 8, 1
-"Maio, 0, 6, 0, 23, 2, 1
+"Abril", 0, 10, 1, 10, 8, 1
+"Maio", 0, 6, 0, 23, 2, 1
 "Junho", 0, 10, 6, 15, 5, 2
 "Julho", 1, 13, 6, 19, 4, 7
 "Agosto", 1, 5, 9, 17, 3, 3
@@ -44,7 +44,7 @@
 "Março", 2, 6, 3, 30, 15, 0
 "Abril", 0, 8, 7, 40, 15, 0
 "Maio", 0, 8, 7, 32, 21, 0
-"Junho", 1, 12, 8 , 44, 23, 0
+"Junho", 1, 12, 8, 44, 23, 0
 "Julho", 0, 4, 1, 41, 6, 0
 "Agosto", 1, 5, 4, 32, 8, 0
 "Setembro", 0, 13, 3, 35, 13, 0
