@@ -70,12 +70,10 @@ def GroupedBarGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, 
             if value > largestValue:
                 largestValue = value
 
-            values.append(value) # / divisor)
+            values.append(value)
         bars.update({ dataFrame.columns[int(i)+1]: numpy.array(values) })
 
-    autoDivideValue = 10 ** (len(str(int(largestValue))) - 4)
-    print(largestValue)
-    print(autoDivideValue)
+    autoDivideValue = 10 ** (len(str(int(largestValue))) - 3)
 
     x = numpy.arange(len(lines))
     width = 1/(len(bars) + 1)
