@@ -15,20 +15,21 @@ function popupToggle(id){
     }
 }
 
-document.getElementById("popupAjuda").addEventListener("click", popupClose(event.clientX, event.clientY, "popupAjuda"));
-document.getElementById("popupFontes").addEventListener("click", popupClose(event.clientX, event.clientY, "popupFontes"));
+document.getElementById("popupAjuda").addEventListener("click", function(event) { popupClose(event, "popupAjuda") });
+document.getElementById("popupFontes").addEventListener("click", function(event) { popupClose(event, "popupFontes") });
 
-function popupClose(cX, cY, id){
+function popupClose(event, id){
+    console.log(id);
     let larguraTela = window.innerWidth;
     let alturaTela = window.innerHeight;
     let larguraPopUp = document.getElementById(id).children[0].offsetWidth;
     let alturaPopUp = document.getElementById(id).children[0].offsetHeight;
     let divisaoTelaW = (larguraTela - larguraPopUp)/2;
     let divisaoTelaH = (alturaTela - alturaPopUp)/2;
-    if(cX < divisaoTelaW || cX > divisaoTelaW + larguraPopUp){
+    if(event.clientX < divisaoTelaW || event.clientX > divisaoTelaW + larguraPopUp){
         popupToggle(id);
     }
-    else if(cY < divisaoTelaH || cY > divisaoTelaH + alturaPopUp){
+    else if(event.clientY < divisaoTelaH || event.clientY > divisaoTelaH + alturaPopUp){
         popupToggle(id);
     }
 }
