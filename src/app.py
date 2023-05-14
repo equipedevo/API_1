@@ -58,7 +58,7 @@ def consulta():
             yLabel = f"{tipoValor} de {tipo}{(' em porcentagem' if porcentagem else '')}"
             figDir = path
 
-            if True: #try:
+            try:
                 if porcentagem:
                     TableToGraph.PercentageLineGraph(
                         csvDir = csvDir,
@@ -79,7 +79,7 @@ def consulta():
                         figDir = figDir,
                         autoDivide = True)
                 paths.append(path)
-            else: #except:
+            except:
                 paths.append("static/img/erroGrafico.png")
         
         graficos.append({ "name": cidade["name"], "paths": paths })
