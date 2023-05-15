@@ -21,7 +21,7 @@ Conforme a demanda da 1º API (Aprendizagem por Projetos Integrados) (Abordando 
 
 <br>
 
-### Se interessou pelo projeto? Então da só uma <a href="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Sprints%20Anteriores/Sprint2.md#sobre-a-sprint"> olhadinha</a> :movie_camera: em como ele está ficando!
+### Se interessou pelo projeto? Então da só uma <a href="https://github.com/equipedevo/API_1/blob/main/doc/sprint/README_sprint.md#sobre-a-sprint"> olhadinha</a> :movie_camera: em como ele está ficando!
 
 > **Status do Projeto: Em andamento :warning:** 
 
