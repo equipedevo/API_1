@@ -12,13 +12,13 @@
 <!-- * [MVP](#MVP) -->
 <!-- * [Tag](#tag) -->
 
-<!-- <span id="SobreASprint"></span>
+<span id="SobreASprint"></span>
 
 # Sobre a Sprint
-Nesta segunda entrega, foi combinado juntamente do cliente, a priorização da interface do projeto.
-<img src="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Site_sprint2.gif?raw=true"></br>
+Nesta terceira entrega, foi combinado juntamente do cliente, a priorização da análise de dados e criação de gráficos através do filtro.
+<img src="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Site_sprint3.gif?raw=true"></br>
 
-→ [Voltar ao topo](#topo)</br> -->
+→ [Voltar ao topo](#topo)</br>
 
 <span id="comoUsar"></span>
 
@@ -71,7 +71,7 @@ cd src/
  3. Após finalizar o uso do nosso site, para sair do ambiente virtual, execute o seguinte comando:
   ```
   CTRL+C (teclado)
- (digite) deactivate
+  (digite) deactivate
   ```
 
 </details>
@@ -86,11 +86,11 @@ cd src/
 
 → [Voltar ao topo](#topo)
 
-<!-- <span id="MVP"></span>
+<span id="MVP"></span>
 
 # :triangular_flag_on_post: Minimum Viable Product (MVP)
 
-O mínimo produto viável desta sprint é um site já navegável, porém com priorização apenas na programação das telas, sem necessariamente o uso das raspagens de dados, dos gráficos e  filtros que futuramente serão colocados.<br> A base para o MVP é a coerência entre o site programado e o nosso [Protótipo](./../../prototipo/Prot%C3%B3tipo.gif), realizado na Sprint 1.
+O mínimo produto viável desta sprint é um filtro funcional que mostre os dados de maneira clara e objetiva.
 
 <details>
   <summary><b>Explicação das Tecnologias:</b></summary>
@@ -106,7 +106,7 @@ O mínimo produto viável desta sprint é um site já navegável, porém com pri
 
 # Tag
 
-A última versão da 2ªSprint foi [V2.3](https://github.com/equipedevo/API_1/releases/tag/V2.3)
+A última versão da 3ªSprint foi a [V3](https://github.com/equipedevo/API_1/releases/tag/V3.0).
 
 → [Voltar ao topo](#topo)
  -->
