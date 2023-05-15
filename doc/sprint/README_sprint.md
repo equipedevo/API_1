@@ -6,11 +6,11 @@
 
 ## :mag_right: Índice
 
-<!-- * [Sobre a Sprint](#SobreASprint) -->
+* [Sobre a Sprint](#SobreASprint)
 * [Como Usar](#comoUsar)
 * [Backlog](#backlog)
-<!-- * [MVP](#MVP) -->
-<!-- * [Tag](#tag) -->
+* [MVP](#MVP)
+* [Tag](#tag)
 
 <span id="SobreASprint"></span>
 
