@@ -74,6 +74,8 @@ def GroupedBarGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, 
         bars.update({ dataFrame.columns[int(i)+1]: numpy.array(values) })
 
     autoDivideValue = 10 ** (len(str(int(largestValue))) - 3)
+    if(autoDivideValue <= 100):
+        autoDivideValue = 1
 
     x = numpy.arange(len(lines))
     width = 1/(len(bars) + 1)
