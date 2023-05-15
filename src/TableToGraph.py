@@ -78,7 +78,7 @@ def GroupedBarGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, 
         autoDivideValue = 1
 
     x = numpy.arange(len(lines))
-    width = 1/(len(bars) + 1)
+    width = 1 / (len(bars) + 1)
     multiplier = 0
 
     fig, axes = pyplot.subplots()
@@ -99,8 +99,8 @@ def GroupedBarGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figDir, 
         axes.set_ylabel(yLabel)
 
     axes.set_title(title)
-    axes.set_xticks(x + width / len(bars), lines)
-    axes.legend(loc='upper left')
+    axes.set_xticks(x if len(lines) == 1 else x + (width * (len(bars) - 1) / 2), lines)
+    axes.legend(loc="upper right")
     axes.set_ymargin(0.2)
 
     MakeFolder()
@@ -180,7 +180,7 @@ def PercentageLineGraph(csvDir, title, barRange, lineRange, xLabel, yLabel, figD
         bars.update({ dataFrame.columns[int(i)+1]: numpy.array(values) })
 
     x = numpy.arange(len(lines))
-    width = 1/(len(bars) + 1)
+    width = 1 / (len(bars) + 1)
     multiplier = 0
 
     fig, axes = pyplot.subplots()
