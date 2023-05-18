@@ -1,0 +1,135 @@
+<br id="topo">
+
+# 3ª Sprint
+
+## [Ir para a tela de início](./../../../README.md)
+
+## :mag_right: Índice
+
+* [Sobre a Sprint](#SobreASprint)
+* [Como Usar](#comoUsar)
+* [Backlog](#backlog)
+* [MVP](#MVP)
+* [Tag](#tag)
+
+<span id="SobreASprint"></span>
+
+# Sobre a Sprint
+Nesta terceira entrega, foi combinado juntamente do cliente, a priorização da análise de dados e criação de gráficos através do filtro.
+<img src="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Site_sprint3.gif?raw=true"></br>
+
+→ [Voltar ao topo](#topo)</br>
+
+<span id="comoUsar"></span>
+
+# :wrench: Como Usar
+<h3>Para garantir o sucesso na utilização de nosso sistema, aqui vai uma lista das tecnologias necessárias para realizar os próximos passos:</h3>
+
+<details>
+  <summary><b>O que será necessário:</b></summary>
+
+  1. <a href="https://git-scm.com/downloads">Git</a> Precisaremos do git para realizarmos a clonagem do nosso repositório do github.
+
+  2. <a href="https://www.python.org/downloads">Python</a> Recomendamos que você instale uma versão superior à 3.6, nós particularmente utilizamos a 3.11, mas qualquer uma a partir do 3.7 irá funcionar, não esqueça de na hora da instalação, marcar a opção da instalação do pip, pois precisaremos dele para o ambiente virtual.
+</details>
+
+<details>
+  <summary><b>Clonando o repositório:</b></summary>
+
+1. Para clonar (baixar) o projeto e utiliza-lo no seu computador, siga os seguintes passos:
+
+```
+Crie uma pasta onde deseja clonar o projeto e abra-a
+Clique no link do diretório ou utilize o comando "CTRL+L" no seu teclado
+Digite "cmd" (sem aspas) e pressione "Enter"
+
+Um prompt de comando (cmd) irá abrir, copie o comando todo abaixo e de "Enter"
+git clone https://github.com/equipedevo/API_1
+``` 
+
+2. Ainda no cmd, você precisará ir para a pasta src, para isso, execute os seguintes comandos, linha por linha:
+```
+cd API_1/
+cd src/
+```
+</details>
+
+
+<details>
+<summary><b>Iniciando o ambiente virtual para poder usar o projeto através do navegador:</b></summary> 
+
+ 1. Após entrar na pasta src, digite os seguintes comandos:
+  ```
+  python -m venv venv
+  .\venv\Scripts\activate
+  pip install -r requirements.txt
+  flask run
+  ```
+
+ 2. Após realizar o comando "flask run", clique no link que aparece no cmd segurando o botão "CTRL" no seu teclado, ou então simplesmente acesse este link: <a href="http://127.0.0.1:5000">http://127.0.0.1:5000</a>
+
+ 3. Após finalizar o uso do nosso site, para sair do ambiente virtual, execute o seguinte comando:
+  ```
+  CTRL+C (teclado)
+  (digite) deactivate
+  ```
+
+</details>
+
+→ [Voltar ao topo](#topo)
+
+<span id="backlog"></span>
+
+# Backlog
+
+| Código |              Backlog            |     Quem    |                                          Quer                                          |                  Para                  |
+| :----: | :-----------------------------: | :---------: | :------------------------------------------------------------------------------------: | :------------------------------------: |
+| US#15  | Análise de dados da quantidade  | Programador | quero fazer a Análise de dados das consultas de 2019 a 2022                            | transformar em gráficos.               |
+| US#16  | Análise de dados da quantidade  | Programador | Fazer a Análise de dados dos tratamentos de 2019 a 2022                                | transformar em gráficos.               |
+| US#17  | Análise de dados da quantidade  | Programador | Fazer a Análise de dados dos procedimentos de 2019 a 2022                              | transformar em gráficos.               |
+| US#18  | Análise de dados da quantidade  | Programador | Fazer a Análise de dados dos medicamentos de 2019 a 2022                               | transformar em gráficos.               |
+| US#19  | Análise de dados da quantidade  | Programador | Fazer a Análise de dados das internações de 2019 a 2022                                | transformar em gráficos.               |
+| US#20  | Análise de dados dos custos     | Programador | Fazer a Análise de dados do custo, em moeda corrente, das consultas de 2019 a 2022     | transformar em gráficos.               |
+| US#21  | Análise de dados dos custos     | Programador | Fazer a Análise de dados do custo, em moeda corrente, dos tratamentos de 2019 a 2022   | transformar em gráficos.               |
+| US#22  | Análise de dados dos custos     | Programador | Fazer a Análise de dados do custo, em moeda corrente, dos procedimentos de 2019 a 2022 | transformar em gráficos.               |
+| US#23  | Análise de dados dos custos     | Programador | Fazer a Análise de dados do custo, em moeda corrente, dos medicamentos de 2019 a 2022  | transformar em gráficos.               |
+| US#24  | Análise de dados dos custos     | Programador | Fazer a Análise de dados do custo, em moeda corrente, das internações de 2019 a 2022   | transformar em gráficos.               |
+| US#25  | Gráficos consultas              | Jornalista  | Ver os dados da quantidade de consultas dos anos de 2019 a 2022 em forma de gráfico    | facilitar o meu entendimento dos dados |
+| US#26  | Gráficos tratamentos            | Jornalista  | Ver os dados da quantidade de tratamentos do anos 2019 a 2022 em forma de gráfico      | facilitar o meu entendimento dos dados |
+| US#27  | Gráficos procedimentos          | Jornalista  | Ver os dados da quantidade de procedimentos do anos 2019 a 2022 em forma de gráfico    | facilitar o meu entendimento dos dados |
+| US#28  | Gráficos medicamentos           | Jornalista  | Ver os dados da quantidade de medicamentos do anos 2019 a 2022 em forma de gráfico     | facilitar o meu entendimento dos dados |
+| US#29  | Gráficos internações            | Jornalista  | Ver os dados da quantidade de internações do anos 2019 a 2022 em forma de gráfico      | facilitar o meu entendimento dos dados |
+| US#30  | Gráfico de Custo consultas      | Jornalista  | Ver os dados do custo de consultas do anos 2019 a 2022 em forma de gráfico             | facilitar o meu entendimento dos dados |
+| US#32  | Gráfico de Custo tratamentos    | Jornalista  | Ver os dados do custo de tratamentos do anos 2019 a 2022 em forma de gráfico           | facilitar o meu entendimento dos dados |
+| US#33  | Gráfico de Custo procedimentos  | Jornalista  | Ver os dados do custo de procedimentos do anos 2019 a 2022 em forma de gráfico         | facilitar o meu entendimento dos dados |
+| US#34  | Gráfico de Custo medicamentos   | Jornalista  | Ver os dados do custo de medicamentos do anos 2019 a 2022 em forma de gráfico          | facilitar o meu entendimento dos dados |
+| US#35  | Gráfico de Custo internações    | Jornalista  | Ver os dados do custo de internações do anos 2019 a 2022 em forma de gráfico           | facilitar o meu entendimento dos dados |
+| US#36  | Filtro de mês                   | Jornalista  |Poder filtrar as informações que desejo visualizar entre os meses janeiro e dezembro    | facilitar na montagem de uma matéria   |
+
+→ [Voltar ao topo](#topo)
+
+<span id="MVP"></span>
+
+# :triangular_flag_on_post: Minimum Viable Product (MVP)
+
+O mínimo produto viável desta sprint é um filtro funcional que mostre os dados de maneira clara e objetiva.
+
+<details>
+  <summary><b>Explicação das Tecnologias:</b></summary>
+  <br>
+  1. <a href="https://www.w3schools.com/html/">HTML</a>: Utilizado para toda a estruturação das páginas do nosso site<br>
+  2. <a href="https://www.w3schools.com/css/">CSS</a>: Utilizado para toda a estilização das páginas do nosso site<br>
+  3. <a href="https://flask.palletsprojects.com/en/2.2.x/">Flask</a>: Utilizado para fazer as rotas do nosso site e facilitar manutenção do mesmo, já que fazemos o uso do "base.html", onde está incluído tudo que será equivalente em todas as páginas do site<br>
+  4. <a href="https://www.w3schools.com/js/default.asp">JavaScript</a>: Utilizado para as funcionalidades do filtro da página de consultas<br>
+  5. <a href="https://www.w3schools.com/python/default.asp">Python</a>: Utilizado para fazer a construção dos gráficos através de arquivos .csv já criados
+</details>
+
+<span id="tag"></span>
+
+# Tag
+
+A última versão da 3ªSprint foi a [V3](https://github.com/equipedevo/API_1/releases/tag/V3.0).
+
+→ [Voltar ao topo](#topo)
+
+## [Ir para a tela de início](https://github.com/equipedevo/API_1/)
