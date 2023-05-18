@@ -1,24 +1,24 @@
 <br id="topo">
 
-# 3ª Sprint
+# 4ª Sprint
 
-## [Ir para a tela de início](./../../../README.md)
+## [Ir para a tela de início](./../../README.md)
 
 ## :mag_right: Índice
 
-* [Sobre a Sprint](#SobreASprint)
+<!-- * [Sobre a Sprint](#SobreASprint) -->
 * [Como Usar](#comoUsar)
 * [Backlog](#backlog)
-* [MVP](#MVP)
-* [Tag](#tag)
+<!-- * [MVP](#MVP)
+* [Tag](#tag) -->
 
 <span id="SobreASprint"></span>
 
-# Sobre a Sprint
+<!-- # Sobre a Sprint
 Nesta terceira entrega, foi combinado juntamente do cliente, a priorização da análise de dados e criação de gráficos através do filtro.
 <img src="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Site_sprint3.gif?raw=true"></br>
 
-→ [Voltar ao topo](#topo)</br>
+→ [Voltar ao topo](#topo)</br> -->
 
 <span id="comoUsar"></span>
 
@@ -82,9 +82,9 @@ cd src/
 
 # Backlog
 
-[Clique aqui](./Backlog_sprint.md) para acessar o backlog da segunda sprint.
+[Clique aqui](Backlog_sprint.md) para acessar o backlog da quarta sprint.
 
-→ [Voltar ao topo](#topo)
+<!-- → [Voltar ao topo](#topo)
 
 <span id="MVP"></span>
 
@@ -100,14 +100,14 @@ O mínimo produto viável desta sprint é um filtro funcional que mostre os dado
   3. <a href="https://flask.palletsprojects.com/en/2.2.x/">Flask</a>: Utilizado para fazer as rotas do nosso site e facilitar manutenção do mesmo, já que fazemos o uso do "base.html", onde está incluído tudo que será equivalente em todas as páginas do site<br>
   4. <a href="https://www.w3schools.com/js/default.asp">JavaScript</a>: Utilizado para as funcionalidades do filtro da página de consultas<br>
   5. <a href="https://www.w3schools.com/python/default.asp">Python</a>: Utilizado para fazer a construção dos gráficos através de arquivos .csv já criados
-</details>
+</details> 
 
 <span id="tag"></span>
 
 # Tag
 
-A última versão da 3ªSprint foi a [V3](https://github.com/equipedevo/API_1/releases/tag/V3.0).
+A última versão da 3ªSprint foi a [V3](https://github.com/equipedevo/API_1/releases/tag/V3.0).-->
 
 → [Voltar ao topo](#topo)
- -->
+
 ## [Ir para a tela de início](https://github.com/equipedevo/API_1/)
