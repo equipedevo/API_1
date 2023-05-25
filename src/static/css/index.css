@@ -21,18 +21,18 @@ h4{
 }
 
 .btn{
-    background-color:#00f;
-    color: #fff;
+    background-color:var(--azul);
+    color: var(--branco);
     padding: .5em;
-    border: 1px solid #00f;
+    border: 1px solid var(--azul);
     border-radius: 10px;
 }
 
 .btn:hover{
-    background-color: #fff;
-    color: #000;
-    border-color: #00f;
-    border: 1px solid #00f;
+    background-color: var(--branco);
+    color: var(--preto);
+    border-color: var(--azul);
+    border: 1px solid var(--azul);
 }
 
 .img-fluid{

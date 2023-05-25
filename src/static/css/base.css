@@ -1,3 +1,11 @@
+:root{
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --azul: #0000FF;
+    --cinza: #D6D6D6;
+    /* --cinza: var(--cinza); */
+}
+
 * {
     box-sizing: border-box;
 
@@ -48,8 +56,8 @@ header {
 
     padding: 0px;
 
-    border-bottom: 2px solid #b3b3b3;
-    background-color: #ffffff;
+    border-bottom: 2px solid var(--cinza);
+    background-color: var(--branco);
 }
 
 #logo {
@@ -81,26 +89,26 @@ header ul{
 
 header a{
     text-decoration: none;
-    color: #000000;
+    color: var(--preto);
 }
 
 header a:hover{
-    color: #00f;
+    color: var(--azul);
 }
 
 #btn-consultar{
-    background-color:#00f;
-    color: #ffffff;
+    background-color:var(--azul);
+    color: var(--branco);
     padding: .5em;
-    border: 1px solid #00f;
+    border: 1px solid var(--azul);
     border-radius: 10px;
 }
 
 #btn-consultar:hover{
-    color: #000000;
-    background-color: #ffffff;
-    border-color: #00f;
-    border: 1px solid #00f;
+    color: var(--preto);
+    background-color: var(--branco);
+    border-color: var(--azul);
+    border: 1px solid var(--azul);
 }
 
 main{
@@ -110,13 +118,14 @@ main{
 }
 
 footer{
-    background-color: #d6d6d6;
+    background-color: var(--cinza);
     padding: 10px 0px;
+
     height: 100px;
 }
 
 footer p{
-    color: #000000;
+    color: var(--preto);
     font-size: 16px;
     text-align: center;
 }
@@ -125,11 +134,11 @@ footer a{
     text-decoration: none;
     text-align: center;
     padding: 0rem 2rem;
-    color: #000000;
+    color: var(--preto);
 }
 
 footer a:hover{
-    color: #00f;
+    color: var(--azul);
 }
 
 /* POP-UPS */
@@ -164,10 +173,10 @@ footer a:hover{
     top: 25%;
     left: 15%;
 
-    background-color: #fff;
+    background-color: var(--branco);
     
     border-radius: 25px;
-    box-shadow: 0 3px 15px -2px #6c6c6c;
+    box-shadow: 0 3px 15px -2px var(--cinza);
     padding: 20px;
     padding-bottom: 30px;
 
@@ -203,5 +212,5 @@ footer a:hover{
     height: 2px;
     float: right;
     margin: 8px;
-    background-color: #00f;
+    background-color: var(--azul);
 }
