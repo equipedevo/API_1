@@ -97,27 +97,15 @@ footer a:hover{
 }
 
 /* POP-UPS */
-
-.overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: inherit;
-    top: 0;
-    left: 0;
-
-    display: none;
-}
-
 .popups{
-    position: fixed;
+    background: inherit;
+    display: none;
     height: 100%; 
-    width: 100%;
-
-    top: 0;
     left: 0;
-
+    position: fixed;
     text-align: justify;
+    top: 0;
+    width: 100%;
     z-index: 99;
 }
 
