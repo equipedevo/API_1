@@ -55,23 +55,23 @@ function Search(){
     let forgot = false;
     let forgotMsg = "Você esqueceu de selecionar as opções:";
 
-    if(!!periodoSelect.selectedOptions){
+    if(!periodoSelect.selectedOptions.length){
         forgotMsg += "\nPeriodo";
         forgot = true;
     }
-    if(!!cidadeSelect.selectedOptions){
+    if(!cidadeSelect.selectedOptions.length){
         forgotMsg += "\nCidade";
         forgot = true;
     }
-    if(!!tipoValorSelect.selectedOptions){
+    if(!tipoValorSelect.selectedOptions.length){
         forgotMsg += "\nValor";
         forgot = true;
     }
-    if(!!tipoSelect.selectedOptions){
+    if(!tipoSelect.selectedOptions.length){
         forgotMsg += "\nTipo";
         forgot = true;
     }
-    if(!!subTipoSelect.selectedOptions){
+    if(!subTipoSelect.selectedOptions.length){
         forgotMsg += "\nSub Tipo";
         forgot = true;
     }
