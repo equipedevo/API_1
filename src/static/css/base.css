@@ -55,17 +55,16 @@ header a:hover{color: #00f}
 
 #btn-consultar{
     background-color:#00f;
-    color: #ffffff;
-    padding: .5em;
     border: 1px solid #00f;
     border-radius: 10px;
+    color: #ffffff;
+    padding: .5em;
 }
 
 #btn-consultar:hover{
-    color: #000000;
     background-color: #ffffff;
     border-color: #00f;
-    border: 1px solid #00f;
+    color: #000000;
 }
 
 main{
@@ -98,7 +97,6 @@ footer a:hover{
 
 /* POP-UPS */
 .popups{
-    background: inherit;
     display: none;
     height: 100%; 
     left: 0;
@@ -109,51 +107,17 @@ footer a:hover{
     z-index: 99;
 }
 
-.popups .contentPopup{
-    position: absolute;
-    width: 70%;
-    height: 50%;
-    top: 25%;
-    left: 15%;
-
+.contentPopup{
     background-color: #fff;
-    
     border-radius: 25px;
     box-shadow: 0 3px 15px -2px #6c6c6c;
-    padding: 20px;
-    padding-bottom: 30px;
-
-}
-
-.popups .contentPopup h2{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.popups .contentPopup p{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-
-.contentPopup #popAjuda{
-    display: none;
-}
-
-.contentPopup #popFontes{
-    display: none;
-}
-
-.contentPopup .sair{
+    min-height: 50%;
+    left: 15%;
+    padding: 20px 20px 30px 20px;
     position: absolute;
-    display: flex;
-    flex-direction: column;
+    right: 15%;
+    top: 25%;
+    width: 70%;
 }
 
-.contentPopup .sair div{
-    width: 32px;
-    height: 2px;
-    float: right;
-    margin: 8px;
-    background-color: #00f;
-}
+.contentPopup h2, .contentPopup p{padding: 10px 0}
