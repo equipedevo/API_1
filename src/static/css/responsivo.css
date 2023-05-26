@@ -1,5 +1,17 @@
-@media(max-width:425px){
+*{font-size: 18px;}
+footer p{font-size: 16px}
+header li{font-size:18px}
+.title{font-size: 30px}
+h4{font-size: 25px}
 
+@media(max-width:530px){
+    *{font-size: 16px;}
+    footer p{font-size: 14px}
+    header li{font-size:16px}
+    .title{font-size: 28px}
+    .contentPopup{top:15%}
+    main{padding: 70px 0 0 30px;}
+    h4{font-size: 23px}
     body{
         overflow-x: hidden;
     }
@@ -54,12 +66,10 @@
     }
 
     .title{
-        font-size: 30px;
         padding-bottom: 10px;
     }
 
     h4{
-        font-size: 25px;
         padding-bottom: 10px;
     }
 
