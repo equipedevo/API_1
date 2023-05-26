@@ -1,5 +1,5 @@
 #filtro{
-    background-color: #00f;
+    background-color: var(--azul);
 
     display: flex;
     align-items: center;
@@ -18,8 +18,8 @@
 }
 
 #filtro-checkbox:hover{
-    color: #000000;
-    background-color: #ffffff;
+    color: var(--preto);
+    background-color: var(--branco);
 }
 
 #filtro-btn{
@@ -28,14 +28,14 @@
 }
 
 #filtro-btn{
-    background-color:#00f;
+    background-color:var(--azul);
     padding: 2.5px;
     border-radius: 5px;
 }
 
 #filtro-btn:hover{
-    color: #000000;
-    background-color: #ffffff;
+    color: var(--preto);
+    background-color: var(--branco);
 }
 
 #filtro-btn *{
@@ -44,7 +44,7 @@
 }
 
 #filtro-btn img{
-    background-color: white;
+    background-color: var(--branco);
 
     border-radius: 5px;
 }
@@ -58,7 +58,7 @@
 }
 
 .dropdown label{
-    color: white;
+    color: var(--branco);
 }
 
 .dropdown select{
@@ -99,7 +99,7 @@
 }
 
 .dropdown button[type="button"]{
-    background-color: #ffffff;
+    background-color: var(--branco);
     width: 117px;
     height: 40px;
     cursor: pointer;

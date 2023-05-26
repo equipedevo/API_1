@@ -18,8 +18,8 @@
         align-items: center;
         justify-content: space-around;
         
-        border-left: 2px solid #b3b3b3;
-        background-color: #fff;
+        border-left: 2px solid var(--cinza);
+        background-color: var(--branco);
         
         transform: translateX(110%);
         transform: transform 0.3s ease-in;
