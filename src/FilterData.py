@@ -65,7 +65,10 @@ subTipos = [
     [
         { "name": "procedimentos", "value": "Procedimentos com finalidade diagnóstica" },
         { "name": "procedimentos", "value": "Procedimentos clínicos" },
-        { "name": "procedimentos", "value": "Procedimentos cirúrgicos" }
+        { "name": "procedimentos", "value": "Procedimentos cirúrgicos" },
+        { "name": "procedimentos", "value": "Órteses; próteses e materiais especiais"},
+        { "name": "procedimentos", "value": "Ações complementares da atenção à saúde"},
+        { "name": "procedimentos", "value": "Total"}
     ],
     [
         # { "name": "tratamentos", "value": "INFORMAÇÃO NÃO DISPONIVEL" },
