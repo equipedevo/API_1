@@ -23,7 +23,7 @@ header{
     top: 0;
     width: 100%
 }
-header, header ul{display: flex}
+header, header ul, .flex, #sobreText{display: flex}
 header img{height: 100px}
 header li{padding: 1em .8em}
 header ul{float: right; list-style: none; padding-right: 10px}
