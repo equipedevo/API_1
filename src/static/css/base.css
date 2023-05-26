@@ -1,64 +1,50 @@
 /* ÁREA DE ESTILIZAÇÃO GERAL */
 * {
     align-items: center;
-    border: 0px;
+    border: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
 }
-header, .popups{position: fixed}
+header, .popups{position: fixed; left: 0; top: 0}
 header, footer{text-align: center}
-.contentPopup h2, .contentPopup p, footer{padding: 10px 0}
+header, .popups, main{width: 100%}
+header, header ul, .flex, #sobreText{display: flex}
 /* CORES GERAIS*/
 *:any-link:hover{color: #00f}
 *, #btn-consultar:hover{color: #000000}
 header, #btn-consultar:hover, .contentPopup{background-color: #ffffff}
 footer{background-color: #d6d6d6}
 /* ÁREA DE ESTILIZAÇÃO DO MENU/NAVBAR */
-header{
-    border-bottom: 2px solid #b3b3b3;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%
-}
-header, header ul, .flex, #sobreText{display: flex}
+header{border-bottom: 2px solid #b3b3b3;}
 header img{height: 100px}
-header li{padding: 1em .8em}
-header ul{float: right; list-style: none; padding-right: 10px}
+header ul{float: right; list-style: none}
 header a{text-decoration: none}
 .left, .logo, .right{flex: 1}
 .center{flex: 3}
 .nav{flex: 2}
 /* POP-UPS */
-.popups{
-    display: none;
-    height: 100%; 
-    left: 0;
-    text-align: justify;
-    top: 0;
-    width: 100%;
-    z-index: 99;
-}
+.popups{display: none; height: 100%; text-align: justify; z-index: 99}
 .contentPopup{
     border-radius: 25px;
     box-shadow: 0 3px 15px -2px #6c6c6c;
     min-height: 50%;
     left: 15%;
-    padding: 20px 20px 30px 20px;
     position: absolute;
     right: 15%;
     top: 25%;
     width: 70%;
 }
 /* OUTROS */
-#btn-consultar{
-    background-color:#00f;
-    border: 1px solid #00f;
-    border-radius: 10px;
-    color: #ffffff;
-    padding: .5em;
-}
-main{padding-top: 100px; width: 100%; min-height: 100vh}
-footer a{text-decoration: none; padding: 0rem 2rem}
+#btn-consultar{background-color:#00f; border: 1px solid #00f; border-radius: 10px; color: #ffffff}
+main{padding-top: 100px; min-height: 100vh}
+footer a{text-decoration: none}
+
+/* PADDING */
+header li{padding: 1em .8em}
+header ul{padding-right: 10px}
+footer{padding: 1rem 2rem}
+#btn-consultar{padding: .5em}
+.contentPopup{padding: 20px 20px 30px 20px}
+.contentPopup h2, .contentPopup p, footer{padding: 10px 0}
