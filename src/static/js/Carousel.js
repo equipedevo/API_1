@@ -3,7 +3,7 @@ window.addEventListener("load", function(){
 
     for(let i = 0; i < carousels.length; i++){
         for(let j = 1; j < carousels[i].children.length - 1; j++)
-            console.log(carousels[i].children[j].style.display = "none");
+            carousels[i].children[j].style.display = "none";
         carousels[i].children[1].style.display = "inline-block";
 
         carousels[i].children[0].innerText = "<1/"+(carousels[i].children.length-2).toString()

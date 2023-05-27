@@ -47,7 +47,7 @@ subTipos = [
         { "name": "internacoes", "value": "CID IV - Transtornos nutricionais metabólicos e sequelas nutricionais" },
         # { "name": "internacoes", "value": "CID IV - Obesidade" },
 
-        { "name": "internacoes", "value": "CID VI - Meningítes" },
+        { "name": "internacoes", "value": "CID VI - Meningites bacterianas, infecciosas, parasitórias e outras causas" },
         { "name": "internacoes", "value": "CID VI - Doenças de parkinson, alzheimer e epilepsia" },
         { "name": "internacoes", "value": "CID VI - Doenças Relacionadas ao sistema Nervoso" },
 

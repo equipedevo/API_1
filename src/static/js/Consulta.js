@@ -51,6 +51,34 @@ function Search(){
     let tipoSelect = document.getElementById("tipo");
     let subTipoSelect = document.getElementById("subTipo");
     let porcentagemCheckbox = document.getElementById("porcentagem");
+
+    let forgot = false;
+    let forgotMsg = "Você esqueceu de selecionar as opções:";
+
+    if(!periodoSelect.selectedOptions.length){
+        forgotMsg += "\nPeriodo";
+        forgot = true;
+    }
+    if(!cidadeSelect.selectedOptions.length){
+        forgotMsg += "\nCidade";
+        forgot = true;
+    }
+    if(!tipoValorSelect.selectedOptions.length){
+        forgotMsg += "\nValor";
+        forgot = true;
+    }
+    if(!tipoSelect.selectedOptions.length){
+        forgotMsg += "\nTipo";
+        forgot = true;
+    }
+    if(!subTipoSelect.selectedOptions.length){
+        forgotMsg += "\nSub Tipo";
+        forgot = true;
+    }
+    if(forgot){
+        alert(forgotMsg);
+        return;
+    }
     
     window.location.href = "consulta?periodo=" + Array.from(periodoSelect.selectedOptions).map(option => option.index) +
         "&cidade=" + Array.from(cidadeSelect.selectedOptions).map(option => option.index) +
