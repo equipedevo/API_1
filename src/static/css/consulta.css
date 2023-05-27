@@ -7,6 +7,8 @@
 
     min-height: 75px;
     max-height: 150px;
+    width: 100%;
+    border-color: black;
 
     border-radius: 0 0 5px 5px;
 }
@@ -55,6 +57,7 @@
     align-items: center;
     justify-content: center;
     padding: 20px 0px;
+    border-color: black;
 }
 
 .dropdown label{

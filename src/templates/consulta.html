@@ -15,7 +15,7 @@
         <div class="col-1"></div>
         <form class="col-10" id="filtro">
             <div class="dropdown">
-                <label for="periodo">Periodo</label>
+                <b><label for="periodo">Periodo</label></b>
                 <button type="button" onclick="ShowSelect('periodo', this)">Mostrar</button>
                 <select name="periodo" id="periodo" multiple="multiple">
                 {% for periodo in periodos %}
@@ -24,7 +24,7 @@
                 </select>
             </div>
             <div class="dropdown">
-                <label for="cidade">Cidade</label>
+                <b><label for="cidade">Cidade</label></b>
                 <button type="button" onclick="ShowSelect('cidade', this)">Mostrar</button>
                 <select name="cidade" id="cidade"  multiple="multiple">
                 {% for cidade in cidades %}
@@ -34,7 +34,7 @@
                     
             </div>
             <div class="dropdown">
-                <label for="tipoValor">Tipo do valor</label>
+                <b><label for="tipoValor">Tipo do valor</label></b>
                 <select name="tipoValor" id="tipoValor">
                 {% for tipoValor in tipoValor %}
                     <option value="{{ tipoValor.name }}">{{ tipoValor.value }}</option>
@@ -42,7 +42,7 @@
                 </select>
             </div>
             <div class="dropdown">
-                <label for="tipo">Tipo</label>
+                <b><label for="tipo">Tipo</label></b>
                 <select name="tipo" id="tipo" onchange="document.getElementById('subTipo').selectedIndex = -1; UpdatesubTipos(this)">
                 {% for tipo in tipos %}
                     <option value="{{ tipo.name }}">{{ tipo.value }}</option>
@@ -50,7 +50,7 @@
                 </select>
             </div>
             <div class="dropdown">
-                <label for="subTipo">Subtipo</label>
+                <b><label for="subTipo">Subtipo</label></b>
                 <button type="button" onclick="ShowSelect('subTipo', this)">Mostrar</button>
                 <select name="subTipo" id="subTipo"  multiple="multiple">
                 {% for subTipo in subTipos %}
@@ -61,15 +61,15 @@
                 </select>
             </div>
             <div class="dropdown">
-                <label for="porcentagem">Porcentagem</label>
+                <b><label for="porcentagem">Porcentagem</label></b>
                 <input name="porcentagem" id="porcentagem" type="checkbox">
             </div>
             <div class="dropdown">
-                <label for="buscar">Buscar</label>
+                <b><label for="buscar">Buscar</label></b>
                 <button name="buscar" id="filtro-btn" type="button" onclick="Search()"><img src="./static/img/magnifying glass.png"></button>
             </div>
             <div class="dropdown">
-                <label for="reset">Resetar</label>
+                <b><label for="reset">Resetar</label></b>
                 <button name="reset" id="filtro-btn" type="button" onclick="window.location.href = 'consulta';"><img src="./static/img/rewind.png"></button>
             </div>
         </form>
