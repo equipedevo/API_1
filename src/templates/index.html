@@ -6,17 +6,18 @@
 {% endblock %}
 
 {% block conteudo %}
-    <div class="row" id="bem-vindo">
-        <div class="col-1 space"></div>
-        <div class="col-5">
+    <div class="flex" id="bem-vindo">
+        <div class="left"></div>
+        <div class="center">
             <div class="conteudo">
                 <h3 class="title">Bem-vindo à <br>base de dados <br>sobre a covid longa</h3>
-                <h4>Analise e compare dados <br>de forma simples e rápida</h4>
-                <button class="btn" type="button" onclick="window.location.href = 'consulta';">Consultar</button>
+                <h4 class="subtitle">Analise e compare dados <br>de forma simples e rápida</h4>
+                <button id="btn-consultar" type="button" onclick="window.location.href = 'consulta';">Consultar</button>
             </div>
         </div>
-        <div class="col-6 col-dir">
-            <img src="./static/img/covidIndex.svg" class="img-fluid" alt="Covid News">
+        <div class="centerImg">
+            <img src="./static/img/covidIndex.svg" alt="Covid News">
         </div>
+        <div class="right"></div>
     </div>
 {% endblock %}
