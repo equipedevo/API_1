@@ -8,9 +8,9 @@
     padding: 0;
 }
 header, .popups{position: fixed; left: 0; top: 0}
-header, footer{text-align: center}
+header, footer, #bem-vindo{text-align: center}
 header, .popups, main{width: 100%}
-header, header ul, .flex, #sobreText{display: flex}
+header, header ul, .flex, #sobreText, #bem-vindo{display: flex}
 /* CORES GERAIS*/
 *:any-link:hover{color: #00f}
 *, #btn-consultar:hover{color: #000000}
