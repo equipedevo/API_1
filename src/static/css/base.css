@@ -41,11 +41,3 @@ header a{text-decoration: none}
 #btn-consultar{background-color:var(--azul); border: 1px solid var(--azul); border-radius: 10px; color: var(--branco)}
 main{padding-top: 100px; min-height: 100vh}
 footer a{text-decoration: none}
-
-/* PADDING */
-header li{padding: 1em .8em}
-header ul{padding-right: 10px}
-footer{padding: 1rem 2rem}
-#btn-consultar{padding: .5em}
-.contentPopup{padding: 20px 20px 30px 20px}
-.contentPopup h2, .contentPopup p, footer{padding: 10px 0}

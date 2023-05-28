@@ -4,6 +4,14 @@ header li{font-size:18px}
 .title{font-size: 30px}
 h4{font-size: 25px}
 
+/* PADDING */
+header li{padding: 1em .8em}
+header ul{padding-right: 10px}
+footer{padding: 1rem 2rem}
+#btn-consultar{padding: .5em}
+.contentPopup{padding: 20px 20px 30px 20px}
+.contentPopup h2, .contentPopup p, footer{padding: 10px 0}
+
 @media(max-width:530px){
     *{font-size: 16px;}
     footer p{font-size: 14px}
