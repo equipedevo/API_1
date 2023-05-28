@@ -1,41 +1,9 @@
-#bem-vindo{
-    display: flex;
+#bem-vindo{padding-top: 20px}
+.conteudo *{padding-bottom: 20px}
+.title{font-size: 50px}
+.subtitle{font-size: 30px; font-weight: 300;}
 
-    align-items: center;
-
-    margin-top: 10px;
-}
-
-.conteudo{
-    padding-top: 0px;
-    padding-left: 50px;
-}
-
-.title{
-    font-size: 50px;
-}
-
-h4{
-    font-size: 30px;
-    font-weight: 300;
-}
-
-.btn{
-    background-color:var(--azul);
-    color: var(--branco);
-    padding: .5em;
-    border: 1px solid var(--azul);
-    border-radius: 10px;
-}
-
-.btn:hover{
-    background-color: var(--branco);
-    color: var(--preto);
-    border-color: var(--azul);
-    border: 1px solid var(--azul);
-}
-
-.img-fluid{
-    max-width: 100%;
-    height: auto;
-}
+.centerImg{flex: 2}
+.centerImg img{width: 100%}
+@media(max-width:830px){.centerImg{flex: 5;} .flex .center{flex: 6}}
+@media(max-width:530px){.centerImg{display: none} .flex .center{flex: 6}}

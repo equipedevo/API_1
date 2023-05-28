@@ -14,9 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
     <!-- Links para estilos -->
-
     <link rel="stylesheet" href="./static/css/normalize.css">
     <link rel="stylesheet" href="./static/css/base.css">
+    <link rel="stylesheet" href="./static/css/responsivo.css">
 
     {% block estilos %}
     {% endblock %}
@@ -27,11 +27,11 @@
     {% endblock %}
 </head>
 <body>
-    <header class="row">
-        <div class="col-2" id="logo">
-            <img src="./static/img/logoMenu.png">
-        </div>
-        <div class="col-9">
+    <header>
+        <div class="left"></div>
+        <div class="logo"><img src="./static/img/logoMenu.png"></div>
+        <div class="center"></div>
+        <div class="nav">
             <ul>
                 <li><a href="/">Início</a></li>
                 <li><a href="sobre">Sobre</a></li>
@@ -40,24 +40,23 @@
                 <li><a href="consulta" id="btn-consultar">Consultar</a></li>
             </ul>
         </div>
-        <div class="col-1"></div>
+        <div class="right"></div>
     </header>
     <main>
-        <div class="popups overlay" id="popupAjuda">
+        <div class="popups" id="popupAjuda">
             <div class="contentPopup">
-            <h2>Como consultar os dados?</h2>
-            <p>Para consultar dados isolados, vá para a página "Consultar", selecione a opção que desejar em cada uma das caixas de seleção e clique na lupa à direita.</p>
-            <p>Para iniciar uma nova pesquisa, clique no botão de atualizar, a setinha curvada, à direita da lupa.</p>
-            <br>
-            <h2>Como comparar dados?</h2>
-            <p>Para comparar dados vá para a página "Consultar", selecione uma ou mais opções em cada uma das caixas de seleção e clique na lupa à direita.</p>
-            <p>Para iniciar uma nova pesquisa, clique no botão de atualizar, a setinha curvada, à direita da lupa.</p>
+                <h2>Como consultar os dados?</h2>
+                <p>Para consultar dados isolados, vá para a página "Consultar", selecione a opção que desejar em cada uma das caixas de seleção e clique na lupa à direita.</p>
+                <p>Para iniciar uma nova pesquisa, clique no botão de atualizar, a setinha curvada, à direita da lupa.</p>
+                <h2>Como comparar dados?</h2>
+                <p>Para comparar dados vá para a página "Consultar", selecione uma ou mais opções em cada uma das caixas de seleção e clique na lupa à direita.</p>
+                <p>Para iniciar uma nova pesquisa, clique no botão de atualizar, a setinha curvada, à direita da lupa.</p>
             </div>
         </div>
-        <div class="popups overlay" id="popupFontes">
+        <div class="popups" id="popupFontes">
             <div class="contentPopup">
-            <h2>Fontes</h2>
-            <p><a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/" target="_blank">DATASUS TABNET</a></p>
+                <h2>Fontes</h2>
+                <p><a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/" target="_blank">DATASUS TABNET</a></p>
             </div>
         </div>
 

@@ -1,18 +1,10 @@
-#sobreTitle{
-    text-align: center;
-    font-size: 40px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
+#sobreTitle{text-align: center}
+#sobreText{align-items: center; flex-direction: column; justify-content: center; text-align: justify}
+.centerImg{flex: 3}
+.centerImg img{width: 100%;}
+@media(max-width:530px){.centerImg{display: none;} .flex .center{flex: 6}}
+@media(max-width:830px){.centerImg{flex: 5;} .flex .center{flex: 6;}}
 
-#sobreText p{
-    margin: 30px 0px;
-}
-
-#flex-sobreText{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-}
+/* PADDING E FONT-SIZE*/
+#sobreText p{padding-bottom: 20px}
+#sobreTitle{padding: 10px 0 30px 0; font-size: 40px}
