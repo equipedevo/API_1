@@ -34,10 +34,9 @@ header a{text-decoration: none}
     left: 15%;
     position: absolute;
     right: 15%;
-    top: 25%;
     width: 70%;
 }
 /* OUTROS */
 #btn-consultar{background-color:var(--azul); border: 1px solid var(--azul); border-radius: 10px; color: var(--branco)}
-main{padding-top: 100px; min-height: 100vh}
+main{min-height: 100vh}
 footer a{text-decoration: none}
