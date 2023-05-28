@@ -1,130 +1,145 @@
-*{font-size: 18px;}
-footer p{font-size: 16px}
-header li{font-size:18px}
-.title{font-size: 30px}
-h4{font-size: 25px}
-
-/* PADDING */
-header li{padding: 1em .8em}
-header ul{padding-right: 10px}
-footer{padding: 1rem 2rem}
-#btn-consultar{padding: .5em}
-.contentPopup{padding: 20px 20px 30px 20px}
-.contentPopup h2, .contentPopup p, footer{padding: 10px 0}
-
-@media(max-width:530px){
-    *{font-size: 16px;}
-    footer p{font-size: 14px}
-    header li{font-size:16px}
-    .title{font-size: 28px}
-    .contentPopup{top:15%}
-    main{padding-top: 50px;}
-    h4{font-size: 23px}
-    body{
-        overflow-x: hidden;
-    }
-
+@media(max-width:425px){
+    body{overflow-x: hidden}
     /* MENU */
-
     .nav-list{
         position: absolute;
         top: 10vh;
         right: 0;
-
         width: 70vw;
         height: 90vh;
-
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        
         border-left: 2px solid var(--cinza);
         background-color: var(--branco);;
-        
         transform: translateX(110%);
-        transform: transform 0.3s ease-in;
+        transform: transform 0.3s ease-in
     }
-
-    .nav-list.active{
-        transform: translateX(0);
-    }
-
-    .nav-list li{
-        margin-right: 0px;
-        margin-left: 0px;
-
-        opacity: 0;
-    }
-
-    .mobile-menu{
-        display: block;
-    }
-
-    .logo img{
-        width: 50px;
-        height: 50px;
-    }
-
-    .col-dir, .col-esq, .space{
-        display: none;
-    }
-
-    .conteudo{
-        text-align: center;
-    }
-
-    .title{
-        padding-bottom: 10px;
-    }
-
-    h4{
-        padding-bottom: 10px;
-    }
-
-    .col-5 { 
-        width: 83.33%; 
-    }
-
-    footer a{
-        padding: 0rem .5rem;
-    }
-
-    footer p{
-        padding-top: .5rem;
-    }
-
+    .nav-list.active{transform: translateX(0)}
+    .nav-list li{margin-right: 0px; margin-left: 0px; opacity: 0}
+    .mobile-menu{display: block}
+    .col-dir, .col-esq, .space{display: none}
 }
-
 @keyframes navLinkFade {
-    from{
-        opacity: 0;
-        transform: translateX(50px);
-    }    
-    to{
-        opacity: 1;
-        transform: translateX(0);
-    }
+    from{opacity: 0; transform: translateX(50px)}
+    to{opacity: 1; transform: translateX(0)}
 }
-
-.mobile-menu.active .linha1{
-    transform: rotate(-45deg) translate(-8px, 8px);
-}
-
-.mobile-menu.active .linha2{
-    opacity: 0;
-}
-
-.mobile-menu.active .linha3{
-    transform: rotate(45deg) translate(-5px, 7px);
-}
+.mobile-menu.active .linha1{transform: rotate(-45deg) translate(-8px, 8px)}
+.mobile-menu.active .linha2{opacity: 0}
+.mobile-menu.active .linha3{transform: rotate(45deg) translate(-5px, 7px)}
 
 /* Media Query for Mobile Devices */
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    .logo img{width: 50px; height: 50px}
+    .conteudo{text-align: center}
+    /* FONT-SIZE */
+    *{font-size: 16px}
+    footer p{font-size: 14px}
+    header li{font-size:16px}
+    .title{font-size: 28px}
+    h4{font-size: 23px}
+    /* PADDING */
+    h4{padding-bottom: 10px}
+    main{padding-top: 50px}
+    header li{padding: 1em .8em}
+    header ul{padding-right: 10px}
+    footer{padding: 1rem 2rem}
+    footer a{padding: 0rem .5rem}
+    footer p{padding-top: .5rem}
+    #btn-consultar{padding: .5em}
+    .contentPopup{padding: 20px 20px 30px 20px; top:15%}
+    .contentPopup h2, .contentPopup p, footer{padding: 10px 0}
+    .title{padding-bottom: 10px}
+}
 /* Media Query for low resolution  Tablets, Ipads */
-@media (min-width: 481px) and (max-width: 767px) {}
+@media (min-width: 481px) and (max-width: 767px) {
+    .logo img{width: 100px; height: 100px}
+    .conteudo{text-align: center}
+    /* FONT-SIZE */
+    *{font-size: 18px;}
+    footer p{font-size: 16px}
+    header li{font-size:18px}
+    .title{font-size: 30px}
+    h4{font-size: 25px}
+    /* PADDING */
+    h4{padding-bottom: 10px}
+    main{padding-top: 100px}
+    .title{padding-bottom: 10px}
+    header li{padding: 1em .8em}
+    header ul{padding-right: 10px}
+    footer{padding: 1rem 2rem}
+    footer p{padding-top: .5rem}
+    footer a{padding: 0rem .5rem}
+    #btn-consultar{padding: .5em}
+    .contentPopup{padding: 20px 20px 30px 20px; top: 25%;}
+    .contentPopup h2, .contentPopup p, footer{padding: 10px 0}
+}
 /* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px){}
+@media (min-width: 768px) and (max-width: 1024px){
+    .logo img{width: 100px; height: 100px}
+    .conteudo{text-align: center}
+    /* FONT-SIZE */
+    *{font-size: 18px;}
+    footer p{font-size: 16px}
+    header li{font-size:18px}
+    .title{font-size: 30px}
+    h4{font-size: 25px}
+    /* PADDING */
+    h4{padding-bottom: 10px}
+    main{padding-top: 100px}
+    .title{padding-bottom: 10px}
+    header li{padding: 1em .8em}
+    header ul{padding-right: 10px}
+    footer{padding: 1rem 2rem}
+    footer p{padding-top: .5rem}
+    footer a{padding: 0rem .5rem}
+    #btn-consultar{padding: .5em}
+    .contentPopup{padding: 20px 20px 30px 20px; top: 25%;}
+    .contentPopup h2, .contentPopup p, footer{padding: 10px 0}
+}
 /* Media Query for Laptops and Desktops */
-@media (min-width: 1025px) and (max-width: 1280px){}
+@media (min-width: 1025px) and (max-width: 1280px){
+    .logo img{width: 100px; height: 100px}
+    .conteudo{text-align: center}
+    /* FONT-SIZE */
+    *{font-size: 18px;}
+    footer p{font-size: 16px}
+    header li{font-size:18px}
+    .title{font-size: 30px}
+    h4{font-size: 25px}
+    /* PADDING */
+    h4{padding-bottom: 10px}
+    main{padding-top: 100px}
+    .title{padding-bottom: 10px}
+    header li{padding: 1em .8em}
+    header ul{padding-right: 10px}
+    footer{padding: 1rem 2rem}
+    footer p{padding-top: .5rem}
+    footer a{padding: 0rem .5rem}
+    #btn-consultar{padding: .5em}
+    .contentPopup{padding: 20px 20px 30px 20px; top: 25%;}
+    .contentPopup h2, .contentPopup p, footer{padding: 10px 0}
+}
 /* Media Query for Large screens */
-@media (min-width: 1281px) {}
+@media (min-width: 1281px) {
+    .logo img{width: 100px; height: 100px}
+    .conteudo{text-align: center}
+    /* FONT-SIZE */
+    *{font-size: 18px;}
+    footer p{font-size: 16px}
+    header li{font-size:18px}
+    .title{font-size: 30px}
+    h4{font-size: 25px}
+    /* PADDING */
+    h4{padding-bottom: 10px}
+    main{padding-top: 100px}
+    .title{padding-bottom: 10px}
+    header li{padding: 1em .8em}
+    header ul{padding-right: 10px}
+    footer{padding: 1rem 2rem}
+    footer p{padding-top: .5rem}
+    footer a{padding: 0rem .5rem}
+    #btn-consultar{padding: .5em}
+    .contentPopup{padding: 20px 20px 30px 20px; top: 25%;}
+    .contentPopup h2, .contentPopup p, footer{padding: 10px 0}
+}
