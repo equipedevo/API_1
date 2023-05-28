@@ -1,9 +1,2 @@
-#bem-vindo{padding-top: 20px}
-.conteudo *{padding-bottom: 20px}
-.title{font-size: 50px}
-.subtitle{font-size: 30px; font-weight: 300;}
-
-.centerImg{flex: 2}
 .centerImg img{width: 100%}
-@media(max-width:830px){.centerImg{flex: 5;} .flex .center{flex: 6}}
-@media(max-width:530px){.centerImg{display: none} .flex .center{flex: 6}}
+.subtitle{font-weight: 300}

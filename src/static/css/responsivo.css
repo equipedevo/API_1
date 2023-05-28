@@ -37,9 +37,13 @@
     footer p{font-size: 14px}
     header li{font-size:16px}
     .title{font-size: 28px}
+    #bem-vindo .conteudo .title{font-size: 50px}
+    #bem-vindo .conteudo .subtitle{font-size: 30px}
     h4{font-size: 23px}
     #sobreTitle{font-size: 40px}
     /* PADDING */
+    #bem-vindo{padding-top: 20px}
+    #bem-vindo .conteudo *{padding-bottom: 20px}
     #sobreTitle{padding: 10px 0 30px 0}
     #sobreText p{padding-bottom: 20px}
     h4{padding-bottom: 10px}
@@ -53,9 +57,8 @@
     .contentPopup{padding: 20px 20px 30px 20px; top:15%}
     .contentPopup h2, .contentPopup p, footer{padding: 10px 0}
     .title{padding-bottom: 10px}
-    /* SOBRE.CSS */
-    @media(max-width:530px){.centerImg{display: none} .flex .center{flex: 6}}
-    @media(max-width:830px){.centerImg{flex: 5} .flex .center{flex: 6}}
+    /* SOBRE.CSS E INDEX.CSS*/
+    .centerImg{display: none} .flex .center{flex: 6}
 }
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
@@ -65,10 +68,14 @@
     *{font-size: 18px;}
     footer p{font-size: 16px}
     header li{font-size:18px}
-    .title{font-size: 30px}
     h4{font-size: 25px}
     #sobreTitle{font-size: 40px}
+    .title{font-size: 30px}
+    #bem-vindo .conteudo .title{font-size: 50px}
+    #bem-vindo .conteudo .subtitle{font-size: 30px}
     /* PADDING */
+    #bem-vindo{padding-top: 20px}
+    #bem-vindo .conteudo *{padding-bottom: 20px}
     #sobreTitle{padding: 10px 0 30px 0}
     #sobreText p{padding-bottom: 20px}
     h4{padding-bottom: 10px}
@@ -83,7 +90,10 @@
     .contentPopup{padding: 20px 20px 30px 20px; top: 25%;}
     .contentPopup h2, .contentPopup p, footer{padding: 10px 0}
     /* SOBRE.CSS */
-    .centerImg{display: none} .flex .center{flex: 6}
+    .centerImg{flex: 3}
+    /* INDEX.CSS */
+    .conteudo *{padding-bottom: 20px}
+    
 }
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px){
@@ -95,9 +105,13 @@
     footer p{font-size: 16px}
     header li{font-size:18px}
     .title{font-size: 30px}
+    #bem-vindo .conteudo .title{font-size: 50px}
+    #bem-vindo .conteudo .subtitle{font-size: 30px}
     h4{font-size: 25px}
     #sobreTitle{font-size: 40px}
     /* PADDING */
+    #bem-vindo{padding-top: 20px}
+    #bem-vindo .conteudo *{padding-bottom: 20px}
     #sobreTitle{padding: 10px 0 30px 0}
     #sobreText p{padding-bottom: 20px}
     h4{padding-bottom: 10px}
@@ -113,6 +127,8 @@
     .contentPopup h2, .contentPopup p, footer{padding: 10px 0}
     /* SOBRE.CSS */
     .centerImg{flex: 5} .flex .center{flex: 6}
+    /* INDEX.CSS */
+    #bem-vindo .centerImg{flex: 4}
 }
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1280px){
@@ -123,9 +139,13 @@
     footer p{font-size: 16px}
     header li{font-size:18px}
     .title{font-size: 30px}
+    #bem-vindo .conteudo .title{font-size: 50px}
+    #bem-vindo .conteudo .subtitle{font-size: 30px}
     h4{font-size: 25px}
     #sobreTitle{font-size: 40px}
     /* PADDING */
+    #bem-vindo{padding-top: 20px}
+    #bem-vindo .conteudo *{padding-bottom: 20px}
     #sobreTitle{padding: 10px 0 30px 0}
     #sobreText p{padding-bottom: 20px}
     h4{padding-bottom: 10px}
@@ -141,22 +161,25 @@
     .contentPopup h2, .contentPopup p, footer{padding: 10px 0}
     /* SOBRE.CSS */
     .centerImg{flex: 3}
+    /* INDEX.CSS */
+    #bem-vindo .centerImg{flex: 2}
 }
 /* Media Query for Large screens */
 @media (min-width: 1281px) {
     .logo img{width: 100px; height: 100px}
     .conteudo{text-align: center}
-    #sobreTitle{font-size: 40px}
-    /* PADDING */
-    #sobreTitle{padding: 10px 0 30px 0}
-    #sobreText p{padding-bottom: 20px}
+    /* FONT-SIZE */
     *{font-size: 18px;}
     footer p{font-size: 16px}
     header li{font-size:18px}
     .title{font-size: 30px}
+    #bem-vindo .conteudo .title{font-size: 50px}
+    #bem-vindo .conteudo .subtitle{font-size: 30px}
     h4{font-size: 25px}
     #sobreTitle{font-size: 40px}
     /* PADDING */
+    #bem-vindo{padding-top: 20px}
+    #bem-vindo .conteudo *{padding-bottom: 20px}
     #sobreTitle{padding: 10px 0 30px 0}
     #sobreText p{padding-bottom: 20px}
     h4{padding-bottom: 10px}
@@ -172,4 +195,6 @@
     .contentPopup h2, .contentPopup p, footer{padding: 10px 0}
     /* SOBRE.CSS */
     .centerImg{flex: 3}
+    /* INDEX.CSS */
+    #bem-vindo .centerImg{flex: 2}
 }
