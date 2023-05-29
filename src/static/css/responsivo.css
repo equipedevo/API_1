@@ -97,11 +97,13 @@
         padding: 10px 0;
     }
     .title{
-padding-bottom: 10px}
+        padding-bottom: 10px
+    }
     /* SOBRE.CSS E INDEX.CSS*/
     .centerImg{
         display: none
     }
+
     .flex .center{
         flex: 6
     }
@@ -111,6 +113,7 @@ padding-bottom: 10px}
         height: 60px;
         font-size: 25px;
     }
+
     footer p:first-of-type{
         display: none;
     }
@@ -131,20 +134,37 @@ padding-bottom: 10px}
     }
     
     .conteudo{
+        padding-top: 50px;
         text-align: center;
     }
-    /* FONT-SIZE */
-    
-    *{
-        font-size: 18px;
+
+    .center #btn-consultar{
+        width: 150px;
+        height: 60px;
+        font-size: 25px;
+    }
+
+    main{
+        padding-top: 100px;
+        min-height: calc(100vh - 120px);
     }
     
+    footer{
+        height: 140px;
+        padding: 1rem 2rem;
+    }
+
+    footer a{
+        padding: 0rem .5rem
+    }
+
     footer p{
-        font-size: 16px;
+        font-size: 20px;
+        padding-top: .5rem;
     }
     
     header li{
-        font-size:18px;
+        font-size: 20px;
     }
     
     h4{
@@ -156,13 +176,12 @@ padding-bottom: 10px}
     }
     
     .title{
-        font-size: 30px;
+        font-size: 40px;
     }
     
     #bem-vindo .conteudo .subtitle{
         font-size: 30px;
     }
-    /* PADDING */
     
     #bem-vindo .conteudo,
     #bem-vindo .conteudo h3,
@@ -171,19 +190,16 @@ padding-bottom: 10px}
     }
     
     #sobreTitle{
-        padding: 10px 0 30px 0
+        padding: 10px 0 30px 0;
     }
     
     #sobreText p{
-        padding-bottom: 20px
+        font-size: 20px;
+        padding-bottom: 20px;
     }
     
     h4{
         padding-bottom: 10px
-    }
-    
-    main{
-        padding-top: 100px
     }
     
     .title{
@@ -198,23 +214,12 @@ padding-bottom: 10px}
         padding-right: 10px
     }
     
-    footer{
-        padding: 1rem 2rem
-    }
-    
-    footer p{
-        padding-top: .5rem
-    }
-    
-    footer a{
-        padding: 0rem .5rem
-    }
-    
     #btn-consultar{
         padding: .5em
     }
     
     .contentPopup{
+        font-size: 18px;
         padding: 20px 20px 30px 20px;
         top: 25%;
     }
@@ -226,14 +231,18 @@ padding-bottom: 10px}
     /* SOBRE.CSS */
     
     .centerImg{
-        flex: 3
+        flex: 3;
+    }
+
+    #imgSobre{
+        display: none;
     }
     
     /* INDEX.CSS */
     
     .conteudo *{
         padding-bottom: 20px
-    }    
+    }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
@@ -245,8 +254,8 @@ padding-bottom: 10px}
     }
     
     .conteudo{
-    text-align: center
-}
+        text-align: center
+    }
     
     /* FONT-SIZE */
     
@@ -374,23 +383,42 @@ padding-bottom: 10px}
     .conteudo{
         text-align: center
     }
+
+    .center #btn-consultar{
+        width: 150px;
+        height: 60px;
+        font-size: 25px;
+    }
     
     /* FONT-SIZE */
     
-    *{
-        font-size: 18px;
-    }
-    
-    footer p{
-        font-size: 16px
+    main{
+        padding-top: 100px;
+        min-height: calc(100vh - 150px);
     }
     
     header li{
-        font-size:18px
+        font-size: 22px;
+        padding: 1em .8em;
+    }
+
+    footer{
+        height: 150px;
+        padding: 1rem 2rem;
+    }
+
+    footer p{
+        font-size: 20px;
+        padding-top: .5rem;
+    }
+
+    footer a{
+        padding: 0rem .5rem;
     }
     
     .title{
-        font-size: 30px
+        font-size: 30px;
+        padding-bottom: 10px;
     }
     
     #bem-vindo .conteudo .title{
@@ -406,7 +434,17 @@ padding-bottom: 10px}
     }
     
     #sobreTitle{
-        font-size: 40px
+        font-size: 40px;
+        padding: 10px 0 30px 0;
+    }
+
+    #sobreText p{
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+
+    #imgSobre{
+        display: none;
     }
     
     /* PADDING */
@@ -421,43 +459,12 @@ padding-bottom: 10px}
         padding-bottom: 20px
     }
     
-    #sobreTitle{
-        padding: 10px 0 30px 0
-    }
-    
-    #sobreText p{
-        padding-bottom: 20px
-    }
-    
     h4{
         padding-bottom: 10px
     }
     
-    main{
-        padding-top: 100px
-    }
-    
-    .title{
-        padding-bottom: 10px}
-    
-    header li{
-        padding: 1em .8em;
-    }
-    
     header ul{
         padding-right: 10px
-    }
-    
-    footer{
-        padding: 1rem 2rem;
-    }
-    
-    footer p{
-        padding-top: .5rem;
-    }
-    
-    footer a{
-        padding: 0rem .5rem;
     }
     
     #btn-consultar{
@@ -465,6 +472,7 @@ padding-bottom: 10px}
     }
     
     .contentPopup{
+        font-size: 20px;
         padding: 20px 20px 30px 20px;
         top: 25%;
     }
