@@ -1,20 +1,19 @@
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
-    .logo img{width: 50px; height: 50px}
+    .logo img{width: 60px; height: 60px}
     .conteudo{text-align: center}
     /* FONT-SIZE */
     *{font-size: 16px}
     footer p{font-size: 14px}
     header li{font-size:16px}
     .title{font-size: 28px}
-    #bem-vindo .conteudo .title{font-size: 50px}
-    #bem-vindo .conteudo .subtitle{font-size: 30px}
-    h4{font-size: 23px}
+    #bem-vindo .conteudo .title{font-size: 40px}
+    .conteudo .subtitle{font-size: 25px}
     #sobreTitle{font-size: 40px}
     /* PADDING */
-    #bem-vindo{padding-top: 20px}
+    #bem-vindo{padding-top: 50px}
     #bem-vindo .conteudo,#bem-vindo .conteudo h3, #bem-vindo .conteudo h4{padding-bottom: 20px}
-    #sobreTitle{padding: 10px 0 30px 0}
+    #sobreTitle{padding: 30px 0 30px 0}
     #sobreText p{padding-bottom: 20px}
     h4{padding-bottom: 10px}
     main{padding-top: 50px}
@@ -25,10 +24,27 @@
     footer p{padding-top: .5rem}
     #btn-consultar{padding: .5em}
     .contentPopup{padding: 20px 20px 30px 20px; top:15%}
-    .contentPopup h2, .contentPopup p, footer{padding: 10px 0}
+    .contentPopup h2, .contentPopup p, footer{
+        padding: 10px 0
+    }
     .title{padding-bottom: 10px}
     /* SOBRE.CSS E INDEX.CSS*/
     .centerImg{display: none} .flex .center{flex: 6}
+
+    .center #btn-consultar{
+        width: 150px;
+        height: 60px;
+        font-size: 25px;
+    }
+    footer p:first-of-type{
+        display: none;
+    }
+    footer{
+        height: 90px;
+    }
+    main{
+        min-height: calc(100vh - 90px);
+    }
 }
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
@@ -41,10 +57,8 @@
     h4{font-size: 25px}
     #sobreTitle{font-size: 40px}
     .title{font-size: 30px}
-    #bem-vindo .conteudo .title{font-size: 50px}
     #bem-vindo .conteudo .subtitle{font-size: 30px}
     /* PADDING */
-    #bem-vindo{padding-top: 20px}
     #bem-vindo .conteudo,#bem-vindo .conteudo h3, #bem-vindo .conteudo h4{padding-bottom: 20px}
     #sobreTitle{padding: 10px 0 30px 0}
     #sobreText p{padding-bottom: 20px}
@@ -63,7 +77,7 @@
     .centerImg{flex: 3}
     /* INDEX.CSS */
     .conteudo *{padding-bottom: 20px}
-    
+        
 }
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px){
