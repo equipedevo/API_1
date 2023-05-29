@@ -12,8 +12,7 @@
 
 {% block conteudo %}
     <div class="row">
-        <div class="col-1"></div>
-        <form class="col-10" id="filtro">
+        <form class="col-12" id="filtro">
             <div class="dropdown">
                 <b><label for="periodo">Periodo</label></b>
                 <button type="button" onclick="ShowSelect('periodo', this)">Mostrar</button>
@@ -73,7 +72,6 @@
                 <button name="reset" id="filtro-btn" type="button" onclick="window.location.href = 'consulta';"><img src="./static/img/rewind.png"></button>
             </div>
         </form>
-        <div class="col-1"></div>
     </div>
     {% for cidade in graficos %}
     <div class="row">
