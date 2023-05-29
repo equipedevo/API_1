@@ -1,3 +1,10 @@
+var periodos = [
+    "2019",
+    "2020",
+    "2021",
+    "2022"
+];
+
 window.addEventListener("load", function(){
     carousels = document.getElementsByClassName("carousel");
 
@@ -6,8 +13,8 @@ window.addEventListener("load", function(){
             carousels[i].children[j].style.display = "none";
         carousels[i].children[1].style.display = "inline-block";
 
-        carousels[i].children[0].innerText = "<1/"+(carousels[i].children.length-2).toString()
-        carousels[i].children[carousels[i].children.length-1].innerText = "1/"+(carousels[i].children.length-2).toString()+">"
+        carousels[i].children[0].innerText = "<1/"+(carousels[i].children.length-2).toString();
+        carousels[i].children[carousels[i].children.length-1].innerText = "1/"+(carousels[i].children.length-2).toString()+">";
     }
 });
 
@@ -26,8 +33,8 @@ function RollCarousel(carousel, roll){
     else if(current < 1)
         current = carousel.children.length - 2;
 
-    carousel.children[current].style.display = "inline-block"
+    carousel.children[current].style.display = "inline-block";
 
-    carousel.children[0].innerText = "<"+current.toString()+"/"+(carousel.children.length-2).toString()
-    carousel.children[carousel.children.length-1].innerText = current.toString()+"/"+(carousel.children.length-2).toString()+">"
+    carousel.children[0].innerText = "<"+current.toString()+"/"+(carousel.children.length-2).toString();
+    carousel.children[carousel.children.length-1].innerText = current.toString()+"/"+(carousel.children.length-2).toString()+">";
 }

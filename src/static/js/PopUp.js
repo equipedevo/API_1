@@ -7,11 +7,9 @@ function popupToggle(id){
     popup = document.getElementById(id);
     if(popup.style.display == "none"){
         popup.style.display = "block";
-        console.log("If");
     }
     else{
         popup.style.display = "none";
-        console.log("Else");
     }
 }
 
@@ -19,7 +17,6 @@ document.getElementById("popupAjuda").addEventListener("click", function(event) 
 document.getElementById("popupFontes").addEventListener("click", function(event) { popupClose(event, "popupFontes") });
 
 function popupClose(event, id){
-    console.log(id);
     let larguraTela = window.innerWidth;
     let alturaTela = window.innerHeight;
     let larguraPopUp = document.getElementById(id).children[0].offsetWidth;
