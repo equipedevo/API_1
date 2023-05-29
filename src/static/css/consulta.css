@@ -107,16 +107,3 @@
     height: 40px;
     cursor: pointer;
 }
-
-.grafico-cidade{
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-}
-
-.grafico{
-    width: 100px;
-    flex-grow: 1;
-    flex-shrink: 1;
-}
