@@ -1,13 +1,13 @@
 #filtro{
     background-color: var(--azul);
+    padding: 5px;
 
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 
     min-height: 75px;
-    max-height: 150px;
-    width: 100%;
     border-color: black;
 
     border-radius: 0 0 5px 5px;
