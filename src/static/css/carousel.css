@@ -6,32 +6,21 @@
     width: 100%;
 }
 
-#carousel-graficos{
+.carousel-graficos{
     width: 80%;
 }
 
-#carousel-graficos .grafico{
+.carousel-graficos .grafico{
     width: 100%;
 }
 
-/*
-.carousel button{
-    display: inline-block;
-
-    height: 100%;
-    width: 5%;
-}
-*/
-
-#carousel-button-r,
-#carousel-button-l{
+.carousel-button {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
 
-#carousel-button-r button,
-#carousel-button-l button{
+.carousel-button button{
     width: 100%;
 }

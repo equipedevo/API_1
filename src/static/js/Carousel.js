@@ -5,21 +5,37 @@ var periodos = [
     "2022"
 ];
 
-var current = 0;
-
 window.addEventListener("load", function(){
-    let graficos = document.getElementById("carousel-graficos");
+    let graficos = document.getElementsByClassName("carousel-graficos");
+    for(let i = 0; i < graficos.length; i++){
+        graficos[i].children[0].style.display = "inline-block";
+        for(let j = 1; j < graficos[i].children.length; j++)
+            graficos[i].children[j].style.display = "none";
+    }
 
-    graficos.children[0].style.display = "inline-block";
-    for(let i = 1; i < graficos.children.length; i++)
-        graficos.children[i].style.display = "none";
-
-    document.getElementById("carousel-button-r").children[0].innerText = periodos[current+1];
-    document.getElementById("carousel-button-l").children[0].innerText = periodos[graficos.children.length-1];
+    let buttons = document.getElementsByClassName("carousel-button");
+    for(let i = 0; i < buttons.length; i++){
+        switch(buttons[i].className[buttons[i].className.length-1]){
+            case 'r':
+                buttons[i].children[0].innerText = periodos[1];
+            break;
+            case 'l':
+                buttons[i].children[0].innerText = periodos[3];
+            break;
+        }
+    }
 });
 
 function RollCarousel(carousel, roll){
-    let graficos = document.getElementById("carousel-graficos");
+    let graficos = document.getElementById(carousel+"-carousel-graficos");
+
+    let current = 0;
+    for(let i = 0; i < graficos.children.length; i++){
+        if(graficos.children[i].style.display == "inline-block"){
+            current = i;
+            break;
+        }
+    }
     graficos.children[current].style.display = "none";
 
     current += roll;
@@ -30,6 +46,6 @@ function RollCarousel(carousel, roll){
 
     graficos.children[current].style.display = "inline-block";
 
-    document.getElementById("carousel-button-r").children[0].innerText = periodos[(current+1 >= graficos.children.length ? 0 : current+1)];
-    document.getElementById("carousel-button-l").children[0].innerText = periodos[(current-1 < 0 ? graficos.children.length-1 : current-1)];
+    document.getElementById(carousel+"-button-r").children[0].innerText = periodos[(current+1 >= graficos.children.length ? 0 : current+1)];
+    document.getElementById(carousel+"-button-l").children[0].innerText = periodos[(current-1 < 0 ? graficos.children.length-1 : current-1)];
 }
