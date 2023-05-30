@@ -1,7 +1,67 @@
 ## [Ir para a tela de início](./../../README.md) ou [Ir para a 4ª sprint](README_sprint.md)
 
-| Código |             Backlog             |     Quem    |                                          Quer                                          |                  Para                  |
-| :----: | :-----------------------------: | :---------: | :------------------------------------------------------------------------------------: | :------------------------------------: |
-| US#37  |                                 |             |                                                                                        |                                        |
+<h1 style="text-align: center"> Sprint 1 </h1>
+
+| Código |      Descrição das Tarefas       | Início | Término |
+| :----: | :------------------------------: | :----: | :-----: |
+| US#  | Wireframe                          | 20/mar | 29/mar  |
+| US#  | Gráfico do Procedimento            | 28/mar | 28/mar  |
+| US#  | Criação Logo                       | 23/mar | 23/mar  |
+| US#  | Estudo Raspagem de Dados no Tabnet | 19/mar | 30/mar  |
+| US#  | Documentação do Github             | 20/mar | 2/abr   |
+
+<h1 style="text-align: center"> Sprint 2 </h1>
+
+| Código |        Descrição das Tarefas         | Início | Término |
+| :----: | :----------------------------------: | :----: | :-----: |
+| US#  | Fazer a Página Home                    | 6/abr  | 18/abr  |
+| US#  | Fazer o Navbar                         | 6/abr  | 18/abr  |
+| US#  | Fazer a Página Sobre                   | 3/abr  | 18/abr  |
+| US#  | Fazer a Página Consulta                | 7/abr  | 23/abr  |
+| US#  | Fazer o Pop-up Ajuda                   | 20/abr | 23/abr  |
+| US#  | Fazer o Pop-up Fontes                  | 20/abr | 23/abr  |
+| US#  | Fazer a Logo do API                    | 18/abr | 19/abr  |
+| US#  | Requisitos Funcionais e Não Funcionais | 19/abr | 19/abr  |
+| US#  | README da sprint 2                     | 17/abr | 23/abr  |
+
+<h1 style="text-align: center"> Sprint 3 </h1>
+
+| Código |            Descrição das Tarefas            | Início | Término |
+| :----: | :-----------------------------------------: | :----: | :-----: |
+| US#  | Coleta de Dados de Quantidade de Consultas    | 13/mar | 11/mai  |
+| US#  | Coleta de Dados de Quantidade de Medicamentos | 13/mar | 05/mai  |
+| US#  | Coleta de Dados de Quantidade de Tratamentos  | 13/mar | 09/mai  |
+| US#  | Coleta de Dados de Custo Consultas            | 05/abr | 11/mai  |
+| US#  | Coleta de Dados de Custo Medicamentos         | 05/abr | 05/mai  |
+| US#  | Coleta de Dados de Custo Tratamentos          | 05/abr | 09/mai  |
+| US#  | Arrumar Pop-up em JavaScript                  | 10/mai | 11/mai  |
+| US#  | Funcão Porcentagem                            | 05/mai | 05/mai  |
+| US#  | Checkbox de porcentagem                       | 06/mai | 06/mai  |
+| US#  | Arrumar os gráficos                           | 04/mai | 14/mai  |
+| US#  | Carrossel dos Gráficos                        | 06/mai | 06/mai  |
+| US#  | Erro dos campos inexistente                   | 05/mai | 05/mai  |
+| US#  | Protótipo dos Dropdowns                       | 03/abr | 03/mai  |
+| US#  | Arrumar Manual                                | 13/mai | 13/mai  |
+| US#  | README da sprint 3                            | 30/abr | 14/mai  |
+
+<h1 style="text-align: center"> Sprint 4 </h1>
+
+| Código |               Descrição das Tarefas               | Início | Término |
+| :----: | :-----------------------------------------------: | :----: | :-----: |
+| US#  | Ranking dos Dados Mais Pesquisados                  | _      | _       |
+| US#  | Fazer Imagem para a Página Inicial                  | 23/mai | 23/mai  |
+| US#  | Alertar caso alguma área não for respondida         | 25/mai | 25/mai  |
+| US#  | Arrumar texto do pop-up de fontes                   | _      | _       |
+| US#  | Design do Carrossel                                 | 29/mai | 29/mai  |
+| US#  | Responsividade dos Filtros                          | 29/mai | 29/mai  |
+| US#  | Responsividade e Estilização dos Gráficos/Carrossel | 29/mai | 29/mai  |
+| US#  | Responsividade da Base                              | 19/mai | 26/mai  |
+| US#  | Responsividade da Página Sobre                      | 26/mai | 26/mai  |
+| US#  | Responsividade da Página Inicial                    | 26/mai | 27/mai  |
+| US#  | Procurar por Bugs                                   | 26/mai | _       |
+| US#  | Arrumar Backlog de cada Sprint                      | 30/mai | _       |
+| US#  | Arrumar Burndowns                                   | 16/mai |19/mai   |
+| US#  | Conferir e arrumar a documentação no Github         | _      | _       |
+| US#  | README da sprint 4                                  | _      | _       |
 
 ## [Ir para a tela de início](./../../README.md) ou [Ir para a 4ª sprint](README_sprint.md)
