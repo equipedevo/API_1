@@ -1,0 +1,75 @@
+ Procedimentos hospitalares do SUS - por local de internação - São Paulo
+AIH aprovadas por Ano/mês atendimento e Forma organização
+Município: 354990 SAO JOSE DOS CAMPOS
+Forma organização: 030301 Tratamento de doenças infecciosas e parasitárias, 030302 Tratamento de doenças do sangue, orgãos hematopoéticos e alguns transtornos imunitários, 030303 Tratamento de doenças endocrinas, metabólicas e nutricionais, 030304 Tratamento de doenças do sistema nervoso central e periférico, 030305 Tratamento de doenças do aparelho da visão, 030306 Tratamento de doenças cardiovasculares, 030307 Tratamento de doenças do aparelho digestivo, 030308 Tratamento de doenças da pele e do tecido  subcutâneo, 030309 Tratamento de doenças do sistema osteomuscular e do tecido conjuntivo, 030310 Tratamento durante a gestação, parto e puerpério, 030311 Tratamento de malformações congênitas, deformidades e anomalias cromossômicas, 030312 Tratamentos por medicina nuclear in vivo, 030313 Tratamento de pacientes sob cuidados prolongados, 030314 Tratamento de doenças do ouvido/apófise mastóide e vias aéreas, 030315 Tratamento das doenças do aparelho geniturinário, 030316 Tratamento de algumas afecçõess originadas no período neonatal, 030317 Tratamento dos transtornos mentais e comportamentais, 030318 Tratamento HIV/Aids, 030501 Tratamento dialítico, 030502 Tratamento em nefrologia em geral, 040305 Tratamento neurocirúrgico da dor funcional, 040307 Tratamento neuro-endovascular, 041301 Tratamento de queimados, 060440 Medicamentos para tratamento da hipercalemia e hiperfosfatemia, 060459 Retinóides para tratamento da acne, 060460 Retinóides para tratamento da psoríase
+Período:2019-2022
+"Ano/mês atendimento";"030301 Tratamento de doenças infecciosas e parasitárias";"030302 Tratamento de doenças do sangue, orgãos hematopoéticos e alguns transtornos imunitários";"030303 Tratamento de doenças endocrinas, metabólicas e nutricionais";"030304 Tratamento de doenças do sistema nervoso central e periférico";"030305 Tratamento de doenças do aparelho da visão";"030306 Tratamento de doenças cardiovasculares";"030307 Tratamento de doenças do aparelho digestivo";"030308 Tratamento de doenças da pele e do tecido  subcutâneo";"030309 Tratamento de doenças do sistema osteomuscular e do tecido conjuntivo";"030310 Tratamento durante a gestação, parto e puerpério";"030311 Tratamento de malformações congênitas, deformidades e anomalias cromossômicas";"030314 Tratamento de doenças do ouvido/apófise mastóide e vias aéreas";"030315 Tratamento das doenças do aparelho geniturinário";"030316 Tratamento de algumas afecçõess originadas no período neonatal";"030317 Tratamento dos transtornos mentais e comportamentais";"030318 Tratamento HIV/Aids";"030501 Tratamento dialítico";"030502 Tratamento em nefrologia em geral";"040305 Tratamento neurocirúrgico da dor funcional";"041301 Tratamento de queimados";"Total"
+"2018";73;28;12;55;-;118;53;25;4;29;1;187;53;18;732;1;-;26;-;4;1419
+"..Outubro/2018";1;-;-;2;-;2;-;-;-;1;-;2;-;-;-;-;-;1;-;-;9
+"..Novembro/2018";21;7;1;11;-;30;13;6;1;4;-;76;22;5;2;-;-;5;-;-;204
+"..Dezembro/2018";51;21;11;42;-;86;40;19;3;24;1;109;31;13;730;1;-;20;-;4;1206
+"2019";1136;306;337;1308;16;3040;1908;424;51;600;47;2977;1005;762;1472;170;16;565;11;74;16225
+"..Janeiro/2019";97;21;30;94;3;236;178;49;4;56;10;188;70;69;91;12;-;55;1;5;1269
+"..Fevereiro/2019";76;18;28;107;3;225;161;51;5;33;7;165;83;45;99;12;1;54;1;11;1185
+"..Março/2019";93;20;29;126;2;244;135;35;6;38;4;230;85;50;200;20;-;49;-;8;1374
+"..Abril/2019";82;19;18;114;1;281;144;44;4;54;3;332;100;59;109;19;-;54;2;7;1446
+"..Maio/2019";99;27;24;110;1;257;161;33;2;37;2;356;87;57;130;12;1;48;2;5;1451
+"..Junho/2019";110;24;26;108;1;244;149;22;7;47;1;349;83;67;121;6;3;37;1;3;1409
+"..Julho/2019";96;36;30;96;-;289;175;20;4;58;3;268;79;74;124;15;2;42;-;5;1416
+"..Agosto/2019";69;25;27;112;-;283;156;41;2;53;4;236;106;81;114;13;3;44;-;1;1370
+"..Setembro/2019";111;18;34;99;1;257;167;38;3;61;2;245;66;66;128;10;1;43;1;5;1356
+"..Outubro/2019";111;31;35;109;3;246;172;26;5;42;3;242;102;62;111;18;1;53;1;9;1382
+"..Novembro/2019";98;34;29;123;-;220;166;29;5;55;5;178;66;59;126;18;3;34;2;8;1258
+"..Dezembro/2019";94;33;27;110;1;258;144;36;4;66;3;188;78;73;119;15;1;52;-;7;1309
+"2020";2159;272;312;1434;12;2725;1438;250;23;460;57;2065;745;810;1164;139;24;501;12;93;14695
+"..Janeiro/2020";90;23;19;138;-;262;184;30;2;53;8;140;81;73;128;15;1;42;2;7;1298
+"..Fevereiro/2020";86;23;35;130;-;271;163;20;-;45;5;186;78;78;139;7;3;45;2;8;1324
+"..Março/2020";70;27;23;121;2;228;124;25;3;48;6;187;70;55;100;11;2;48;-;12;1162
+"..Abril/2020";98;22;18;96;-;220;97;15;1;34;3;133;45;86;96;16;2;30;-;7;1019
+"..Maio/2020";175;15;27;110;2;205;75;15;4;31;7;188;39;101;68;5;1;35;-;8;1111
+"..Junho/2020";241;21;24;112;1;232;83;20;2;30;2;204;55;60;68;10;3;28;-;6;1202
+"..Julho/2020";329;26;28;125;2;222;73;29;-;42;1;254;56;82;102;13;3;50;-;7;1444
+"..Agosto/2020";304;29;30;114;1;242;105;17;1;38;4;194;62;46;85;13;2;47;-;5;1339
+"..Setembro/2020";224;27;27;113;1;213;131;14;3;35;6;134;60;63;92;15;4;32;2;8;1204
+"..Outubro/2020";128;14;15;114;1;194;150;24;3;43;7;152;65;57;86;15;2;51;3;11;1135
+"..Novembro/2020";144;26;27;130;-;230;133;24;1;37;6;149;70;53;90;15;-;51;2;8;1196
+"..Dezembro/2020";270;19;39;131;2;206;120;17;3;24;2;144;64;56;110;4;1;42;1;6;1261
+"2021";3834;314;397;1396;10;2395;1383;282;35;516;34;2429;890;709;1319;111;19;541;10;80;16704
+"  Janeiro/2021";418;23;37;102;-;149;103;29;1;37;7;156;61;59;83;6;4;45;-;8;1328
+"  Fevereiro/2021";267;20;26;112;1;158;89;22;6;25;4;144;56;61;85;6;1;41;1;6;1131
+"  Março/2021";529;23;29;107;2;172;129;20;3;42;2;170;67;65;131;12;-;41;-;8;1552
+"  Abril/2021";556;29;26;98;-;153;107;25;1;31;4;175;79;56;88;9;4;42;-;7;1490
+"  Maio/2021";623;28;25;142;3;171;96;28;-;23;2;193;77;49;95;7;-;40;-;9;1611
+"  Junho/2021";517;14;38;118;1;165;93;19;4;31;4;198;63;51;120;11;-;40;1;10;1498
+"  Julho/2021";286;32;42;114;1;224;106;24;1;30;1;211;78;54;112;9;-;46;2;5;1378
+"  Agosto/2021";180;39;25;115;1;232;129;25;5;51;3;235;88;62;134;13;2;43;2;4;1388
+"  Setembro/2021";149;27;39;120;-;224;121;23;2;54;4;166;85;65;117;11;1;44;3;5;1260
+"  Outubro/2021";116;26;34;124;1;244;144;22;3;69;1;228;76;46;91;6;1;60;1;9;1302
+"  Novembro/2021";110;34;40;113;-;251;141;23;5;61;1;247;88;80;139;10;-;47;-;2;1392
+"  Dezembro/2021";83;19;36;131;-;252;125;22;4;62;1;306;72;61;124;11;6;52;-;7;1374
+"2022";1421;291;419;1539;18;2843;1730;307;51;902;24;2869;849;695;1374;108;26;637;11;70;16184
+"..Janeiro/2022";279;34;50;113;2;231;108;24;9;65;2;295;57;59;108;10;7;75;1;6;1535
+"..Fevereiro/2022";160;21;40;113;1;215;138;23;3;79;1;162;63;47;123;4;2;63;1;5;1264
+"..Março/2022";96;22;39;101;1;250;152;25;8;84;1;183;76;74;141;12;7;58;1;7;1338
+"..Abril/2022";102;29;37;121;3;251;128;28;6;63;-;269;69;70;118;10;1;47;2;5;1359
+"..Maio/2022";89;29;37;116;2;290;170;22;4;84;2;332;96;64;131;15;1;48;-;3;1535
+"..Junho/2022";129;20;31;123;2;292;151;28;2;69;1;305;95;54;126;9;2;53;1;7;1500
+"..Julho/2022";126;24;33;135;2;237;176;37;3;79;-;247;80;68;107;8;1;61;-;5;1429
+"..Agosto/2022";91;25;36;161;5;234;168;26;5;80;4;276;73;71;117;10;-;54;2;5;1443
+"..Setembro/2022";84;27;34;165;-;268;154;28;1;74;5;282;92;57;133;13;1;47;-;6;1471
+"..Outubro/2022";71;22;35;151;-;251;140;17;3;74;2;178;55;43;108;9;1;62;1;7;1230
+"..Novembro/2022";110;22;24;148;-;180;122;22;3;84;6;187;47;56;108;1;1;40;1;8;1170
+"..Dezembro/2022";84;16;23;92;-;144;123;27;4;67;-;153;46;32;54;7;2;29;1;6;910
+"Total";8623;1211;1477;5732;56;11121;6512;1288;164;2507;163;10527;3542;2994;6061;529;85;2270;44;321;65227
+ Fonte: Ministério da Saúde - Sistema de Informações Hospitalares do SUS (SIH/SUS)
+ Notas:
+ 
+ Dados referentes aos últimos seis meses, sujeitos a  atualização.
+ A partir do processamento de junho de 2012, houve mudança na classificação da natureza e esfera dos estabelecimentos. Com isso, temos que:
+      
+      Até maio de 2012 estas informações estão disponíveis como "Natureza" e "Esfera Administrativa".
+      De junho de 2012 a outubro de 2015, estão disponíveis tanto como "Natureza" e "Esfera Administrativa", como "Natureza Jurídica" e "Esfera Jurídica".
+      A partir de novembro de 2015, estão disponíveis como "Natureza Jurídica" e "Esfera Jurídica".
+      
+ 
+ Consulte o site da Secretaria Estadual de Saúde para mais informações.
