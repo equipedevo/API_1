@@ -16,12 +16,12 @@
 
 # :bulb: Sobre o Projeto
     
-Conforme a demanda da 1º API (Aprendizagem por Projetos Integrados) (Abordando as disciplinas: "Design Digital", "Desenvolvimento Web I" e "Engenharia de Software"), foi realizado um aplicação web que demonstra dados do <a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/r"> TABNET (DATASUS)</a>, com o objetivo de exibir algumas consequências ocasionadas pela COVID longa.
-> _API se trata de um projeto  submetido a metodologia de ensino em implantação na Fatec São José dos Campos, desde o Segundo Semestre de 2019, do qual os alunos formam equipes baseadas na metodologia SCRUM, tendo um aluno como master, um Product Owner e o restante dos integrates como dev team._
+Conforme a demanda da 1º API (Aprendizagem por Projetos Integrados) (Abordando as disciplinas: "Design Digital", "Desenvolvimento Web I" e "Engenharia de Software"), foi realizado um aplicação web que demonstra dados do <a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/r"> DATASUS TABNET </a>, com o objetivo de exibir algumas consequências ocasionadas pela COVID longa.
+> _A API se trata de um projeto  submetido à metodologia de ensino em implantação na Fatec São José dos Campos, desde o Segundo Semestre de 2019, do qual os alunos formam equipes baseadas na metodologia SCRUM, tendo um aluno como Scrum Master, um sendo o Product Owner e o restante dos integrates como Dev Team._
 
 <br>
 
-### Se interessou pelo projeto? Então da só uma <a href="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Sprints%20Anteriores/Sprint3.md#sobre-a-sprint"> olhadinha</a> :movie_camera: em como ele está ficando!
+### Se interessou pelo projeto? Então dá só uma <a href="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Sprints%20Anteriores/Sprint3.md#sobre-a-sprint"> olhadinha</a> :movie_camera: em como ele está ficando!
 
 > **Status do Projeto: Em andamento :warning:** 
 
@@ -63,7 +63,7 @@ Foram usadas na construção do projeto as seguintes ferramentas e linguagens:
 - [Figma](http://www.figma.com): Prototipagem
 - [GitHub](https://github.com/): Versionamento e documentação
 - [Jira](https://www.atlassian.com/software/jira): Organização de tarefas
-- [Python](https://www.python.org): Back-End no geral, como ler arquivos csv e gerar os gráficos deles
+- [Python](https://www.python.org): Back-End no geral, como ler arquivos csv e gerar os gráficos dos mesmos
 - [Flask](https://flask.palletsprojects.com): Utilizado como um servidor web
 - [HTML](https://html.spec.whatwg.org): Estruturação das páginas do site
 - [CSS](https://www.w3.org/Style/CSS/#specs): Estilização do site
