@@ -77,20 +77,20 @@
     <div class="row">
         <div id="{{ cidade.name }}" class="carousel">
             {% if cidade.paths| length > 1 %}
-            <div id="carousel-button-l">
+            <div id="{{ cidade.name }}-button-l" class="carousel-button l">
                 <p>2022</p>
-                <button onclick="RollCarousel(document.getElementById('{{ cidade.name }}'), -1)"><</button>
+                <button onclick="RollCarousel('{{ cidade.name }}', -1)"><</button>
             </div>
-            <div id="carousel-graficos">
+            <div id="{{ cidade.name }}-carousel-graficos" class="carousel-graficos">
                 {% endif %}
                 {% for path in cidade.paths %}
                 <img class="grafico" src="{{ path }}">
                 {% endfor %}
                 {% if cidade.paths| length > 1 %}
             </div>
-            <div id="carousel-button-r">
+            <div id="{{ cidade.name }}-button-r" class="carousel-button r">
                 <p>2020</p>
-                <button onclick="RollCarousel(document.getElementById('{{ cidade.name }}'), 1)">></button>
+                <button onclick="RollCarousel('{{ cidade.name }}', 1)">></button>
             </div>
             {% endif %}
         </div>
