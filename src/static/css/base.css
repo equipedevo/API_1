@@ -1,13 +1,4 @@
-/* ÁREA DE ESTILIZAÇÃO GERAL */
-* {
-    align-items: center;
-    border: 0;
-    box-sizing: border-box;
-    font-family: Roboto, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
+/* CORES */
 :root{
     --branco: #FFFFFF; 
     --preto: #000000; 
@@ -16,27 +7,52 @@
     --cinza-escuro: #444;
 }
 
-.col-1{
-    width: 8.33%;
-    margin: auto;
-}
-.col-10{
-    width: 83.33%;
-    margin: auto;
+/* ÁREA DE ESTILIZAÇÃO GERAL */
+* {
+    align-items: center;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0
 }
 
-header, .popups{
-    position: fixed; 
-    left: 0; 
+.col-1{
+    margin: auto;
+    width: 8.33%
+}
+
+.col-10{
+    width: 83.33%;
+    margin: auto
+}
+
+header,
+.popups{
+    left: 0;
+    position: fixed;
     top: 0
 }
-header, footer, #bem-vindo{
+
+header,
+footer,
+#bem-vindo,
+.conteudo{
     text-align: center
 }
-header, .popups, main{
+
+header,
+.popups,
+main{
     width: 100%
 }
-header, header ul, .flex, #sobreText, #bem-vindo{
+
+header,
+header ul,
+.flex,
+#sobreText,
+#bem-vindo
+{
     display: flex
 }
 
@@ -44,18 +60,22 @@ header, header ul, .flex, #sobreText, #bem-vindo{
     color: var(--azul)
 }
 
-*, #btn-consultar:hover{
+*,
+#btn-consultar:hover{
     color: var(--preto)
 }
 
-header, #btn-consultar:hover, .contentPopup{
+header,
+#btn-consultar:hover,
+.contentPopup{
     background-color: var(--branco)
 }
 
 footer{
     background-color: var(--cinza);
-    height: 120px;
+    height: 120px
 }
+
 /* ÁREA DE ESTILIZAÇÃO DO MENU/NAVBAR */
 header{
     border-bottom: 2px solid var(--cinza)
@@ -74,7 +94,9 @@ header a{
     text-decoration: none
 }
 
-.left, .logo, .right{
+.left,
+.logo,
+.right{
     flex: 1
 }
 
@@ -85,6 +107,7 @@ header a{
 .nav{
     flex: 2
 }
+
 /* POP-UPS */
 .popups{
     display: none; 
@@ -100,8 +123,9 @@ header a{
     left: 15%;
     position: absolute;
     right: 15%;
-    width: 70%;
+    width: 70%
 }
+
 /* OUTROS */
 #btn-consultar{
     background-color:var(--azul);
