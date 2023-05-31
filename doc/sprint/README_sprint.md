@@ -6,19 +6,20 @@
 
 ## :mag_right: Índice
 
-<!-- * [Sobre a Sprint](#SobreASprint) -->
+* [Sobre a Sprint](#SobreASprint)
 * [Como Usar](#comoUsar)
 * [Backlog](#backlog)
-<!-- * [MVP](#MVP)
-* [Tag](#tag) -->
+* [MVP](#MVP)
+<!-- * [Tag](#tag) -->
 
 <span id="SobreASprint"></span>
 
-<!-- # Sobre a Sprint
-Nesta terceira entrega, foi combinado juntamente do cliente, a priorização da análise de dados e criação de gráficos através do filtro.
+# Sobre a Sprint
+Nesta última entrega, foi combinado juntamente do cliente, a finalização do projeto, estando o mesmo responsivo, com seus dados verídicos e com uma área que contenha os filtros mais utilizados.
+<!-- 
 <img src="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Site_sprint3.gif?raw=true"></br>
-
-→ [Voltar ao topo](#topo)</br> -->
+ -->
+→ [Voltar ao topo](#topo)</br>
 
 <span id="comoUsar"></span>
 
@@ -84,13 +85,13 @@ cd src/
 
 [Clique aqui](Backlog_sprint.md) para acessar o backlog da quarta sprint.
 
-<!-- → [Voltar ao topo](#topo)
+→ [Voltar ao topo](#topo)
 
 <span id="MVP"></span>
 
 # :triangular_flag_on_post: Minimum Viable Product (MVP)
 
-O mínimo produto viável desta sprint é um filtro funcional que mostre os dados de maneira clara e objetiva.
+O mínimo produto viável desta sprint é atender a demanda de responsividade, juntamente com uma área contendo os filtros mais utilizados na página consultar.
 
 <details>
   <summary><b>Explicação das Tecnologias:</b></summary>
@@ -102,6 +103,7 @@ O mínimo produto viável desta sprint é um filtro funcional que mostre os dado
   5. <a href="https://www.w3schools.com/python/default.asp">Python</a>: Utilizado para fazer a construção dos gráficos através de arquivos .csv já criados
 </details> 
 
+<!-- 
 <span id="tag"></span>
 
 # Tag
