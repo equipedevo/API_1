@@ -1,18 +1,5 @@
 ## [Ir para a tela de início](./../../README.md) ou [Ir para a 4ª sprint](README_sprint.md)
 
-<h1 style="text-align: center"> Sprint 2 </h1>
-
-| Código |        Descrição das Tarefas         | Início | Término |
-| :----: | :----------------------------------: | :----: | :-----: |
-| US#  | Fazer a Página Home                    | 6/abr  | 18/abr  |
-| US#  | Fazer o Navbar                         | 6/abr  | 18/abr  |
-| US#  | Fazer a Página Sobre                   | 3/abr  | 18/abr  |
-| US#  | Fazer a Página Consulta                | 7/abr  | 23/abr  |
-| US#  | Fazer o Pop-up Ajuda                   | 20/abr | 23/abr  |
-| US#  | Fazer o Pop-up Fontes                  | 20/abr | 23/abr  |
-| US#  | Fazer a Logo do API                    | 18/abr | 19/abr  |
-| US#  | Requisitos Funcionais e Não Funcionais | 19/abr | 19/abr  |
-| US#  | README da sprint 2                     | 17/abr | 23/abr  |
 
 <h1 style="text-align: center"> Sprint 3 </h1>
 
