@@ -1,26 +1,29 @@
-.carousel{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.carousel,
+.carousel-button{
+    align-items: center
+}
 
-    width: 100%;
+.carousel,
+.carousel-button{
+    display: flex
+}    
+
+.carousel,
+.carousel-graficos .grafico,
+.carousel-button button,
+img.grafico{
+    width: 100%
 }
 
 .carousel-graficos{
-    width: 80%;
+    width: 80%
 }
 
-.carousel-graficos .grafico{
-    width: 100%;
+.carousel{
+    justify-content: center
 }
 
 .carousel-button {
-    display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.carousel-button button{
-    width: 100%;
+    justify-content: space-evenly
 }
