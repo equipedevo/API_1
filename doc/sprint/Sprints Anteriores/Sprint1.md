@@ -48,13 +48,13 @@ Prótotipo do projeto:
 → [Voltar ao topo](#topo)<br/>
 # Backlog
 
-| Código |     Backlog     |     Quem    |                            Quer                           |                  Para                   |
-| :----: | :-------------: | :---------: | :-------------------------------------------------------: | :-------------------------------------: |
-| US#01  | Wireframe       | Programador | Ter um protótipo do projeto.                              | Ter uma noção de como o projeto ficará. |
-| US#02  | Documentação    | Cliente     | Ter a documentação do projeto.                            | Saber como utilizá-lo.                  |
-| US#03  | Documentação    | Programador | Que saibam quem trabalhou no projeto e como nos contatar. | Ser creditado.                          |
-| US#04  | Backlog         | Cliente     | Saber quando cada parte do projeto será realizada.        | Ter uma noção de quando ficará pronta.  |<br/>
-
+| Código |      Descrição das Tarefas       | Início | Término |
+| :----: | :------------------------------: | :----: | :-----: |
+| US#01  | Wireframe                          | 20/mar | 29/mar  |
+| US#02  | Criação Logo                       | 23/mar | 23/mar  |
+| US#03  | Estudo Raspagem de Dados no Tabnet | 19/mar | 30/mar  |
+| US#04  | Gráfico do Procedimento            | 28/mar | 28/mar  |
+| US#05  | Documentação do Github             | 20/mar | 2/abr   |
 → [Voltar ao topo](#topo)<br/>
 
 <span id="MVP"></span>

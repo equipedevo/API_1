@@ -1,15 +1,5 @@
 ## [Ir para a tela de início](./../../README.md) ou [Ir para a 4ª sprint](README_sprint.md)
 
-<h1 style="text-align: center"> Sprint 1 </h1>
-
-| Código |      Descrição das Tarefas       | Início | Término |
-| :----: | :------------------------------: | :----: | :-----: |
-| US#  | Wireframe                          | 20/mar | 29/mar  |
-| US#  | Gráfico do Procedimento            | 28/mar | 28/mar  |
-| US#  | Criação Logo                       | 23/mar | 23/mar  |
-| US#  | Estudo Raspagem de Dados no Tabnet | 19/mar | 30/mar  |
-| US#  | Documentação do Github             | 20/mar | 2/abr   |
-
 <h1 style="text-align: center"> Sprint 2 </h1>
 
 | Código |        Descrição das Tarefas         | Início | Término |
