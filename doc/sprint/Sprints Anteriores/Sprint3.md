@@ -82,29 +82,23 @@ cd src/
 
 # Backlog
 
-| Código |              Backlog            |     Quem    |                                          Quer                                          |                  Para                  |
-| :----: | :-----------------------------: | :---------: | :------------------------------------------------------------------------------------: | :------------------------------------: |
-| US#15  | Análise de dados da quantidade  | Programador | quero fazer a Análise de dados das consultas de 2019 a 2022                            | transformar em gráficos.               |
-| US#16  | Análise de dados da quantidade  | Programador | Fazer a Análise de dados dos tratamentos de 2019 a 2022                                | transformar em gráficos.               |
-| US#17  | Análise de dados da quantidade  | Programador | Fazer a Análise de dados dos procedimentos de 2019 a 2022                              | transformar em gráficos.               |
-| US#18  | Análise de dados da quantidade  | Programador | Fazer a Análise de dados dos medicamentos de 2019 a 2022                               | transformar em gráficos.               |
-| US#19  | Análise de dados da quantidade  | Programador | Fazer a Análise de dados das internações de 2019 a 2022                                | transformar em gráficos.               |
-| US#20  | Análise de dados dos custos     | Programador | Fazer a Análise de dados do custo, em moeda corrente, das consultas de 2019 a 2022     | transformar em gráficos.               |
-| US#21  | Análise de dados dos custos     | Programador | Fazer a Análise de dados do custo, em moeda corrente, dos tratamentos de 2019 a 2022   | transformar em gráficos.               |
-| US#22  | Análise de dados dos custos     | Programador | Fazer a Análise de dados do custo, em moeda corrente, dos procedimentos de 2019 a 2022 | transformar em gráficos.               |
-| US#23  | Análise de dados dos custos     | Programador | Fazer a Análise de dados do custo, em moeda corrente, dos medicamentos de 2019 a 2022  | transformar em gráficos.               |
-| US#24  | Análise de dados dos custos     | Programador | Fazer a Análise de dados do custo, em moeda corrente, das internações de 2019 a 2022   | transformar em gráficos.               |
-| US#25  | Gráficos consultas              | Jornalista  | Ver os dados da quantidade de consultas dos anos de 2019 a 2022 em forma de gráfico    | facilitar o meu entendimento dos dados |
-| US#26  | Gráficos tratamentos            | Jornalista  | Ver os dados da quantidade de tratamentos do anos 2019 a 2022 em forma de gráfico      | facilitar o meu entendimento dos dados |
-| US#27  | Gráficos procedimentos          | Jornalista  | Ver os dados da quantidade de procedimentos do anos 2019 a 2022 em forma de gráfico    | facilitar o meu entendimento dos dados |
-| US#28  | Gráficos medicamentos           | Jornalista  | Ver os dados da quantidade de medicamentos do anos 2019 a 2022 em forma de gráfico     | facilitar o meu entendimento dos dados |
-| US#29  | Gráficos internações            | Jornalista  | Ver os dados da quantidade de internações do anos 2019 a 2022 em forma de gráfico      | facilitar o meu entendimento dos dados |
-| US#30  | Gráfico de Custo consultas      | Jornalista  | Ver os dados do custo de consultas do anos 2019 a 2022 em forma de gráfico             | facilitar o meu entendimento dos dados |
-| US#32  | Gráfico de Custo tratamentos    | Jornalista  | Ver os dados do custo de tratamentos do anos 2019 a 2022 em forma de gráfico           | facilitar o meu entendimento dos dados |
-| US#33  | Gráfico de Custo procedimentos  | Jornalista  | Ver os dados do custo de procedimentos do anos 2019 a 2022 em forma de gráfico         | facilitar o meu entendimento dos dados |
-| US#34  | Gráfico de Custo medicamentos   | Jornalista  | Ver os dados do custo de medicamentos do anos 2019 a 2022 em forma de gráfico          | facilitar o meu entendimento dos dados |
-| US#35  | Gráfico de Custo internações    | Jornalista  | Ver os dados do custo de internações do anos 2019 a 2022 em forma de gráfico           | facilitar o meu entendimento dos dados |
-| US#36  | Filtro de mês                   | Jornalista  |Poder filtrar as informações que desejo visualizar entre os meses janeiro e dezembro    | facilitar na montagem de uma matéria   |
+| Código |            Descrição das Tarefas            | Início | Término |
+| :----: | :-----------------------------------------: | :----: | :-----: |
+| US#15  | Protótipo dos Dropdowns                       | 03/abr | 03/mai  |
+| US#16  | Coleta de Dados de Quantidade de Consultas    | 13/mar | 11/mai  |
+| US#17  | Coleta de Dados de Quantidade de Medicamentos | 13/mar | 05/mai  |
+| US#18  | Coleta de Dados de Quantidade de Tratamentos  | 13/mar | 09/mai  |
+| US#19  | Coleta de Dados de Custo Consultas            | 05/abr | 11/mai  |
+| US#20  | Coleta de Dados de Custo Medicamentos         | 05/abr | 05/mai  |
+| US#21  | Coleta de Dados de Custo Tratamentos          | 05/abr | 09/mai  |
+| US#22  | Checkbox de porcentagem                       | 06/mai | 06/mai  |
+| US#23  | Funcão Porcentagem                            | 05/mai | 05/mai  |
+| US#24  | Arrumar Pop-up em JavaScript                  | 10/mai | 11/mai  |
+| US#25  | Arrumar os gráficos                           | 04/mai | 14/mai  |
+| US#26  | Carrossel dos Gráficos                        | 06/mai | 06/mai  |
+| US#27  | Erro dos campos inexistente                   | 05/mai | 05/mai  |
+| US#28  | Arrumar Manual                                | 13/mai | 13/mai  |
+| US#29  | README da sprint 3                            | 30/abr | 14/mai  |
 
 → [Voltar ao topo](#topo)
 

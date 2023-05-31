@@ -1,3 +1,11 @@
-#sobreTitle{padding-top: 30px; text-align: center}
-#sobreText{flex-direction: column; text-align: justify}
-.centerImg img{width: 100%}
+#sobreTitle{
+    padding-top: 30px;
+    text-align: center
+}
+#sobreText{
+    flex-direction: column;
+    text-align: justify
+}
+.centerImg img{
+    width: 100%
+}
