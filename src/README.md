@@ -1,5 +1,5 @@
 # Como rodar
-
+> _Os códigos e processos presentes neste readme possuem versão para WINDOWS e LINUX, dentro de comentários como este, para melhor aproveitamento e abrangência de nosso projeto_
 ## O que será necessário
 
 Para garantir o sucesso na utilização de nosso sistema, aqui vai uma listinha das tecnologias necessárias para realizar os próximos passos:
@@ -43,7 +43,7 @@ Para garantir o sucesso na utilização de nosso sistema, aqui vai uma listinha 
  pip install -r requirements.txt
  flask run
  ```
- > Caso você esteja em LINUX, digite os comandos desta maneira: <br>```python3 -m venv venv```<br>
+ > _Caso você esteja em LINUX, digite os comandos desta maneira:_ <br>```python3 -m venv venv```<br>
  ```source venv/bin/activate```<br>
  ```pip install -r requirements.txt```<br>
  ```flask run ```
