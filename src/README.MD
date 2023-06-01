@@ -30,7 +30,7 @@ Para garantir o sucesso na utilização de nosso sistema, aqui vai uma listinha 
 </details>
 
 <details>
-<summary><b>Iniciando o ambiente virtual para poder usar o projeto através do navegador:</b></summary> 
+<summary><h1 style='display: inline-block;'>Iniciando o ambiente virtual para poder usar o projeto através do navegador:</h1></summary> 
 
  1. Após entrar na pasta src, digite os seguintes comandos:
  ```
