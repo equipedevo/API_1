@@ -68,9 +68,10 @@ subTipos = [
         { "name": "procedimentos", "value": "Procedimentos cirúrgicos" }
     ],
     [
-        # { "name": "tratamentos", "value": "INFORMAÇÃO NÃO DISPONIVEL" },
-        # { "name": "tratamentos", "value": "INFORMAÇÃO NÃO DISPONIVEL" },
-        # { "name": "tratamentos", "value": "INFORMAÇÃO NÃO DISPONIVEL" }
+        { "name": "tratamentos", "value": "Aparelho respiratório"},
+        { "name": "tratamentos", "value": "Tratamento de doenças infecciosas e parasitárias"},
+        { "name": "tratamentos", "value": "Traqueia e brônquios"},
+        { "name": "tratamentos", "value": "Pulmão"},
     ],
     [
         { "name": "medicamentos", "value": "IMUNOGLOBULINA ANTI-RHO (D) (FRASCO AMPOLA DE 2 ML E 1.250 UI)" },
