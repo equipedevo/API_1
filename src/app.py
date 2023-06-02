@@ -7,8 +7,8 @@ from flask_mysqldb import MySQL
 app = Flask(__name__)
 
 app.config["MYSQL_HOST"] = "127.0.0.1"
-app.config["MYSQL_USER"] = "root"
-app.config["MYSQL_PASSWORD"] = "fatec" # Silv@2311"
+app.config["MYSQL_USER"] = "root" # "***PREENCHA OS DADOS AQUI***"
+app.config["MYSQL_PASSWORD"] = "admin" # "***PREENCHA OS DADOS AQUI***"
 app.config["MYSQL_DB"] = "BancoCICOVALE"
 
 mysql = MySQL(app)
@@ -16,7 +16,70 @@ mysql = MySQL(app)
 @app.route("/")
 def index():
     title = "Home"
-    return render_template("index.html", title = title)
+    graficos = [
+        "./static/graficos/grafico_pesquisa_periodo.svg",
+        "./static/graficos/grafico_pesquisa_cidade.svg",
+        "./static/graficos/grafico_pesquisa_valor.svg",
+        "./static/graficos/grafico_pesquisa_tipo.svg",
+        "./static/graficos/grafico_pesquisa_subtipo.svg"
+    ]
+    if True: #try:
+        conn = mysql.connection
+        cursor = conn.cursor()
+        cursor.execute(f"select per_nome, per_quant from Periodo order by per_quant desc;")
+        periodos = cursor.fetchall()
+
+        cursor.execute(f"select cid_nome, cid_quant from Cidade order by cid_quant desc;")
+        cidades = cursor.fetchall()
+
+        cursor.execute(f"select val_nome, val_quant from Valor order by val_quant desc;")
+        valores = cursor.fetchall()
+
+        cursor.execute(f"select tip_nome, tip_quant from Tipo order by tip_quant desc;")
+        tipos = cursor.fetchall()
+
+        cursor.execute(f"select sub_nome, sub_quant from Subtipo order by sub_quant desc;")
+        subtipos = cursor.fetchall()
+        conn.commit()
+        cursor.close()
+
+        TableToGraph.BarGraphFromDB(
+            select = periodos,
+            title = "Periodos mais selecionados na filtragem",
+            xLabel = "Opção de periodo",
+            yLabel = "Quantidade de pesquisas",
+            figDir = graficos[0])
+        
+        TableToGraph.BarGraphFromDB(
+            select = cidades,
+            title = "Cidades mais selecionados na filtragem",
+            xLabel = "Opção de cidade",
+            yLabel = "Quantidade de pesquisas",
+            figDir = graficos[1])
+        
+        TableToGraph.BarGraphFromDB(
+            select = valores,
+            title = "Valores mais selecionados na filtragem",
+            xLabel = "Opção de valor",
+            yLabel = "Quantidade de pesquisas",
+            figDir = graficos[2])
+        
+        TableToGraph.BarGraphFromDB(
+            select = tipos,
+            title = "Tipos mais selecionados na filtragem",
+            xLabel = "Opção de tipo",
+            yLabel = "Quantidade de pesquisas",
+            figDir = graficos[3])
+        
+        TableToGraph.BarGraphFromDB(
+            select = subtipos[:4],
+            title = "Subtipos mais selecionados na filtragem",
+            xLabel = "Opção de subtipo",
+            yLabel = "Quantidade de pesquisas",
+            figDir = graficos[4])
+    else: #except:
+        render_template("index.html", title = title)
+    return render_template("index.html", title = title, graficos = graficos)
 
 @app.route("/sobre")
 def sobre():

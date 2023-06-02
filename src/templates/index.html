@@ -20,4 +20,15 @@
         </div>
         <div class="right"></div>
     </div>
+    {% if graficos %}
+    <div class="flex" id="bem-vindo">
+        <div class="left"></div>
+            <div>
+            {% for grafico in graficos %}
+                <img src="{{ grafico }}">
+            {% endfor %}
+            </div>
+        <div class="right"></div>
+    </div>
+    {% endif %}
 {% endblock %}
