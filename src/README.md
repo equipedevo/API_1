@@ -15,7 +15,7 @@ Para garantir o sucesso na utilização de nosso sistema, aqui vai uma listinha 
 
  Para clonar o projeto e utilizá-lo em seu computador, siga os seguintes passos:
 
- 1. Crie uma pasta onde deseja armazenar nosso projeto, e então abra-a e clique na url da pasta ou então utiliza o comando ```Ctrl+L``` para selecionar a url <br> Bem aqui ó 👇<br> <img src="https://media.discordapp.net/attachments/733064358694748303/1113832068032507954/image.png">
+ 1. Crie uma pasta onde deseja armazenar nosso projeto, e então abra-a e clique na url da pasta ou então utiliza o comando ```Ctrl+L``` para selecionar a url <br> Como demonstrado no exemplo abaixo 👇<br> <img src="https://media.discordapp.net/attachments/733064358694748303/1113832068032507954/image.png">
 
  > _Obs.: Caso você esteja no LINUX, o cmd não vai funcionar, então clique com o botão direito na pasta que você criou e clique em "Abrir no terminal"_
 
