@@ -4,8 +4,8 @@ import mysql.connector
 
 conn = mysql.connector.connect(
     host = "127.0.0.1",
-    user = "root", # "***PREENCHA OS DADOS AQUI***"
-    password = "admin", # "***PREENCHA OS DADOS AQUI***"
+    user = "PREENCHA AQUI COM SEU USUARIO NO MYSQL"
+    password = "PREENCHA AQUI COM A SENHA DO SEU USUARIO NO MYSQL"
     db = "BancoCICOVALE")
 cursor = conn.cursor()
 

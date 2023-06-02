@@ -10,14 +10,14 @@ Para garantir o sucesso na utilização de nosso sistema, aqui vai uma listinha 
 
 3. [MySQL](https://dev.mysql.com/downloads/): Vamos precisar também do MySQL para obter a funcionalidade de estatísticas das opções mais utilizadas no filtro.
 
-## Clonando o repositório:
+## Clonando o repositório
 
 <details>
   <summary><b>Clique aqui</b></summary>
 
   Para clonar o projeto e utilizá-lo em seu computador, siga os seguintes passos:
   
-  1. Crie uma pasta onde deseja armazenar nosso projeto, e então abra-a e clique na url da pasta ou então utiliza o comando ```Ctrl+L``` para selecionar a url <br> Como demonstrado no exemplo abaixo 👇<br> <img src="https://media.discordapp.net/attachments/733064358694748303/1113832068032507954/image.png">
+  1. Crie uma pasta onde deseja armazenar nosso projeto, e então abra-a e clique na url da pasta ou então utiliza o comando `Ctrl+L` para selecionar a url <br> Como demonstrado no exemplo abaixo 👇<br> <img src="https://media.discordapp.net/attachments/733064358694748303/1113832068032507954/image.png">
   
   > _Obs.: Caso você esteja no LINUX, o cmd não vai funcionar, então clique com o botão direito na pasta que você criou e clique em "Abrir no terminal"_
 
@@ -65,12 +65,29 @@ Para garantir o sucesso na utilização de nosso sistema, aqui vai uma listinha 
 
   1. Com o banco de dados MySQL devidamente instalado e configurado, execute os comandos do arquivo `BancoCICOVALE.sql` que se encontra na pasta `src/database/`.
 
-  2. Ainda com o ambiente virtual aberto, execute o comando:
+  2. Edite o arquivo app.py da seguinte maneira:
+  ```
+  app.config["MYSQL_HOST"] = "127.0.0.1"
+  app.config["MYSQL_USER"] = "PREENCHA AQUI COM SEU USUARIO NO MYSQL"
+  app.config["MYSQL_PASSWORD"] = "PREENCHA AQUI COM A SENHA DO SEU USUARIO NO MYSQL"
+  app.config["MYSQL_DB"] = "BancoCICOVALE"
+  ```
+
+  3. Edite também o arquivo databaseAutoInsert.py, dessa forma:
+  ```
+  conn = mysql.connector.connect(
+    host = "127.0.0.1",
+    user = "PREENCHA AQUI COM SEU USUARIO NO MYSQL"
+    password = "PREENCHA AQUI COM A SENHA DO SEU USUARIO NO MYSQL"
+    db = "BancoCICOVALE")
+  ```
+
+  4. Ainda com o ambiente virtual aberto, execute o comando:
   ```
   python databaseAutoInsert.py
   ```
 
-  3. Caso algum erro ocorra, sertifique-se de ter seguido todos os passos e instalado o MySQL corretamente.
+  5. Caso algum erro ocorra, sertifique-se de ter seguido todos os passos e instalado o MySQL corretamente.
 
 </details>
 <br>
