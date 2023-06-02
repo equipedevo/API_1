@@ -2,7 +2,16 @@ from flask import Flask, render_template, request, url_for
 import FilterData
 import TableToGraph
 
+from flask_mysqldb import MySQL
+
 app = Flask(__name__)
+
+app.config["MYSQL_HOST"] = "127.0.0.1"
+app.config["MYSQL_USER"] = "root"
+app.config["MYSQL_PASSWORD"] = "fatec" # Silv@2311"
+app.config["MYSQL_DB"] = "BancoCICOVALE"
+
+mysql = MySQL(app)
 
 @app.route("/")
 def index():
@@ -40,6 +49,8 @@ def consulta():
     porcentagem = True if checkboxPorcent == "true" else False
 
     graficos = []
+
+    registrar = False
 
     for cidade in cidades:
         paths = []
@@ -79,10 +90,25 @@ def consulta():
                         figDir = figDir,
                         autoDivide = True)
                 paths.append(path)
+                registrar = True
             except:
                 paths.append("static/img/erroGrafico.png")
         
         graficos.append({ "name": cidade["name"], "paths": paths })
+    
+    if registrar:
+        conn = mysql.connection
+        cursor = conn.cursor()
+        for periodo in periodos:
+            cursor.execute(f"update Periodo set per_quant = per_quant + 1 where per_cod = '{FilterData.periodos.index(periodo)+1}';")
+        for cidade in cidades:
+            cursor.execute(f"update Cidade set cid_quant = cid_quant + 1 where cid_cod = '{FilterData.cidades.index(cidade)+1}';")
+        cursor.execute(f"update Valor set val_quant = val_quant + 1 where val_cod = '{int(selecTipovalor)+1}';")
+        cursor.execute(f"update Tipo set tip_quant = tip_quant + 1 where tip_cod = '{int(selecTipo)+1}';")
+        for subtipo in selecSubTipos:
+            cursor.execute(f"update Subtipo set sub_quant = sub_quant + 1 where sub_cod = '{int(subtipo)+1}';")
+        conn.commit()
+        cursor.close()
         
     return render_template("consulta.html", title = title,
         periodos = FilterData.periodos,
