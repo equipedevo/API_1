@@ -4,3 +4,19 @@
 .subtitle{
     font-weight: 300;
 }
+
+#graficos-db-titulo{
+    margin-top: 175px;
+    text-align: center;
+}
+
+#graficos-db{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#graficos-db img{
+    width: 50%;
+}

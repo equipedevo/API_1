@@ -23,7 +23,7 @@ def index():
         "./static/graficos/grafico_pesquisa_tipo.svg",
         "./static/graficos/grafico_pesquisa_subtipo.svg"
     ]
-    if True: #try:
+    try:
         conn = mysql.connection
         cursor = conn.cursor()
         cursor.execute(f"select per_nome, per_quant from Periodo order by per_quant desc;")
@@ -77,7 +77,7 @@ def index():
             xLabel = "Opção de subtipo",
             yLabel = "Quantidade de pesquisas",
             figDir = graficos[4])
-    else: #except:
+    except:
         render_template("index.html", title = title)
     return render_template("index.html", title = title, graficos = graficos)
 
