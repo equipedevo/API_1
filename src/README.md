@@ -8,6 +8,8 @@ Para garantir o sucesso na utilização de nosso sistema, aqui vai uma listinha 
 
 2. [Python](https://www.python.org/downloads/): Recomendamos que você instale a versão do python 3.11, não esqueça de na hora da instalação, marcar a opção da instalação do pip, pois precisaremos dele para a criação e configuração do ambiente virtual.
 
+3. [MySQL](https://dev.mysql.com/downloads/): Vamos precisar também do MySQL para obter a funcionalidade de estatísticas das opções mais utilizadas no filtro.
+
 ## Clonando o repositório:
 
 <details>
