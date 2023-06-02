@@ -63,10 +63,11 @@ Foram usadas na construção do projeto as seguintes ferramentas e linguagens:
 - [Figma](http://www.figma.com): Prototipagem
 - [GitHub](https://github.com/): Versionamento e documentação
 - [Jira](https://www.atlassian.com/software/jira): Organização de tarefas
-- [Python](https://www.python.org): Back-End no geral, como ler arquivos csv e gerar os gráficos dos mesmos
+- [Python](https://www.python.org): Parte do Back-End, como ler arquivos csv e gerar os gráficos dos mesmos, tal qual realizar a conexão entre o site e o Banco de Dados
 - [Flask](https://flask.palletsprojects.com): Utilizado como um servidor web
-- [HTML](https://html.spec.whatwg.org): Estruturação das páginas do site
-- [CSS](https://www.w3.org/Style/CSS/#specs): Estilização do site
+- [HTML](https://html.spec.whatwg.org): Utilizado para a estruturação das páginas do site
+- [CSS](https://www.w3.org/Style/CSS/#specs): Utilizado para a estilização do site
+- [SQL](https://www.w3schools.com/sql/): Utilizado para a criação e manutenção do banco de dados, especificamente para guardar o ranking dos filtros mais pesquisados no site
 
 → [Voltar ao topo](#topo)
 

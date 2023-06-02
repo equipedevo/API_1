@@ -6,22 +6,22 @@ Para garantir o sucesso na utilização de nosso sistema, aqui vai uma listinha 
 
 1. [Git](https://git-scm.com/downloads): Precisaremos do git para realizarmos a clonagem do nosso repositório do github.
 
-2. [Python](https://www.python.org/downloads/): Recomendamos que você instale a versão do python 3.11, não esqueça de na hora da instalação, marcar a opção da instalação do pip, pois precisaremos dele para a criação e configuração do ambiente virtual.
+2. [Python](https://www.python.org/downloads/): Precisaremos do python, para isso, recomendamos que você instale a versão 3.11, não se esqueça de na hora da instalação, marcar a opção da instalação do pip, pois precisaremos dele para a criação e configuração do ambiente virtual.
 
-3. [MySQL](https://dev.mysql.com/downloads/): Vamos precisar também do MySQL para obter a funcionalidade de estatísticas das opções mais utilizadas no filtro.
+3. [MySQL](https://dev.mysql.com/downloads/): Precisaremos também do MySQL para obter a funcionalidade de estatísticas das opções mais utilizadas no filtro.
 
-## Clonando o repositório
+## 1º Passo: Clonando o repositório
 
 <details>
   <summary><b>Clique aqui</b></summary>
 
   Para clonar o projeto e utilizá-lo em seu computador, siga os seguintes passos:
   
-  1. Crie uma pasta onde deseja armazenar nosso projeto, e então abra-a e clique na url da pasta ou então utiliza o comando `Ctrl+L` para selecionar a url <br> Como demonstrado no exemplo abaixo 👇<br> <img src="https://media.discordapp.net/attachments/733064358694748303/1113832068032507954/image.png">
+  1. Crie uma pasta onde deseja armazenar nosso projeto, e então abra-a e clique na url da pasta, ou então utilize o atalho `Ctrl+L` para selecionar a url, como demonstrado no exemplo abaixo 👇<br> <img src="https://media.discordapp.net/attachments/733064358694748303/1113832068032507954/image.png">
   
-  > _Obs.: Caso você esteja no LINUX, o cmd não vai funcionar, então clique com o botão direito na pasta que você criou e clique em "Abrir no terminal"_
+  > _Obs.: Caso você esteja no LINUX, a parte de escrever "cmd" não irá funcionar, então clique com o botão direito na pasta que você criou e selecione a opção "Abrir no terminal"_
 
-  Um prompt de comando irá abrir, e então execute o comando abaixo
+  Um prompt de comando irá se abrir, e então execute o comando abaixo:
   
   ```
   git clone https://github.com/equipedevo/API_1
@@ -37,7 +37,7 @@ Para garantir o sucesso na utilização de nosso sistema, aqui vai uma listinha 
 </details>
 <br>
 
-## Iniciando o ambiente virtual
+## 2º Passo: Iniciando o ambiente virtual
 
 <details>
   <summary><b>Clique aqui</b></summary>
@@ -58,7 +58,7 @@ Para garantir o sucesso na utilização de nosso sistema, aqui vai uma listinha 
 </details>
 <br>
 
-## Preparando o banco de dados
+## 3º Passo: Preparando o banco de dados
 
 <details>
   <summary><b>Clique aqui</b></summary>
@@ -75,7 +75,7 @@ Para garantir o sucesso na utilização de nosso sistema, aqui vai uma listinha 
 
   3. Edite também o arquivo databaseAutoInsert.py, dessa forma:
   ```
-  conn = mysql.connector.connect(
+    conn = mysql.connector.connect(
     host = "127.0.0.1",
     user = "PREENCHA AQUI COM SEU USUARIO NO MYSQL"
     password = "PREENCHA AQUI COM A SENHA DO SEU USUARIO NO MYSQL"
@@ -87,17 +87,18 @@ Para garantir o sucesso na utilização de nosso sistema, aqui vai uma listinha 
   python databaseAutoInsert.py
   ```
 
-  5. Caso algum erro ocorra, sertifique-se de ter seguido todos os passos e instalado o MySQL corretamente.
+  5. Caso algum erro ocorra, certifique-se de ter seguido todos os passos e instalado o MySQL corretamente.
+  > _Também pode dar algum erro caso você não tenha iniciado o serivço do MySQL em seu computador, para isso, pesquise pelo aplicativo "Serviços", ache o serviço do MySQL e clique em "Iniciar"._
 
 </details>
 <br>
 
-## Abrindo a aplicação web
+## 4º Passo: Abrindo a aplicação web
 
 <details>
   <summary><b>Clique aqui</b></summary>
 
-  1. Ainda dentro do anbiente virtual, execute o comando:
+  1. Ainda dentro do ambiente virtual, execute o seguinte comando:
   ```
   flask run
   ```
