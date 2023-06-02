@@ -1,4 +1,4 @@
-"Ano/mês processamento", "Anemias", "Afecções Hemorragicas", "Diabetes Mellitus", "Transtornos Nutricionais", "Meningites", "Doenças Neurológicas", "Doenças do sistema nervoso", "Infarto do miocárdio", "Infarto Cerebral", "Insuf. Cardíaca", "Pneumonia", "Bronquites", "Asma"
+"Ano/mês processamento", "Anemias", "Afecções Hemorragicas", "Diabetes Mellitus", "Transtornos Nutricionais", "Meningites", "Parkinson - Alzheimer - Eplepsia", "Doenças do sistema nervoso", "Infarto do Miocárdio", "Infarto Cerebral", "Insuf. Cardíaca", "Pneumonia", "Bronquites", "Asma"
 
 "2019", 205, 126, 221, 189, 53, 253, 440, 962, 279, 666, 1909, 462, 181
 "JANEIRO", 16, 11, 9, 13, 3, 13, 57, 68, 18, 47, 135, 21, 6
@@ -38,7 +38,7 @@
 "JULHO", 24, 14, 30, 22, 3, 28, 42, 85, 11, 60, 123, 23, 22
 "AGOSTO", 20, 14, 25, 16, 4, 25, 26, 64, 14, 62, 83, 33, 50
 "SETEMBRO", 34, 14, 14, 23, 1, 29, 39, 75, 13, 61, 95, 34, 20
-"OUTUBRO", 25, 14, 21, 29, 222, 44, 69, 6, 74, 104, 45, 24
+"OUTUBRO", 25, 14, 21, 29, 2, 44, 69, 6, 74, 104, 45, 24
 "NOVEMBRO", 31, 22, 25, 16, 5, 28, 36, 92, 1, 55, 97, 60, 36
 "DEZEMBRO", 29, 11, 20, 17, 0, 17, 23, 95, 1, 48, 105, 68, 23
 
