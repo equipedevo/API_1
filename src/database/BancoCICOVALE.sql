@@ -3,9 +3,34 @@ CREATE DATABASE BancoCICOVALE;
 USE BancoCICOVALE;
 
 create table Periodo(
-per_cod int primary key,
-per_nome char(4),
-per_quant int
+    per_cod int auto_increment primary key,
+    per_nome char(4),
+    per_quant int
+);
+
+create table Cidade(
+    cid_cod int auto_increment primary key,
+    cid_nome varchar(30),
+    cid_quant int
+);
+
+create table Valor(
+    val_cod int auto_increment primary key,
+    val_nome varchar(15),
+    val_quant int
+);
+
+create table Tipo(
+    tip_cod int auto_increment primary key,
+    tip_nome varchar(15),
+    tip_quant int
+);
+
+
+create table Subtipo(
+    sub_cod int auto_increment primary key,
+    sub_nome varchar(255),
+    sub_quant int
 );
 
 insert into Periodo
@@ -15,34 +40,16 @@ values
 (3, '2021', 0),
 (4, '2022', 0);
 
-create table Cidade(
-cid_cod int primary key,
-cid_nome varchar(30),
-cid_quant int
-);
-
 insert into Cidade
 values
 (1, 'São José dos Campos', 0),
 (2, 'Taubaté', 0),
 (3, 'Jacareí', 0);
 
-create table Valor(
-val_cod int primary key,
-val_nome varchar(15),
-val_quant int
-);
-
 insert into Valor
 values
 (1, 'Quantidade', 0),
 (2, 'Gastos', 0);
-
-create table Tipo(
-tip_cod int primary key,
-tip_nome varchar(15),
-tip_quant int
-);
 
 insert into Tipo
 values
@@ -51,13 +58,6 @@ values
 (3, 'Procedimentos', 0),
 (4, 'Tratamentos', 0),
 (5, 'Medicamentos', 0);
-
-
-create table Subtipo(
-sub_cod int primary key,
-sub_nome varchar(255),
-sub_quant int
-);
 
 insert into Subtipo
 values
@@ -79,7 +79,11 @@ values
 (16, 'Procedimentos com finalidade diagnóstica', 0),
 (17, 'Procedimentos clínicos', 0),
 (18, 'Procedimentos cirúrgicos', 0),
-(19, 'IMUNOGLOBULINA ANTI-RHO (D) (FRASCO AMPOLA DE 2 ML E 1.250 UI)', 0),
-(20, 'IMUNOGLOBULINA HUMANA 1,0 G INJETAVEL (POR FRASCO)', 0),
-(21, 'SURFACTANTE FRASCO-AMPOLA', 0),
-(22, "ALBUMINA HUMANA 20 POR CENTO (FRASCO-AMPOLA DE 50 ML)", 0);
+(19, 'Aparelho respiratório', 0),
+(20, 'Tratamento de doenças infecciosas e parasitárias', 0),
+(21, 'Traqueia e brônquios', 0),
+(22, 'Pulmão', 0),
+(23, 'IMUNOGLOBULINA ANTI-RHO (D) (FRASCO AMPOLA DE 2 ML E 1.250 UI)', 0),
+(24, 'IMUNOGLOBULINA HUMANA 1,0 G INJETAVEL (POR FRASCO)', 0),
+(25, 'SURFACTANTE FRASCO-AMPOLA', 0),
+(26, "ALBUMINA HUMANA 20 POR CENTO (FRASCO-AMPOLA DE 50 ML)", 0);
