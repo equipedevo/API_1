@@ -232,11 +232,17 @@
     }
 
     /* SOBRE.CSS */
+    #imgSobre{
+        display: none;
+    }
     .centerImg{
         flex: 3
     }
 
     /* INDEX.CSS */
+    .conteudo{
+        padding-top: 30px;
+    }
     .conteudo *{
         padding-bottom: 20px
     }
