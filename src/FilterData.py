@@ -26,9 +26,8 @@ tipos = [
 
 subTipos = [
     [
-        { "name": "consultas", "value": "Total" },
-        { "name": "consultas", "value": "Serviços hospitalares" },
-        { "name": "consultas", "value": "Serviços profissionais" }
+        { "name": "consultas", "value": "Consultas médicas/outros profissionaisde nivel superior"},
+        { "name": "consultas", "value": "Consulta/Atendimento ás urgências (em geral)"},
     ],
     [
         # { "name": "internacoes", "value": "CID I - HIV" },
