@@ -1,5 +1,5 @@
 "Ano/mês atendimento", "Aparelho respiratório", "Tratamento de doenças infecciosas e parasitárias", "Traqueia e brônquios", "Pulmão", "Total"
-"2019", 27, 173, 5, -, 205
+"2019", 27, 173, 5, 0, 205
 "Janeiro", -, 6, -, -, 6
 "Fevereiro", -, 6, -, -, 6
 "Março", 3, 10, -, -, 13
@@ -25,7 +25,7 @@
 "Outubro", 8, 72, -, -, 80
 "Novembro", 6, 55, 2, -, 63
 "Dezembro", 5, 83, -, -, 88
-"2021", 54, 2401, 10, -, 2465
+"2021", 54, 2401, 10, 0, 2465
 "Janeiro", 3, 130, -, -, 133
 "Fevereiro", 2, 91, 1, -, 94
 "Março", 4, 237, 2, -, 243
