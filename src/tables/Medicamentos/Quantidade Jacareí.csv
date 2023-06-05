@@ -1,54 +1,54 @@
 ﻿"Ano/Mês processamento", "IMUNOGLOBULINA ANTI-RHO (D) (FRASCO AMPOLA DE 2 ML E 1.250 UI)", "IMUNOGLOBULINA HUMANA 1.0 G INJETAVEL (POR FRASCO)", "SURFACTANTE FRASCO-AMPOLA", "ALBUMINA HUMANA 20 POR CENTO (FRASCO-AMPOLA DE 50 ML)", "Total"
-"2019", -, -, -, -
-"Janeiro", 13, -, -, -, 22
-"Fevereiro", 12, -, -, 6, 48
-"Março",9,-,2,1,51
-"Abril",14,-,1,-,79
-"Maio",4,-,1,1,20
-"Junho",8,-,2,9,40
-"Julho",22,-,1,-,29
-"Agosto",20,-,-,-,32
-"Setembro",11,-,1,1,15
-"Outubro",12,-,1,-,30
-"Novembro",8,-,1,-,27
-"Dezembro",12,-,1,1,22
-"2020", -, -, -, -
-"Janeiro",16,-,1,-,55
-"Fevereiro",7,-,-,-,26
-"Março",16,-,2,1,46
-"Abril",9,-,1,-,17
-"Maio",7,-,4,-,22
-"Junho",13,-,1,2,46
-"Julho",16,-,1,6,35
-"Agosto",12,-,3,2,44
-"Setembro",16,-,-,12,59
-"Outubro",18,-,2,-,64
-"Novembro",12,-,5,1,51
-"Dezembro",11,-,-,2,25
-"2021", -, -, -, -
-"Janeiro",12,-,1,2,29
-"Fevereiro",11,-,4,4,25
-"Março",9,-,4,-,27
-"Abril",12,-,-,-,25
-"Maio",16,-,6,13,36
-"Junho",10,-,3,24,55
-"Julho",12,-,3,3,59
-"Agosto",7,-,1,6,52
-"Setembro",8,-,-,4,16
-"Outubro",7,-,5,10,37
-"Novembro",20,-,-,2,32
-"Dezembro",16,-,3,2,90
-"2022", -, -, -, -
-"Janeiro",9,-,2,1,12
-"Fevereiro",10,-,-,41,61
-"Março",7,-,1,7,30
-"Abril",10,-,3,3,45
-"Maio",13,-,2,-,60
-"Junho",11,-,1,-,55
-"Julho",12,-,3,1,56
-"Agosto",9,7,-,17,154
-"Setembro",8,-,-,2,134
-"Outubro",10,-,1,11,91
-"Novembro",14,-,3,12,81
-"Dezembro",16,-,1,7,100
+"2019", 0, 0, 0, 0
+"Janeiro", 13, 0, 0, 0, 22
+"Fevereiro", 12, 0, 0, 6, 48
+"Março",9,0,2,1,51
+"Abril",14,0,1,0,79
+"Maio",4,0,1,1,20
+"Junho",8,0,2,9,40
+"Julho",22,0,1,0,29
+"Agosto",20,0,-,0,32
+"Setembro",11,0,1,1,15
+"Outubro",12,0,1,0,30
+"Novembro",8,0,1,0,27
+"Dezembro",12,0,1,1,22
+"2020", 0, 0, 0, 0
+"Janeiro",16,0,1,0,55
+"Fevereiro",7,0,-,0,26
+"Março",16,0,2,1,46
+"Abril",9,0,1,0,17
+"Maio",7,0,4,0,22
+"Junho",13,0,1,2,46
+"Julho",16,0,1,6,35
+"Agosto",12,0,3,2,44
+"Setembro",16,0,-,12,59
+"Outubro",18,0,2,0,64
+"Novembro",12,0,5,1,51
+"Dezembro",11,0,-,2,25
+"2021", 0, 0, 0, 0
+"Janeiro",12,0,1,2,29
+"Fevereiro",11,0,4,4,25
+"Março",9,0,4,0,27
+"Abril",12,0,-,0,25
+"Maio",16,0,6,13,36
+"Junho",10,0,3,24,55
+"Julho",12,0,3,3,59
+"Agosto",7,0,1,6,52
+"Setembro",8,0,-,4,16
+"Outubro",7,0,5,10,37
+"Novembro",20,0,-,2,32
+"Dezembro",16,0,3,2,90
+"2022", 0, 0, 0, 0
+"Janeiro",9,0,2,1,12
+"Fevereiro",10,0,-,41,61
+"Março",7,0,1,7,30
+"Abril",10,0,3,3,45
+"Maio",13,0,2,0,60
+"Junho",11,0,1,0,55
+"Julho",12,0,3,1,56
+"Agosto",9,7,0,17,154
+"Setembro",8,0,-,2,134
+"Outubro",10,0,1,11,91
+"Novembro",14,0,3,12,81
+"Dezembro",16,0,1,7,100
 Total,567,7,78,217,2267

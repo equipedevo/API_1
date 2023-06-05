@@ -1,8 +1,8 @@
 "Ano/mês atendimento", "Consultas médicas/outros profissionaisde nivel superior", "Consulta/Atendimento ás urgências (em geral)", "Atendimentos de enfermagem (em geral)", "Total"
 "2019", 198972, 524, 132400, 331896
-"Janeiro", 222, -, -, 222
-"Fevereiro", 136, -, 312, 448
-"Março", 4304, -, 4330, 8634
+"Janeiro", 222, 0, 0, 222
+"Fevereiro", 136, 0, 312, 448
+"Março", 4304, 0, 4330, 8634
 "Abril", 5875, 1, 6224, 12100
 "Maio", 13888, 1, 19467, 33356
 "Junho", 24287, 69, 24755, 49111
