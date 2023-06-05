@@ -88,7 +88,7 @@ Para garantir o sucesso na utilização de nosso sistema, aqui vai uma listinha 
   ```
 
   5. Caso algum erro ocorra, certifique-se de ter seguido todos os passos e instalado o MySQL corretamente.
-  > _Também pode dar algum erro caso você não tenha iniciado o serivço do MySQL em seu computador, para isso, pesquise pelo aplicativo "Serviços", ache o serviço do MySQL e clique em "Iniciar"._
+  > _Também pode dar algum erro caso você não tenha iniciado o serviço do MySQL em seu computador, para isso, pesquise pelo aplicativo "Serviços", ache o serviço do MySQL e clique em "Iniciar"._
 
 </details>
 <br>
