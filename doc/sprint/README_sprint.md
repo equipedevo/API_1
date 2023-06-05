@@ -10,7 +10,7 @@
 * [Como Usar](#comoUsar)
 * [Backlog](#backlog)
 * [MVP](#MVP)
-<!-- * [Tag](#tag) -->
+* [Tag](#tag)
 
 <span id="SobreASprint"></span>
 
@@ -50,14 +50,14 @@ O mínimo produto viável desta sprint é atender a demanda de responsividade, j
   3. <a href="https://flask.palletsprojects.com/en/2.2.x/">Flask</a>: Utilizado para fazer as rotas do nosso site e facilitar manutenção do mesmo, já que fazemos o uso do "base.html", onde está incluído tudo que será equivalente em todas as páginas do site<br>
   4. <a href="https://www.w3schools.com/js/default.asp">JavaScript</a>: Utilizado para as funcionalidades do filtro da página de consultas<br>
   5. <a href="https://www.w3schools.com/python/default.asp">Python</a>: Utilizado para fazer a construção dos gráficos através de arquivos .csv já criados
-</details> 
+  6. <a href="https://www.w3schools.com/sql/">SQL</a>: Utilizado para a criação e manutenção do banco de dados, especificamente para guardar o ranking dos filtros mais pesquisados no site
+</details>
 
-<!-- 
 <span id="tag"></span>
 
 # Tag
 
-A última versão da 3ªSprint foi a [V3](https://github.com/equipedevo/API_1/releases/tag/V3.0).-->
+A última versão da 4ªSprint foi a [V4.2](https://github.com/equipedevo/API_1/releases/tag/V4.2).
 
 → [Voltar ao topo](#topo)
 
