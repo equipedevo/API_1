@@ -21,9 +21,10 @@ Conforme a demanda da 1º API (Aprendizagem por Projetos Integrados) (Abordando 
 
 <br>
 
-### Se interessou pelo projeto? Então dá só uma <a href="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Sprints%20Anteriores/Sprint3.md#sobre-a-sprint"> olhadinha</a> :movie_camera: em como ele está ficando!
+### Vídeo Final
+<img src="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Site_final.gif?raw=true">
 
-> **Status do Projeto: Em andamento :warning:** 
+> **Status do Projeto: Concluído :heavy_check_mark:** 
 
 → [Voltar ao topo](#topo)
 
@@ -45,7 +46,7 @@ Para jornalistas que desejam ver os efeitos das sequelas da COVID-19 e encontram
 | [Sprint 1](./doc/sprint/Sprints%20Anteriores/Sprint1.md) | 02/04/23 | Concluído    | V1.0 |
 | [Sprint 2](./doc/sprint/Sprints%20Anteriores/Sprint2.md) | 23/04/23 | Concluído    | V2.3 |
 | [Sprint 3](./doc/sprint/Sprints%20Anteriores/Sprint3.md) | 14/05/23 | Concluído    | V3.0 |
-| [Sprint 4](./doc/sprint/README_sprint.md)                | 04/06/23 | Em andamento | ---- |
+| [Sprint 4](./doc/sprint/README_sprint.md)                | 04/06/23 | Concluído    | V4.2 |
 
 >Após clicar nos links da área Sprint você será redirecionado a página da sprint referente. Nela você encontrará: <br/>
 >Sprint 1-3: Sobre a Sprint, Backlog, MVP e Tag. <br/>
