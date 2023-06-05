@@ -16,9 +16,8 @@
 
 # Sobre a Sprint
 Nesta última entrega, foi combinado juntamente do cliente, a finalização do projeto, estando o mesmo responsivo, com seus dados verídicos e com uma área que contenha os filtros mais utilizados.
-<!-- 
-<img src="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Site_sprint3.gif?raw=true"></br>
- -->
+<img src="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Site_final.gif?raw=true">
+
 → [Voltar ao topo](#topo)</br>
 
 <span id="comoUsar"></span>
