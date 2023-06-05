@@ -73,8 +73,8 @@ subTipos = [
         { "name": "tratamentos", "value": "Pulmão"},
     ],
     [
-        { "name": "medicamentos", "value": "IMUNOGLOBULINA ANTI-RHO (D) (FRASCO AMPOLA DE 2 ML E 1.250 UI)" },
-        { "name": "medicamentos", "value": "IMUNOGLOBULINA HUMANA 1,0 G INJETAVEL (POR FRASCO)" },
+        { "name": "medicamentos", "value": "IIMUNOGLOBULINA ANTI-RHO (D) (FRASCO AMPOLA DE 2 ML E 1.250 UI)" },
+        { "name": "medicamentos", "value": "IMUNOGLOBULINA HUMANA 1.0 G INJETAVEL (POR FRASCO)" },
         { "name": "medicamentos", "value": "SURFACTANTE FRASCO-AMPOLA" },
         { "name": "medicamentos", "value": "ALBUMINA HUMANA 20 POR CENTO (FRASCO-AMPOLA DE 50 ML)" }
     ]

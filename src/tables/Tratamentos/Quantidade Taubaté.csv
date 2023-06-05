@@ -1,5 +1,6 @@
 "Ano/mês atendimento", "Aparelho respiratório", "Tratamento de doenças infecciosas e parasitárias", "Traqueia e brônquios", "Pulmão", "Total"
 "2019", 27, 173, 5, 0, 205
+<<<<<<< HEAD
 "Janeiro", 0, 6, 0, 0, 6
 "Fevereiro", 0, 6, 0, 0, 6
 "Março", 3, 10, 0, 0, 13
@@ -38,6 +39,46 @@
 "Outubro", 6, 32, 0, 0, 38
 "Novembro", 3, 16, 0, 0, 19
 "Dezembro", 1, 90, 0, 0, 91
+=======
+"Janeiro", -, 6, -, -, 6
+"Fevereiro", -, 6, -, -, 6
+"Março", 3, 10, -, -, 13
+"Abril", 4, 9, 1, -, 14
+"Maio", 2, 22, 1, -, 25
+"Junho", 2, 16, -, -, 18
+"Julho", 1, 20, -, -, 21
+"Agosto", -, 16, 1, -, 17
+"Setembro", 4, 22, -, -, 26
+"Outubro", 6, 15, -, -, 21
+"Novembro", 3, 14, 1, -, 18
+"Dezembro", 2, 17, 1, -, 20
+"2020", 64, 785, 11, 2, 862
+"Janeiro", 5, 27, 3, 0, 35
+"Fevereiro", 5, 38, 1, 1, 45
+"Março", 3, 34, 1, -, 38
+"Abril", 2, 57, -, 1, 60
+"Maio", 3, 53, -, -, 56
+"Junho", 7, 83, -, -, 90
+"Julho", 8, 122, 1, -, 131
+"Agosto", 7, 88, 1, -, 96
+"Setembro", 5, 73, 2, -, 80
+"Outubro", 8, 72, -, -, 80
+"Novembro", 6, 55, 2, -, 63
+"Dezembro", 5, 83, -, -, 88
+"2021", 54, 2401, 10, 0, 2465
+"Janeiro", 3, 130, -, -, 133
+"Fevereiro", 2, 91, 1, -, 94
+"Março", 4, 237, 2, -, 243
+"Abril", 2, 299, 1, -, 302
+"Maio", 6, 515, 1, -, 522
+"Junho", 4, 528, 4, -, 536
+"Julho", 8, 272, 1, -, 281
+"Agosto", 11, 114, -, -, 125
+"Setembro", 4, 77, -, -, 81
+"Outubro", 6, 32, -, -, 38
+"Novembro", 3, 16, -, -, 19
+"Dezembro", 1, 90, -, -, 91
+>>>>>>> 2d93e666a56a40a1440f18a62a14ba5249459cd0
 "2022", 84, 1206, 15, 1, 1306
 "Janeiro", 2, 232, 0, 0, 234
 "Fevereiro", 6, 149, 0, 0, 155
