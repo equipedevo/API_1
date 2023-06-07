@@ -1,5 +1,5 @@
 ﻿"Ano/Mês processamento", "IMUNOGLOBULINA ANTI-RHO (D) (FRASCO AMPOLA DE 2 ML E 1.250 UI)", "IMUNOGLOBULINA HUMANA 1.0 G INJETAVEL (POR FRASCO)", "SURFACTANTE FRASCO-AMPOLA", "ALBUMINA HUMANA 20 POR CENTO (FRASCO-AMPOLA DE 50 ML)", "Total"
-"2019", 0, 0, 0, 0
+"2019", 145, 0, 11, 18
 "Janeiro", 13, 0, 0, 0, 22
 "Fevereiro", 12, 0, 0, 6, 48
 "Março",9,0,2,1,51
@@ -12,7 +12,7 @@
 "Outubro",12,0,1,0,30
 "Novembro",8,0,1,0,27
 "Dezembro",12,0,1,1,22
-"2020", 0, 0, 0, 0
+"2020", 153, 0, 20, 14
 "Janeiro",16,0,1,0,55
 "Fevereiro",7,0,-,0,26
 "Março",16,0,2,1,46
@@ -25,7 +25,7 @@
 "Outubro",18,0,2,0,64
 "Novembro",12,0,5,1,51
 "Dezembro",11,0,-,2,25
-"2021", 0, 0, 0, 0
+"2021", 140, 0, 30, 70
 "Janeiro",12,0,1,2,29
 "Fevereiro",11,0,4,4,25
 "Março",9,0,4,0,27
@@ -38,7 +38,7 @@
 "Outubro",7,0,5,10,37
 "Novembro",20,0,-,2,32
 "Dezembro",16,0,3,2,90
-"2022", 0, 0, 0, 0
+"2022", 129, 0, 17, 102
 "Janeiro",9,0,2,1,12
 "Fevereiro",10,0,-,41,61
 "Março",7,0,1,7,30
