@@ -7,8 +7,8 @@ from flask_mysqldb import MySQL
 app = Flask(__name__)
 
 app.config["MYSQL_HOST"] = "127.0.0.1"
-app.config["MYSQL_USER"] = "root"
-app.config["MYSQL_PASSWORD"] = "Silv@2311"
+app.config["MYSQL_USER"] = "devoapi"
+app.config["MYSQL_PASSWORD"] = "dsmdevoapi2023"
 app.config["MYSQL_DB"] = "BancoCICOVALE"
 
 mysql = MySQL(app)
@@ -180,3 +180,6 @@ def consulta():
         tipos = FilterData.tipos,
         subTipos = FilterData.subTipos,
         graficos = graficos)
+
+if __name__ == '__main__':
+    app.run(host = "0.0.0.0", port = "5000", debug = False)
