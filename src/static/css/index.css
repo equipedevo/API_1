@@ -17,6 +17,13 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
 #graficos-db img{
     width: 50%;
+}
+
+@media (max-width: 767px){
+    #graficos-db img{
+        width: 100%;
+    }
 }
