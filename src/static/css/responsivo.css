@@ -108,6 +108,14 @@
     .title{
         padding-bottom: 10px
     }
+    
+    header {
+        overflow-x: auto
+    }
+
+    .popups{
+        overflow-y: auto
+    }
 
 
     /* SOBRE.CSS E INDEX.CSS*/
