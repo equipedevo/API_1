@@ -103,6 +103,6 @@ Para executar nosso projeto, entre no [readme](https://github.com/equipedevo/API
 | <img src="https://avatars.githubusercontent.com/u/112097074?v=4" width="50px" style="border-radius:15px"> | Dev Team      | Gabriel Lucena do Rosário | https://www.linkedin.com/in/lucena-gabriel         | [GitHub](https://github.com/tGrimR34per)          |
 | <img src="https://media.licdn.com/dms/image/C4E03AQG3vHYhNcpzIA/profile-displayphoto-shrink_800_800/0/1646336622562?e=2147483647&v=beta&t=405OpQsC16famcsLgG-XXL-W2CGE0h1j8RiVXw3ghzY" width="50px" style="border-radius:15px"> | Dev Team      | Nathalia Ellen Domingos   | https://www.linkedin.com/in/nathalia-domingos15    | [GitHub](https://github.com/nathalia-domingos)    |
 | <img src="https://avatars.githubusercontent.com/u/126725401?v=4" width="50px" style="border-radius:15px"> | Dev Team      | Pedro Augusto N. Silva    | https://www.linkedin.com/in/pedroaugustonogueira   | [GitHub](https://github.com/pedroansdev)          |
-| <img src="https://avatars.githubusercontent.com/u/76886825?v=4" width="50px" style="border-radius:15px"> | Dev Team      | Rafael Nunes de F. Silva  | https://www.linkedin.com/in/rafael-silva-silva | [GitHub](https://github.com/Rafael-Nunes-Silva)   |
+| <img src="https://avatars.githubusercontent.com/u/76886825?v=4" width="50px" style="border-radius:15px"> | Dev Team      | Rafael Nunes de F. Silva  | https://www.linkedin.com/in/rafael-nunes-silva | [GitHub](https://github.com/Rafael-Nunes-Silva)   |
 
 → [Voltar ao topo](#topo)
